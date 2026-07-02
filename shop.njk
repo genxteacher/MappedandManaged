@@ -1,0 +1,41 @@
+---
+layout: base.njk
+permalink: /shop/
+title: Shop
+description: The Mapped & Managed catalog — word mapping, decodable reading, IEP documentation, and interventionist systems. Every resource is delivered through Teachers Pay Teachers.
+---
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">The catalog</p>
+    <h1>Shop the store</h1>
+    <p class="lead">Every resource is sold and delivered through Teachers Pay Teachers, so your purchases, downloads, and updates all live in your TPT account. Tap any tool to see what's inside, or head straight to the full store.</p>
+    <div class="hero-cta mt-2">
+      <a class="btn" href="{{ site.tptStore }}" target="_blank" rel="noopener">Visit the full TPT store</a>
+    </div>
+  </div>
+</section>
+
+{%- set lanesOrder = [
+  { "id": "literacy", "label": "Mapped Literacy", "color": site.colors.sage, "blurb": "Science-of-Reading word mapping and decodable reading, K–2 through grades 3–8." },
+  { "id": "iep", "label": "Managed IEP", "color": site.colors.gold, "blurb": "IEP documentation and progress monitoring for SPED case managers." },
+  { "id": "systems", "label": "Teacher Systems", "color": site.colors.coral, "blurb": "Scheduling, planning, and data tracking for interventionists and RTI/MTSS teams." }
+] -%}
+
+{%- for lane in lanesOrder %}
+<section class="section {% if loop.index is odd %}section--paper{% endif %}" id="{{ lane.id }}">
+  <div class="wrap">
+    <p class="eyebrow" style="color:{{ lane.color }}">{{ lane.label }}</p>
+    <h2>{{ lane.blurb }}</h2>
+    <div class="grid grid--3 mt-2">
+      {%- for prod in products %}{% if prod.lane == lane.id %}
+      <a class="card card--lane" style="--accent:{{ prod.color }}" href="/resources/{{ prod.slug }}/">
+        <span class="lane-tag">{{ prod.laneLabel }}{% if prod.free %} · Free{% endif %}</span>
+        <h3>{{ prod.name }}</h3>
+        <p>{{ prod.subhead }}</p>
+        <span class="card-foot"><strong>{% if prod.free %}Get it free →{% else %}See what's inside →{% endif %}</strong></span>
+      </a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endfor %}

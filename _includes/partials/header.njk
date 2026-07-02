@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <span class="brand-boxes" aria-hidden="true">
+        <span class="b1"></span><span class="b2"></span><span class="b3"></span>
+      </span>
+      Mapped &amp; Managed
+    </a>
+    <nav class="nav" aria-label="Primary">
+      {%- for item in nav %}
+      <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
+      {%- endfor %}
+      <a class="nav-cta" href="{{ site.tptStore }}" target="_blank" rel="noopener">TPT store</a>
+    </nav>
+  </div>
+</header>

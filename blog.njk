@@ -1,0 +1,31 @@
+---
+layout: base.njk
+permalink: /blog/
+title: Blog
+description: Practical, classroom-tested notes on structured literacy, word mapping, and IEP documentation for interventionists and case managers.
+---
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">The blog</p>
+    <h1>Notes from the intervention room</h1>
+    <p class="lead">Practical, no-fluff writing on structured literacy, word mapping, and IEP documentation — the stuff that actually saves you time on Monday.</p>
+
+    {%- if collections.posts | length %}
+    <ul class="post-list mt-2">
+      {%- for post in collections.posts %}
+      <li>
+        <a class="card card--lane" style="--accent:{{ site.lanes[post.data.lane].color if post.data.lane else site.colors.navy }}" href="{{ post.url }}">
+          {%- if post.data.lane %}<span class="lane-tag" style="color:{{ site.lanes[post.data.lane].color }}">{{ site.lanes[post.data.lane].label }}</span>{%- endif %}
+          <h3>{{ post.data.title }}</h3>
+          <p class="post-meta"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></p>
+          {%- if post.data.description %}<p>{{ post.data.description }}</p>{%- endif %}
+          <span class="card-foot"><strong>Read →</strong></span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- else %}
+    <p class="mt-2">First posts are on the way.</p>
+    {%- endif %}
+  </div>
+</section>

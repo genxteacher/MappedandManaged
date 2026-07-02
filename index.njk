@@ -1,0 +1,75 @@
+---
+layout: base.njk
+permalink: /
+---
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">For literacy interventionists, reading specialists &amp; SPED case managers</p>
+    <h1><span class="teach">Teach it clearly.</span><br><span class="track">Track it simply.</span></h1>
+    <p class="lead">Structured-literacy and special-education tools that do the busywork for you — word mapping and decodable reading on one side, IEP documentation and caseload systems on the other.</p>
+    <div class="hero-cta">
+      <a class="btn btn--coral" href="/free-tools/">Get a free tool</a>
+      <a class="btn btn--ghost" href="/shop/">Browse the shop</a>
+    </div>
+    <div class="hero-boxes">
+      <span class="soundboxes" aria-hidden="true">
+        <span class="sb sb--sage">m</span><span class="sb sb--gold">a</span><span class="sb sb--coral">p</span>
+      </span>
+      <span class="cap">Map the sounds. Manage the data. That's the whole idea.</span>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow">Three lanes, one system</p>
+    <h2>Built for how intervention actually runs</h2>
+    <div class="grid grid--3 mt-2">
+      <a class="card card--lane" style="--accent:{{ site.colors.sage }}" href="/shop/#literacy">
+        <span class="lane-tag">Mapped Literacy</span>
+        <h3>Word mapping &amp; decodable reading</h3>
+        <p>Sound-box mapping mats, decodable passages, and multisyllabic decoding — Science of Reading practice you can run tomorrow.</p>
+        <span class="card-foot"><strong>Explore Mapped Literacy →</strong></span>
+      </a>
+      <a class="card card--lane" style="--accent:{{ site.colors.gold }}" href="/shop/#iep">
+        <span class="lane-tag">Managed IEP</span>
+        <h3>IEP documentation &amp; progress monitoring</h3>
+        <p>Goal banks, data sheets, meeting prep, and caseload trackers that keep your documentation defensible and meeting-ready.</p>
+        <span class="card-foot"><strong>Explore Managed IEP →</strong></span>
+      </a>
+      <a class="card card--lane" style="--accent:{{ site.colors.coral }}" href="/shop/#systems">
+        <span class="lane-tag">Teacher Systems</span>
+        <h3>Scheduling, planning &amp; tracking</h3>
+        <p>Auto-calculating Excel and Google Sheets tools for interventionists — rosters, sessions, and minutes, with the math done for you.</p>
+        <span class="card-foot"><strong>Explore Teacher Systems →</strong></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Start free</p>
+    <h2>Try a tool before you buy anything</h2>
+    <p class="lead">One free resource from each lane. Enter your email and we'll send you straight to the free download.</p>
+    <div class="grid grid--3 mt-2">
+      {%- for f in products %}{% if f.free %}
+      <a class="card card--lane" style="--accent:{{ f.color }}" href="/resources/{{ f.slug }}/">
+        <span class="lane-tag">{{ f.laneLabel }}</span>
+        <h3>{{ f.name }}</h3>
+        <p>{{ f.subhead }}</p>
+        <span class="card-foot"><strong>Get it free →</strong></span>
+      </a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="callout" style="--accent:{{ site.colors.gold }}">
+      <h3>Made by someone who's done the job</h3>
+      <p>Mapped &amp; Managed is built by a 25-year educator with dual master's degrees in Educational Technology and Educational Administration. Every tool is something that had to exist for a real caseload first. <a href="/about/">Read the story →</a></p>
+    </div>
+  </div>
+</section>

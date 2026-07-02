@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+<article class="section">
+  <div class="wrap">
+    <div class="post-body">
+      <div class="post-header">
+        {%- if lane %}<p class="eyebrow" style="color:{{ site.lanes[lane].color }}">{{ site.lanes[lane].label }}</p>{%- endif %}
+        <h1>{{ title }}</h1>
+        <p class="post-meta"><time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></p>
+      </div>
+
+      {{ content | safe }}
+
+      <div class="callout mt-2" style="--accent:{{ site.lanes[lane].color if lane else site.colors.sage }}">
+        <h3>Grab the tools</h3>
+        <p>Everything here runs on resources from the Mapped &amp; Managed store.
+          {%- if freebieSlug %} Start with the <a href="/resources/{{ freebieSlug }}/">free companion tool</a>, or {% else %} {% endif %}
+          browse the full store on <a href="{{ site.tptStore }}" target="_blank" rel="noopener">Teachers Pay Teachers</a>.</p>
+      </div>
+    </div>
+  </div>
+</article>

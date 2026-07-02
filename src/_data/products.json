@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "cvc-word-mapping-mats",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": true,
+    "name": "Free CVC Word Mapping Mats",
+    "eyebrow": "Science of Reading · K–1 · Printable",
+    "subhead": "Sound boxes that make orthographic mapping click. Print, laminate, and run tomorrow's small group with zero prep.",
+    "inside": [
+      "Print-and-go sound-box mapping mats for CVC words",
+      "A ready-to-use routine your whole group can follow",
+      "Built for structured-literacy and Science of Reading practice"
+    ],
+    "who": "K–1 teachers, reading interventionists, and anyone teaching orthographic mapping.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-CVC-Word-Mapping-Mats-Science-of-Reading-Sound-Boxes-16860165",
+    "kit": { "uid": "6a6c23134e", "src": "https://mapped-and-managed.kit.com/6a6c23134e/index.js" }
+  },
+  {
+    "slug": "digraph-blend-silent-e-mapping-mats",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Word Mapping Small Group Starter Kit",
+    "eyebrow": "1st–2nd · Printable",
+    "subhead": "The next step after CVC — mapping mats for digraphs, blends, and silent-e, with the phonics done exactly right.",
+    "inside": [
+      "Mapping mats for digraphs, blends, and silent-e words",
+      "Digraphs share one box; blends get a box per sound; silent-e uses a connecting arc",
+      "A small-group kit you can run across a whole unit"
+    ],
+    "who": "1st–2nd grade interventionists moving groups past single-sound CVC words.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Digraph-Blend-Silent-E-Word-Mapping-Mats-Small-Group-Kit-16860421"
+  },
+  {
+    "slug": "heart-word-mapping-routine",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Heart Word Mapping Routine",
+    "eyebrow": "K–2 · Printable + editable Slides",
+    "subhead": "Teach irregular high-frequency words the structured-literacy way — map the regular parts, mark the tricky part by heart.",
+    "inside": [
+      "A repeatable routine for heart (irregular) words",
+      "The irregular part is marked so students know exactly what to learn by heart",
+      "Printable mats plus an editable Slides deck for whole-group modeling"
+    ],
+    "who": "K–2 teachers replacing rote sight-word memorization with real mapping.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Heart-Word-Mapping-Routine-Irregular-Sight-Words-K-1-Mats-Slides-16863361"
+  },
+  {
+    "slug": "long-vowel-teams-mapping-mats",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Long Vowel Teams Mapping Mats",
+    "eyebrow": "K–2 · Printable",
+    "subhead": "Vowel-team mapping done cleanly — ai, ay, ee, ea, oa, ow — so students map two letters into one sound.",
+    "inside": [
+      "Mapping mats for the core long vowel teams",
+      "Two-letter teams map into a single sound box, the way mapping should work",
+      "A small-group kit that slots into your scope and sequence"
+    ],
+    "who": "K–2 interventionists teaching vowel teams in a structured sequence.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Long-Vowel-Teams-Word-Mapping-Mats-ai-ay-ee-ea-oa-ow-Small-Group-Kit-16867126"
+  },
+  {
+    "slug": "decodable-passages-complete-set",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Decodable Passages: Complete Set (Levels 1–4)",
+    "eyebrow": "K–2 · Printable",
+    "subhead": "The read-it-in-context companion to the mapping mats — decodable passages that climb from CVC to heart words.",
+    "inside": [
+      "Four leveled sets, CVC through heart words",
+      "Each level pairs directly with its matching mapping product",
+      "Map the word on the mat, then read it in a real passage"
+    ],
+    "who": "K–2 reading groups building fluency alongside decoding.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Decodable-Passages-Complete-Set-CVC-to-Heart-Words-Levels-1-4-Science-of-R-16868113"
+  },
+  {
+    "slug": "mapped-literacy-system-bundle",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Mapped Literacy Intervention System Bundle",
+    "eyebrow": "K–2 · Bundle · Best value",
+    "subhead": "The whole K–2 word-mapping and decodable-reading system in one purchase, bundled at a savings.",
+    "inside": [
+      "All four mapping-mat products plus the full decodable passage set",
+      "Editable Slides decks included",
+      "A complete, sequenced K–2 intervention system"
+    ],
+    "who": "Interventionists who want the entire Mapped Literacy sequence in one place.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Mapped-Literacy-System-Bundle-Word-Mapping-Mats-Decodable-Passages-K-2-Reading-16868426"
+  },
+  {
+    "slug": "phonics-reading-placement-screener",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Phonics & Reading Placement Screener",
+    "eyebrow": "K–2 · Diagnostic · PDF + Excel",
+    "subhead": "A quick word-list screener that tells you exactly where each reader belongs — and routes every score to the right resource.",
+    "inside": [
+      "A leveled word-list screener with scoring sheet and routing guide",
+      "Each result points to a specific starting product, no guesswork",
+      "An Excel + Google Sheets caseload dashboard with auto rollups"
+    ],
+    "who": "Reading specialists placing students into the right level of intervention.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Phonics-Reading-Placement-Screener-K-2-Diagnostic-Assessment-Science-of-Re-16888407"
+  },
+  {
+    "slug": "multisyllabic-word-decoding",
+    "lane": "literacy", "laneLabel": "Mapped Literacy", "color": "#8FA890",
+    "free": false,
+    "name": "Multisyllabic Word Decoding & Syllable Division",
+    "eyebrow": "3rd–8th · Printable + editable Slides",
+    "subhead": "The step up from single-syllable mapping — six syllable types and a decoding routine for older readers.",
+    "inside": [
+      "The six syllable types and a repeatable division routine",
+      "Write-on mapping mats with a syllable-scoop primitive",
+      "An editable teaching deck for whole-group modeling"
+    ],
+    "who": "Grades 3–8 interventionists tackling longer words.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Multisyllabic-Word-Decoding-Syllable-Division-6-Syllable-Types-Grades-3-8-16891103"
+  },
+
+  {
+    "slug": "iep-goal-data-sheet",
+    "lane": "iep", "laneLabel": "Managed IEP", "color": "#D8A24A",
+    "free": true,
+    "name": "Free IEP Goal Data Sheet",
+    "eyebrow": "SPED · All grades · Printable",
+    "subhead": "A clean, reusable sheet for collecting the progress-monitoring data your IEP goals actually require — no rebuilding a form every time.",
+    "inside": [
+      "A print-ready data sheet you can reuse across goals and students",
+      "Structured for defensible, meeting-ready progress monitoring",
+      "Works for any grade and any goal area"
+    ],
+    "who": "SPED case managers responsible for IEP progress monitoring.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-IEP-Goal-Data-Sheet-Progress-Monitoring-SPED-Case-Managers-All-Grades-16868890",
+    "kit": { "uid": "419e5cc68a", "src": "https://mapped-and-managed.kit.com/419e5cc68a/index.js" }
+  },
+  {
+    "slug": "iep-progress-monitoring-data-pack",
+    "lane": "iep", "laneLabel": "Managed IEP", "color": "#D8A24A",
+    "free": false,
+    "name": "IEP Progress Monitoring Data Pack",
+    "eyebrow": "SPED · All grades · PDF + Excel",
+    "subhead": "Data collection for four goal types, with an Excel companion that does the math and graphs the trend for you.",
+    "inside": [
+      "Data sheets covering four common goal types",
+      "An auto-calculating Excel + Google Sheets companion",
+      "Progress that graphs itself for the meeting"
+    ],
+    "who": "Case managers who want progress monitoring that's fast and defensible.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/IEP-Progress-Monitoring-Data-Pack-4-Goal-Types-PDF-Excel-Auto-Calc-SPED-16869248"
+  },
+  {
+    "slug": "iep-caseload-tracker",
+    "lane": "iep", "laneLabel": "Managed IEP", "color": "#D8A24A",
+    "free": false,
+    "name": "IEP Caseload Tracker",
+    "eyebrow": "SPED · All grades · PDF + Excel",
+    "subhead": "Your whole caseload — students, goals, and compliance dates — on one auto-calculating dashboard.",
+    "inside": [
+      "A caseload dashboard with the rollups done for you",
+      "Compliance and review dates tracked in one place",
+      "A PDF setup guide plus the Excel + Google Sheets workbook"
+    ],
+    "who": "SPED case managers juggling a full caseload of deadlines.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/IEP-Caseload-Tracker-SPED-Case-Manager-PDF-Excel-All-Grades-16874355"
+  },
+  {
+    "slug": "iep-meeting-prep-kit",
+    "lane": "iep", "laneLabel": "Managed IEP", "color": "#D8A24A",
+    "free": false,
+    "name": "IEP Meeting Prep Kit",
+    "eyebrow": "SPED · All grades · Printable",
+    "subhead": "Walk into the meeting ready — present levels and goal writing organized so nothing gets improvised.",
+    "inside": [
+      "Present-levels and goal-writing prep pages",
+      "A structure that keeps the meeting on track",
+      "Reusable across every student on your caseload"
+    ],
+    "who": "Case managers prepping for annual and review IEP meetings.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/IEP-Meeting-Prep-Kit-Present-Levels-Goal-Writing-SPED-All-Grades-16875748"
+  },
+  {
+    "slug": "caseload-management-bundle",
+    "lane": "iep", "laneLabel": "Managed IEP", "color": "#D8A24A",
+    "free": false,
+    "name": "Complete Caseload Management Bundle",
+    "eyebrow": "SPED · All grades · Bundle · Best value",
+    "subhead": "The full documentation layer — data pack, caseload tracker, and meeting prep — bundled with a bonus guide.",
+    "inside": [
+      "The Data Pack, Caseload Tracker, and Meeting Prep Kit together",
+      "Plus a bonus caseload-management guide and Excel tool",
+      "Everything a case manager needs for the year, in one purchase"
+    ],
+    "who": "Case managers who want the whole Managed IEP system at once.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/IEP-Caseload-Management-Bundle-Meeting-Prep-Data-Tracker-SPED-All-Grades-16876015"
+  },
+  {
+    "slug": "iep-reading-goal-bank",
+    "lane": "iep", "laneLabel": "Managed IEP", "color": "#D8A24A",
+    "free": false,
+    "name": "IEP Reading Goal Bank & Present Levels Writer",
+    "eyebrow": "SPED · Reading · PDF + editable Word",
+    "subhead": "36 measurable reading goals and present-levels stems — with an editable Word / Google Docs companion you can customize in seconds.",
+    "inside": [
+      "36 measurable reading goals across four core domains",
+      "Reading present-levels stems that turn data into statements",
+      "An editable Word / Google Docs version for copy-paste-and-customize"
+    ],
+    "who": "Reading specialists and case managers writing defensible reading goals.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/IEP-Reading-Goal-Bank-Present-Levels-Writer-Measurable-Reading-Goals-SPED-16891139"
+  },
+
+  {
+    "slug": "intervention-group-snapshot",
+    "lane": "systems", "laneLabel": "Teacher Systems", "color": "#DD8569",
+    "free": true,
+    "name": "Free Intervention Group Snapshot",
+    "eyebrow": "RTI / MTSS · All grades · Excel + Sheets",
+    "subhead": "An auto-calculating tracker for one small group. Log sessions and minutes; the totals add themselves up.",
+    "inside": [
+      "A single-group tracker in Excel and Google Sheets",
+      "Automatic session and minute totals — no formula-building",
+      "The fastest way to see if a group is getting its minutes"
+    ],
+    "who": "Interventionists and RTI/MTSS teams running small groups.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Small-Group-Intervention-Data-Tracker-RTI-Progress-Monitoring-16878440",
+    "kit": { "uid": "cb620eea04", "src": "https://mapped-and-managed.kit.com/cb620eea04/index.js" }
+  },
+  {
+    "slug": "intervention-group-data-tracker",
+    "lane": "systems", "laneLabel": "Teacher Systems", "color": "#DD8569",
+    "free": false,
+    "name": "Intervention Group Data Tracker",
+    "eyebrow": "RTI / MTSS · All grades · PDF + Excel",
+    "subhead": "The flagship workbook — every small group's roster, sessions, and progress data in one auto-calculating place.",
+    "inside": [
+      "Rosters, session logs, and a progress-monitoring data wall",
+      "A dashboard that rolls up your groups automatically",
+      "Excel + Google Sheets, with a PDF setup guide"
+    ],
+    "who": "Interventionists running multiple groups who want the math done for them.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Intervention-Group-Data-Tracker-Small-Group-RTI-Excel-Google-Sheets-16878329"
+  },
+  {
+    "slug": "interventionist-schedule-builder",
+    "lane": "systems", "laneLabel": "Teacher Systems", "color": "#DD8569",
+    "free": false,
+    "name": "Interventionist Schedule Builder",
+    "eyebrow": "RTI / MTSS · All grades · Excel",
+    "subhead": "Build a small-group schedule that actually protects your minutes — and see the totals at a glance.",
+    "inside": [
+      "A schedule builder for small groups and service minutes",
+      "Minute totals that calculate as you go",
+      "Excel + Google Sheets, with a quick-start guide"
+    ],
+    "who": "Interventionists building and defending their weekly schedule.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Interventionist-Schedule-Builder-RTI-Small-Group-Minutes-Excel-16878781"
+  },
+  {
+    "slug": "structured-literacy-small-group-planner",
+    "lane": "systems", "laneLabel": "Teacher Systems", "color": "#DD8569",
+    "free": false,
+    "name": "Structured-Literacy Small-Group Planner",
+    "eyebrow": "SoR · All grades · Printable + Excel",
+    "subhead": "Science-of-Reading lesson planning built for small groups — a printable pack plus an Excel companion.",
+    "inside": [
+      "Structured-literacy lesson-plan pages for small groups",
+      "A printable planning pack you'll reuse every week",
+      "An Excel + Google Sheets companion"
+    ],
+    "who": "Interventionists planning structured-literacy small groups.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Structured-Literacy-Small-Group-Planner-SoR-Lesson-Plans-Printable-Excel-16879182"
+  },
+  {
+    "slug": "small-group-intervention-system-bundle",
+    "lane": "systems", "laneLabel": "Teacher Systems", "color": "#DD8569",
+    "free": false,
+    "name": "Small-Group Intervention System Bundle",
+    "eyebrow": "RTI / MTSS · All grades · Bundle · Best value",
+    "subhead": "The whole interventionist workflow — planning, scheduling, and data tracking — bundled together.",
+    "inside": [
+      "The Planner, Schedule Builder, and Data Tracker together",
+      "Plus a bonus setup guide",
+      "The complete small-group system in Excel + Google Sheets"
+    ],
+    "who": "Interventionists who want the entire Teacher Systems workflow at once.",
+    "tptUrl": "https://www.teacherspayteachers.com/Product/Small-Group-Intervention-System-Bundle-RTI-Planner-Schedule-Data-Excel-16879252"
+  }
+]

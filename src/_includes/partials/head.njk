@@ -1,0 +1,38 @@
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- set pageTitle = title or site.name -%}
+  {%- set fullTitle = pageTitle + " · " + site.name if title else site.name + " — " + site.tagline -%}
+  {%- set pageDesc = description or site.description -%}
+  {%- set canonical = page.url | absoluteUrl(site.url) -%}
+
+  <title>{{ fullTitle }}</title>
+  <meta name="description" content="{{ pageDesc }}">
+  <link rel="canonical" href="{{ canonical }}">
+
+  {# --- Pinterest domain claim: paste your code into site.json > pinterestVerify --- #}
+  {%- if site.pinterestVerify %}
+  <meta name="p:domain_verify" content="{{ site.pinterestVerify }}"/>
+  {%- endif %}
+
+  {# --- Open Graph (used by Pinterest, Facebook, iMessage, etc.) --- #}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ fullTitle }}">
+  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:locale" content="{{ site.locale }}">
+  {%- if ogImage %}
+  <meta property="og:image" content="{{ ogImage | absoluteUrl(site.url) }}">
+  {%- endif %}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ fullTitle }}">
+  <meta name="twitter:description" content="{{ pageDesc }}">
+
+  {# --- Fonts: Poppins (display) + Lato (body). Web CDN is correct here; ttf embedding is a PDF-only rule. --- #}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">

@@ -1,0 +1,93 @@
+---
+layout: base.njk
+pagination:
+  data: products
+  size: 1
+  alias: p
+permalink: "/resources/{{ p.slug }}/"
+eleventyComputed:
+  title: "{{ p.name }}"
+  description: "{{ p.subhead }}"
+---
+{%- set freeKitReady = p.free and p.kit and p.kit.uid and p.kit.src -%}
+{%- set generalKitReady = site.kitGeneral and site.kitGeneral.uid and site.kitGeneral.src -%}
+
+<section class="section">
+  <div class="wrap">
+    <div class="freebie-hero">
+      <div>
+        <p class="eyebrow" style="color:{{ p.color }}">{{ p.laneLabel }} · {% if p.free %}Free · {% endif %}{{ p.eyebrow }}</p>
+        <h1>{{ p.name }}</h1>
+        <p class="lead">{{ p.subhead }}</p>
+
+        <h3 style="margin-top:1.6rem;">What's inside</h3>
+        <ul class="checks" style="--accent:{{ p.color }}">
+          {%- for item in p.inside %}
+          <li>{{ item }}</li>
+          {%- endfor %}
+        </ul>
+
+        <p><strong>Who it's for:</strong> {{ p.who }}</p>
+
+        <div class="callout" style="--accent:{{ p.color }}">
+          <p style="margin:0;">Delivered through our Teachers Pay Teachers store, so it lands in your TPT account with every future update included.</p>
+        </div>
+      </div>
+
+      <aside class="optin" style="--accent:{{ p.color }}">
+        {%- if p.free %}
+        {# ---------- FREE: this product's own dedicated Kit form. Redirect-to-TPT-URL and the incentive/welcome email are configured directly in Kit, per form. ---------- #}
+        <h2>Send it to me</h2>
+        <p style="color:var(--ink-soft);font-size:0.95rem;">Enter your email and we'll take you straight to the free download.</p>
+        {%- if freeKitReady %}
+        <script async data-uid="{{ p.kit.uid }}" src="{{ p.kit.src }}"></script>
+        {%- else %}
+        <div class="kit-placeholder">
+          <label for="email-{{ p.slug }}">Email address</label>
+          <input id="email-{{ p.slug }}" type="email" placeholder="you@school.org" disabled>
+          <a class="btn btn--block" style="background:{{ p.color }};border-color:{{ p.color }};color:#2a1a10;" href="{{ p.tptUrl }}" target="_blank" rel="noopener">Get the free download →</a>
+          <p class="note"><strong>Opt-in not wired up yet.</strong> Build this product's dedicated Kit form, then paste its <code>data-uid</code> and script <code>src</code> into <code>src/_data/products.json</code> → this product's <code>kit</code> field. In Kit, set this form's after-subscribe action to redirect to:<br><code>{{ p.tptUrl }}</code></p>
+        </div>
+        {%- endif %}
+        <p class="fineprint">No spam. Unsubscribe anytime. We'll send occasional new-resource notes and teaching tips.</p>
+
+        {%- else %}
+        {# ---------- PAID: direct TPT click, no gate. Secondary opt-in uses the optional general newsletter form. ---------- #}
+        <h2>Get it on TPT</h2>
+        <p style="color:var(--ink-soft);font-size:0.95rem;">See previews, reviews, and current pricing on our Teachers Pay Teachers store.</p>
+        <a class="btn btn--block" href="{{ p.tptUrl }}" target="_blank" rel="noopener" style="background:{{ p.color }};border-color:{{ p.color }};color:#2a1a10;">View on TPT →</a>
+
+        <hr style="border:none;border-top:1px solid var(--line);margin:1.4rem 0;">
+        <p style="font-family:var(--font-display);font-weight:600;margin-bottom:0.4rem;">New here?</p>
+        <p style="color:var(--ink-soft);font-size:0.9rem;margin-bottom:0.7rem;">Grab a free tool and get on the list for new resources.</p>
+        {%- if generalKitReady %}
+        <script async data-uid="{{ site.kitGeneral.uid }}" src="{{ site.kitGeneral.src }}"></script>
+        {%- else %}
+        <a class="btn btn--ghost btn--block" href="/free-tools/">See the free tools →</a>
+        {%- endif %}
+        {%- endif %}
+      </aside>
+    </div>
+  </div>
+</section>
+
+{# ---------- More in this lane ---------- #}
+{%- set siblings = products | related(p.lane, p.slug, 3) -%}
+{%- if siblings.length %}
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow" style="color:{{ p.color }}">More {{ p.laneLabel }}</p>
+    <h2>Pairs well with</h2>
+    <div class="grid grid--3 mt-2">
+      {%- for s in siblings %}
+      <a class="card card--lane" style="--accent:{{ s.color }}" href="/resources/{{ s.slug }}/">
+        <span class="lane-tag">{{ s.laneLabel }}{% if s.free %} · Free{% endif %}</span>
+        <h3>{{ s.name }}</h3>
+        <p>{{ s.subhead }}</p>
+        <span class="card-foot"><strong>{% if s.free %}Get it free →{% else %}Take a look →{% endif %}</strong></span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

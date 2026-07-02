@@ -1,0 +1,23 @@
+---
+layout: base.njk
+permalink: /free-tools/
+title: Free tools
+description: Free structured-literacy and special-education tools — one from each lane. Enter your email and get sent straight to the free download on TPT.
+---
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Start free</p>
+    <h1>Free tools</h1>
+    <p class="lead">One free resource from each lane. Enter your email and we'll send you straight to the free download on Teachers Pay Teachers — and drop the link in your inbox so it's always one click away.</p>
+    <div class="grid grid--3 mt-2">
+      {%- for f in products %}{% if f.free %}
+      <a class="card card--lane" style="--accent:{{ f.color }}" href="/resources/{{ f.slug }}/">
+        <span class="lane-tag">{{ f.laneLabel }}</span>
+        <h3>{{ f.name }}</h3>
+        <p>{{ f.subhead }}</p>
+        <span class="card-foot"><strong>Get it free →</strong></span>
+      </a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>

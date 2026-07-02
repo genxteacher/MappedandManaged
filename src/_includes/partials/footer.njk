@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Mapped &amp; Managed</h4>
+        <p style="color:#c3cbdd;max-width:38ch;">{{ site.tagline }} Structured-literacy and special-education tools for the people who run intervention.</p>
+        <p><a href="{{ site.tptStore }}" target="_blank" rel="noopener">Shop the full store on TPT →</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          {%- for item in nav %}
+          <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div>
+        <h4>Free tools</h4>
+        <ul>
+          {%- for f in products %}{% if f.free %}
+          <li><a href="/resources/{{ f.slug }}/">{{ f.name }}</a></li>
+          {%- endif %}{% endfor %}
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&copy; {{ year }} Mapped &amp; Managed. All resources are sold and delivered through our <a href="{{ site.tptStore }}" target="_blank" rel="noopener">Teachers Pay Teachers store</a>.</p>
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+{
+  "name": "mapped-and-managed-site",
+  "version": "1.0.0",
+  "description": "Marketing + freebie-funnel site for Mapped & Managed. Pinterest -> landing page (email) -> TPT.",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
