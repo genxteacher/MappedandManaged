@@ -1,3 +1,9 @@
+# The old domain: its home page goes to the Mapped & Managed page, every other path to the same page here.
+https://mappedandmanaged.com/       https://elaclass38.com/shop/  301!
+https://www.mappedandmanaged.com/   https://elaclass38.com/shop/  301!
+https://mappedandmanaged.com/*      https://elaclass38.com/:splat 301!
+https://www.mappedandmanaged.com/*  https://elaclass38.com/:splat 301!
+
 # Friendly aliases -> canonical paths
 /free       /free-tools/   301
 /freebies   /free-tools/   301
