@@ -4,11 +4,11 @@
       <span class="brand-boxes" aria-hidden="true">
         <span class="b1"></span><span class="b2"></span><span class="b3"></span>
       </span>
-      Mapped &amp; Managed
+      ELA Class 3-8
     </a>
     <nav class="nav" aria-label="Primary">
       {%- for item in nav %}
-      <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
+      <a href="{{ item.url }}"{% if page.url == item.url or (item.url != "/" and page.url.startsWith(item.url)) %} aria-current="page"{% endif %}>{{ item.text }}</a>
       {%- endfor %}
       <a class="nav-cta" href="{{ site.tptStore }}" target="_blank" rel="noopener">TPT store</a>
     </nav>

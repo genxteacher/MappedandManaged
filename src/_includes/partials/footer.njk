@@ -2,9 +2,9 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <h4>Mapped &amp; Managed</h4>
-        <p style="color:#c3cbdd;max-width:38ch;">{{ site.tagline }} Structured-literacy and special-education tools for the people who run intervention.</p>
-        <p><a href="{{ site.tptStore }}" target="_blank" rel="noopener">Shop the full store on TPT →</a></p>
+        <h4>ELA Class 3-8</h4>
+        <p style="color:#c3cbdd;max-width:40ch;">{{ site.tagline }} Indiana ILEARN ELA practice for grades 3&ndash;8, and the Mapped &amp; Managed line of structured-literacy, IEP and MTSS tools.</p>
+        <p><a href="{{ site.tptStore }}" target="_blank" rel="noopener">Shop the full store on TPT &rarr;</a></p>
       </div>
       <div>
         <h4>Explore</h4>
@@ -15,14 +15,15 @@
         </ul>
       </div>
       <div>
-        <h4>Free tools</h4>
+        <h4>Indiana ILEARN ELA</h4>
         <ul>
-          {%- for f in products %}{% if f.free %}
-          <li><a href="/resources/{{ f.slug }}/">{{ f.name }}</a></li>
-          {%- endif %}{% endfor %}
+          {%- for g in ela.grades %}
+          <li><a href="/indiana-ela/grade-{{ g.grade }}/">Grade {{ g.grade }}</a></li>
+          {%- endfor %}
+          <li><a href="/free-tools/#ela">Free screeners</a></li>
         </ul>
       </div>
     </div>
-    <p class="fine">&copy; {{ year }} Mapped &amp; Managed. All resources are sold and delivered through our <a href="{{ site.tptStore }}" target="_blank" rel="noopener">Teachers Pay Teachers store</a>.</p>
+    <p class="fine">&copy; {{ year }} ELA Class 3-8. All resources are sold and delivered through our <a href="{{ site.tptStore }}" target="_blank" rel="noopener">Teachers Pay Teachers store</a>. The Indiana ILEARN ELA resources are independent and are not affiliated with, sponsored by, or endorsed by the Indiana Department of Education.</p>
   </div>
 </footer>

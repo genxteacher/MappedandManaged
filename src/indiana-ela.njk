@@ -1,0 +1,76 @@
+---
+layout: base.njk
+permalink: /indiana-ela/
+title: Indiana ILEARN ELA, grades 3-8
+description: Indiana ILEARN ELA Checkpoint 1, 2 and 3 and Summative practice for grades 3-8, with original passages and an answer key that explains every wrong answer. Free screeners for every checkpoint.
+---
+{%- from "partials/macros.njk" import video, cover_card -%}
+{%- set L = ela.listings -%}
+<section class="hero hero--ela">
+  <div class="wrap ela-hero">
+    <div>
+      <p class="eyebrow" style="color:{{ site.lanes.ela.color }}">Indiana ILEARN ELA &middot; Grades 3&ndash;8 &middot; SY 2026&ndash;27</p>
+      <h1>A practice set for every testing window</h1>
+      <p class="lead">Original passages and items, written to Indiana's published standards, blueprint and item specifications. No ILEARN passage or item is reproduced. Every answer key names the evidence and explains every wrong answer.</p>
+      <div class="hero-cta">
+        {%- for g in ela.grades %}
+        <a class="btn {% if not loop.first %}btn--ghost{% endif %}" href="/indiana-ela/grade-{{ g.grade }}/">Grade {{ g.grade }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    {{ video(L["g7-cp1"], "Grade 7 Checkpoint 1 Practice", "20 seconds, the real pages") }}
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow">How the year works</p>
+    <h2>Four sets, one for each window</h2>
+    <div class="grid grid--4 mt-2">
+      {%- set parts = [
+        [1, "Checkpoint 1", "Fall", "Literary reading."],
+        [2, "Checkpoint 2", "Winter", "Informational reading and media."],
+        [3, "Checkpoint 3", "Spring", "Language: grammar, conventions and word study."],
+        [4, "Summative", "April–May", "The whole year and the Performance Task."]
+      ] %}
+      {%- for p in parts %}
+      <div class="card" style="--accent:{{ L["g5-cp" + p[0]].color }}">
+        <span class="lane-tag">{{ p[2] }}</span>
+        <h3>{{ p[1] }}</h3>
+        <p>{{ p[3] }}{% if p[0] < 4 %} Each checkpoint has a free screener too.{% endif %}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Pick your grade</p>
+    <h2>Every set for one grade, on one page</h2>
+    <div class="grid grid--3 mt-2">
+      {%- for g in ela.grades %}{% set b = L[g.bundle] %}
+      {{ cover_card("/indiana-ela/grade-" + g.grade + "/", b.cover, b.color, "Grade " + g.grade, "Grade " + g.grade + " Indiana ILEARN ELA", "The Full-Year Bundle, the four practice sets and three free screeners.", "Open grade " + g.grade + " →") }}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow">For a whole team</p>
+    <h2>Grade-band bundles and screeners</h2>
+    <p class="lead">One purchase for a grades 3&ndash;5 or 6&ndash;8 team, and one free screener file per band with a section for each grade.</p>
+    <div class="grid grid--4 mt-2">
+      {%- for key in ela.order %}{% set r = L[key] %}{% if r.band %}
+      {{ cover_card("/indiana-ela/" + r.key + "/", r.cover, r.color, r.gradeLabel + (" · Free" if r.free else ""), r.title, "", "See it →") }}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="fineprint-note">{{ ela.note }} ILEARN and the Indiana Academic Standards are named only to describe what these resources prepare students for.</p>
+  </div>
+</section>

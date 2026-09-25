@@ -9,6 +9,7 @@ eleventyComputed:
   title: "{{ p.name }}"
   description: "{{ p.subhead }}"
 ---
+{%- from "partials/macros.njk" import video -%}
 {%- set freeKitReady = p.free and p.kit and p.kit.uid and p.kit.src -%}
 {%- set generalKitReady = site.kitGeneral and site.kitGeneral.uid and site.kitGeneral.src -%}
 
@@ -19,6 +20,19 @@ eleventyComputed:
         <p class="eyebrow" style="color:{{ p.color }}">{{ p.laneLabel }} · {% if p.free %}Free · {% endif %}{{ p.eyebrow }}</p>
         <h1>{{ p.name }}</h1>
         <p class="lead">{{ p.subhead }}</p>
+
+        {%- if p.video %}
+        {{ video(p, p.name) }}
+        {%- endif %}
+
+        {%- if p.look %}
+        <h3 style="margin-top:1.6rem;">Look inside</h3>
+        <ol class="look" style="--accent:{{ p.color }}">
+          {%- for l in p.look %}
+          <li><strong>{{ l.title }}</strong> {{ l.line }}</li>
+          {%- endfor %}
+        </ol>
+        {%- endif %}
 
         <h3 style="margin-top:1.6rem;">What's inside</h3>
         <ul class="checks" style="--accent:{{ p.color }}">
@@ -37,25 +51,22 @@ eleventyComputed:
       <aside class="optin" style="--accent:{{ p.color }}">
         {%- if p.free %}
         {# ---------- FREE: this product's own dedicated Kit form. Redirect-to-TPT-URL and the incentive/welcome email are configured directly in Kit, per form. ---------- #}
-        <h2>Send it to me</h2>
-        <p style="color:var(--ink-soft);font-size:0.95rem;">Enter your email and we'll take you straight to the free download.</p>
+        <h2>{% if freeKitReady %}Send it to me{% else %}Get it free{% endif %}</h2>
+        <p style="color:var(--ink-soft);font-size:0.95rem;">{% if freeKitReady %}Enter your email and we'll take you straight to the free download.{% else %}It's a free download on our Teachers Pay Teachers store.{% endif %}</p>
         {%- if freeKitReady %}
         <script async data-uid="{{ p.kit.uid }}" src="{{ p.kit.src }}"></script>
         {%- else %}
-        <div class="kit-placeholder">
-          <label for="email-{{ p.slug }}">Email address</label>
-          <input id="email-{{ p.slug }}" type="email" placeholder="you@school.org" disabled>
-          <a class="btn btn--block" style="background:{{ p.color }};border-color:{{ p.color }};color:#2a1a10;" href="{{ p.tptUrl }}" target="_blank" rel="noopener">Get the free download →</a>
-          <p class="note"><strong>Opt-in not wired up yet.</strong> Build this product's dedicated Kit form, then paste its <code>data-uid</code> and script <code>src</code> into <code>src/_data/products.json</code> → this product's <code>kit</code> field. In Kit, set this form's after-subscribe action to redirect to:<br><code>{{ p.tptUrl }}</code></p>
-        </div>
+        <a class="btn btn--block" style="background:{{ p.color }};border-color:{{ p.color }};color:{{ '#fff' if p.lane == 'mtss' else '#2a1a10' }};" href="{{ p.tptUrl }}" target="_blank" rel="noopener">Get the free download on TPT &rarr;</a>
         {%- endif %}
+        {%- if freeKitReady %}
         <p class="fineprint">No spam. Unsubscribe anytime. We'll send occasional new-resource notes and teaching tips.</p>
+        {%- endif %}
 
         {%- else %}
         {# ---------- PAID: direct TPT click, no gate. Secondary opt-in uses the optional general newsletter form. ---------- #}
         <h2>Get it on TPT</h2>
         <p style="color:var(--ink-soft);font-size:0.95rem;">See previews, reviews, and current pricing on our Teachers Pay Teachers store.</p>
-        <a class="btn btn--block" href="{{ p.tptUrl }}" target="_blank" rel="noopener" style="background:{{ p.color }};border-color:{{ p.color }};color:#2a1a10;">View on TPT →</a>
+        <a class="btn btn--block" href="{{ p.tptUrl }}" target="_blank" rel="noopener" style="background:{{ p.color }};border-color:{{ p.color }};color:{{ '#fff' if p.lane == 'mtss' else '#2a1a10' }};">View on TPT →</a>
 
         <hr style="border:none;border-top:1px solid var(--line);margin:1.4rem 0;">
         <p style="font-family:var(--font-display);font-weight:600;margin-bottom:0.4rem;">New here?</p>

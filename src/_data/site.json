@@ -1,30 +1,46 @@
 {
-  "name": "Mapped & Managed",
-  "tagline": "Teach it clearly. Track it simply.",
-  "description": "Structured-literacy and special-education tools for literacy interventionists, reading specialists, and SPED case managers. Word mapping, decodable reading, IEP documentation, and caseload systems that do the busywork for you.",
+  "name": "ELA Class 3-8",
+  "tagline": "Read it closely. Track it simply.",
+  "description": "ELA Class 3-8 makes Indiana ILEARN ELA practice for grades 3-8, with original passages and every answer explained, and Mapped & Managed: structured-literacy, IEP and MTSS tools for interventionists and case managers.",
   "url": "https://mappedandmanaged.com",
   "author": "Greg",
   "locale": "en_US",
-
-  "tptStore": "https://www.teacherspayteachers.com/store/mapped-and-managed",
-
+  "tptStore": "https://www.teacherspayteachers.com/store/ela-class-3-8",
   "_comment_pinterest": "After you create the Pinterest Business account and start the domain claim, Pinterest gives you a verification code. Paste ONLY the code value here (the part inside content=\"...\"). Leave empty until then.",
   "pinterestVerify": "",
-
   "_comment_kit": "Each FREE product has its own dedicated Kit form (see the 'kit' field on each free entry in products.json) — its own redirect-to-that-product's-TPT-URL setting and its own incentive/welcome email, both configured directly in Kit. This 'kitGeneral' form is optional and separate: a plain newsletter opt-in used only for the 'join the list' nudge on paid product pages. If left blank, paid pages just show a link to /free-tools/ instead.",
-  "kitGeneral": { "uid": "", "src": "" },
-
+  "kitGeneral": {
+    "uid": "",
+    "src": ""
+  },
   "colors": {
     "navy": "#1E2A45",
     "cream": "#FBF7EE",
     "sage": "#8FA890",
     "gold": "#D8A24A",
-    "coral": "#DD8569"
+    "coral": "#DD8569",
+    "mtss": "#46537A"
   },
-
   "lanes": {
-    "literacy": { "label": "Mapped Literacy", "color": "#8FA890" },
-    "iep": { "label": "Managed IEP", "color": "#D8A24A" },
-    "systems": { "label": "Teacher Systems", "color": "#DD8569" }
+    "literacy": {
+      "label": "Mapped Literacy",
+      "color": "#8FA890"
+    },
+    "iep": {
+      "label": "Managed IEP",
+      "color": "#D8A24A"
+    },
+    "systems": {
+      "label": "Teacher Systems",
+      "color": "#DD8569"
+    },
+    "mtss": {
+      "label": "Managed MTSS",
+      "color": "#46537A"
+    },
+    "ela": {
+      "label": "Indiana ILEARN ELA",
+      "color": "#B85C42"
+    }
   }
 }

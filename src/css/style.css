@@ -1,5 +1,5 @@
 /* ============================================================
-   Mapped & Managed — brand stylesheet
+   ELA Class 3-8 (with the Mapped & Managed line) — brand stylesheet
    Palette: Navy #1E2A45 / Cream #FBF7EE / Sage #8FA890 / Gold #D8A24A / Coral #DD8569
    Type: Poppins (display) + Lato (body)
    Signature: the sound-box (phoneme-mapping) strip, lane-coded sage/gold/coral
@@ -289,6 +289,56 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 0.4rem; }
 .site-footer .fine { color: #97a1ba; font-size: 0.82rem; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.12); padding-top: 1.2rem; }
+
+/* ============================================================
+   ELA Class 3-8: videos, cover cards, the ELA pages
+   ============================================================ */
+.grid--4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1000px) { .grid--4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .grid--4 { grid-template-columns: 1fr; } }
+
+/* 20-second preview videos: nothing loads until play */
+.vid { margin: 1.4rem 0 0; }
+.vid-frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius); overflow: hidden;
+  background: var(--navy); box-shadow: var(--shadow); border: 1px solid var(--line); }
+.vid-frame video { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; }
+.vid figcaption { margin-top: 0.6rem; font-size: 0.92rem; color: var(--ink-soft); }
+.vid figcaption strong { font-family: var(--font-display); color: var(--navy); margin-right: 0.35rem; }
+.vids { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+.vids .vid { margin: 0; }
+@media (max-width: 860px) { .vids { grid-template-columns: 1fr; } }
+
+/* cards that open on the listing cover */
+.card--cover { padding-top: 1rem; }
+.card--cover .card-img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain;
+  border-radius: var(--radius-sm); border: 1px solid var(--line); margin-bottom: 1rem; background: var(--cream); }
+.card--cover p { font-size: 0.93rem; }
+
+/* numbered look-inside list, matching the video's step badges */
+.look { list-style: none; counter-reset: look; margin: 0 0 1.2rem; padding: 0; }
+.look li { counter-increment: look; position: relative; padding-left: 2.6rem; margin-bottom: 0.9rem; color: var(--ink-soft); }
+.look li::before { content: counter(look); position: absolute; left: 0; top: 0.05em; width: 1.8rem; height: 1.8rem;
+  border-radius: 50%; background: var(--accent, var(--navy)); color: #fff; display: grid; place-items: center;
+  font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; }
+.look li strong { display: block; font-family: var(--font-display); color: var(--navy); }
+
+.ela-hero { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.ela-hero .vid { margin: 0; }
+@media (max-width: 860px) { .ela-hero { grid-template-columns: 1fr; } }
+.hero--ela h1 { max-width: 18ch; }
+
+.grade-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.8rem; }
+@media (max-width: 720px) { .grade-grid { grid-template-columns: repeat(3, 1fr); } }
+.grade-tile { display: flex; flex-direction: column; align-items: center; padding: 1rem 0.5rem; text-decoration: none;
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  transition: transform 0.12s ease; }
+.grade-tile:hover { transform: translateY(-3px); }
+.grade-tile .n { font-family: var(--font-display); font-weight: 700; font-size: 2.4rem; line-height: 1; color: var(--navy); }
+.grade-tile .l { font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.3rem; }
+
+.crumbs { font-size: 0.88rem; color: var(--ink-soft); margin: 0 0 1.2rem; }
+.fineprint-note { font-size: 0.82rem; color: var(--ink-soft); max-width: 80ch; }
+h3.mt-2 { margin-bottom: 1rem; }
 
 /* ============================================================
    Utility

@@ -109,3 +109,17 @@ Edit `src/_data/products.json`. Each entry generates its own fully-developed lan
 
 - **You (dashboards):** GitHub repo, Netlify site + domain, Pinterest Business + claim, Kit account + the three per-product forms (+ optional general form).
 - **Me (files):** the site itself, new pages, blog posts, product landing pages, design — plus dropping in the Pinterest code and each form's `uid`/`src` once you've generated them.
+
+---
+
+## ELA Class 3-8 (Sept 2026)
+
+The store was renamed ELA Class 3-8 on TPT, and this site now carries both of its lines:
+the Indiana ILEARN ELA pages (`/indiana-ela/`, one page per grade and per listing) and the
+Mapped & Managed catalog (`/shop/`, `/resources/<slug>/`). Every listing page has its 20-second
+preview video.
+
+`src/_data/ela.json`, the video, cover and look-inside fields in `src/_data/products.json`, and
+everything in `src/media/` are generated. Don't hand-edit them. They are rebuilt from the video
+scripts in the `mapped and managed` repo by `tools/video/site_export.py`, which keeps the
+hand-written copy in `products.json` and adds any registry product the site does not have yet.

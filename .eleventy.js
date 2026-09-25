@@ -2,6 +2,7 @@ module.exports = function (eleventyConfig) {
   // Copy static assets straight through to the build output.
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/media");
   eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
 
   // Human-friendly post dates, e.g. "July 2, 2026".

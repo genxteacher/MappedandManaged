@@ -1,6 +1,22 @@
 [
-  { "text": "Free tools", "url": "/free-tools/" },
-  { "text": "Shop", "url": "/shop/" },
-  { "text": "Blog", "url": "/blog/" },
-  { "text": "About", "url": "/about/" }
+  {
+    "text": "Indiana ELA",
+    "url": "/indiana-ela/"
+  },
+  {
+    "text": "Mapped & Managed",
+    "url": "/shop/"
+  },
+  {
+    "text": "Free",
+    "url": "/free-tools/"
+  },
+  {
+    "text": "Blog",
+    "url": "/blog/"
+  },
+  {
+    "text": "About",
+    "url": "/about/"
+  }
 ]

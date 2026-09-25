@@ -2,46 +2,37 @@
 layout: base.njk
 permalink: /
 ---
+{%- from "partials/macros.njk" import video, cover_card -%}
+{%- set L = ela.listings -%}
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">For literacy interventionists, reading specialists &amp; SPED case managers</p>
-    <h1><span class="teach">Teach it clearly.</span><br><span class="track">Track it simply.</span></h1>
-    <p class="lead">Structured-literacy and special-education tools that do the busywork for you — word mapping and decodable reading on one side, IEP documentation and caseload systems on the other.</p>
+    <p class="eyebrow">For grades 3&ndash;8 ELA teachers, interventionists &amp; SPED case managers</p>
+    <h1><span class="teach">Read it closely.</span><br><span class="track">Track it simply.</span></h1>
+    <p class="lead">Indiana ILEARN ELA practice for grades 3&ndash;8, with original passages and every answer explained. Alongside it, Mapped &amp; Managed: structured-literacy, IEP and MTSS tools that do the busywork for you.</p>
     <div class="hero-cta">
-      <a class="btn btn--coral" href="/free-tools/">Get a free tool</a>
-      <a class="btn btn--ghost" href="/shop/">Browse the shop</a>
-    </div>
-    <div class="hero-boxes">
-      <span class="soundboxes" aria-hidden="true">
-        <span class="sb sb--sage">m</span><span class="sb sb--gold">a</span><span class="sb sb--coral">p</span>
-      </span>
-      <span class="cap">Map the sounds. Manage the data. That's the whole idea.</span>
+      <a class="btn btn--coral" href="/indiana-ela/">Indiana ILEARN ELA</a>
+      <a class="btn btn--ghost" href="/shop/">Mapped &amp; Managed tools</a>
+      <a class="btn btn--ghost" href="/free-tools/">Free resources</a>
     </div>
   </div>
 </section>
 
 <section class="section section--paper">
   <div class="wrap">
-    <p class="eyebrow">Three lanes, one system</p>
-    <h2>Built for how intervention actually runs</h2>
-    <div class="grid grid--3 mt-2">
-      <a class="card card--lane" style="--accent:{{ site.colors.sage }}" href="/shop/#literacy">
-        <span class="lane-tag">Mapped Literacy</span>
-        <h3>Word mapping &amp; decodable reading</h3>
-        <p>Sound-box mapping mats, decodable passages, and multisyllabic decoding — Science of Reading practice you can run tomorrow.</p>
-        <span class="card-foot"><strong>Explore Mapped Literacy →</strong></span>
+    <p class="eyebrow">Two lines, one store</p>
+    <h2>What ELA Class 3-8 makes</h2>
+    <div class="grid grid--2 mt-2">
+      <a class="card card--lane" style="--accent:{{ site.lanes.ela.color }}" href="/indiana-ela/">
+        <span class="lane-tag">Indiana ILEARN ELA &middot; Grades 3&ndash;8</span>
+        <h3>A practice set for every testing window</h3>
+        <p>Checkpoints 1, 2 and 3 and the Summative, for every grade from 3 to 8. Every passage and item is original, and the answer key explains every wrong answer. A free screener comes with each checkpoint.</p>
+        <span class="card-foot"><strong>Pick your grade &rarr;</strong></span>
       </a>
-      <a class="card card--lane" style="--accent:{{ site.colors.gold }}" href="/shop/#iep">
-        <span class="lane-tag">Managed IEP</span>
-        <h3>IEP documentation &amp; progress monitoring</h3>
-        <p>Goal banks, data sheets, meeting prep, and caseload trackers that keep your documentation defensible and meeting-ready.</p>
-        <span class="card-foot"><strong>Explore Managed IEP →</strong></span>
-      </a>
-      <a class="card card--lane" style="--accent:{{ site.colors.coral }}" href="/shop/#systems">
-        <span class="lane-tag">Teacher Systems</span>
-        <h3>Scheduling, planning &amp; tracking</h3>
-        <p>Auto-calculating Excel and Google Sheets tools for interventionists — rosters, sessions, and minutes, with the math done for you.</p>
-        <span class="card-foot"><strong>Explore Teacher Systems →</strong></span>
+      <a class="card card--lane" style="--accent:{{ site.colors.sage }}" href="/shop/">
+        <span class="lane-tag">Mapped &amp; Managed</span>
+        <h3>Intervention, IEP and MTSS tools</h3>
+        <p>Word-mapping mats and decodable passages, IEP goal banks and caseload trackers, small-group planners, and MTSS data systems in Excel and Google Sheets.</p>
+        <span class="card-foot"><strong>Browse the four lanes &rarr;</strong></span>
       </a>
     </div>
   </div>
@@ -49,18 +40,41 @@ permalink: /
 
 <section class="section">
   <div class="wrap">
+    <p class="eyebrow">See inside</p>
+    <h2>Twenty seconds each, pages and all</h2>
+    <p class="lead">Every listing has a short video showing the actual pages. Press play on any of these to see what the files look like.</p>
+    <div class="vids mt-2">
+      {{ video(L["g6-bundle"], "Grade 6 Full-Year Bundle", "Indiana ILEARN ELA") }}
+      {{ video(L["g4-cp1-screener"], "Grade 4 Checkpoint 1 Screener", "Free") }}
+      {%- for p in products %}{% if p.number == 25 %}
+      {{ video(p, p.name, "Mapped & Managed") }}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow">Indiana ILEARN ELA</p>
+    <h2>Pick your grade</h2>
+    <div class="grade-grid mt-2">
+      {%- for g in ela.grades %}
+      <a class="grade-tile" href="/indiana-ela/grade-{{ g.grade }}/"><span class="n">{{ g.grade }}</span><span class="l">Grade {{ g.grade }}</span></a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
     <p class="eyebrow">Start free</p>
-    <h2>Try a tool before you buy anything</h2>
-    <p class="lead">One free resource from each lane. Enter your email and we'll send you straight to the free download.</p>
+    <h2>Try something before you buy anything</h2>
+    <p class="lead">A free tool from each Mapped &amp; Managed lane, and a free screener for every Indiana ILEARN ELA checkpoint.</p>
     <div class="grid grid--3 mt-2">
       {%- for f in products %}{% if f.free %}
-      <a class="card card--lane" style="--accent:{{ f.color }}" href="/resources/{{ f.slug }}/">
-        <span class="lane-tag">{{ f.laneLabel }}</span>
-        <h3>{{ f.name }}</h3>
-        <p>{{ f.subhead }}</p>
-        <span class="card-foot"><strong>Get it free →</strong></span>
-      </a>
+      {{ cover_card("/resources/" + f.slug + "/", f.cover, f.color, f.laneLabel + " · Free", f.name, f.subhead, "Get it free →") }}
       {%- endif %}{% endfor %}
+      {{ cover_card("/free-tools/#ela", L["g5-cp1-screener"].cover, site.lanes.ela.color, "Indiana ILEARN ELA · Free", "Free checkpoint screeners", "One for every grade and checkpoint, plus a file for each grade band.", "See all the screeners →") }}
     </div>
   </div>
 </section>
@@ -69,7 +83,7 @@ permalink: /
   <div class="wrap">
     <div class="callout" style="--accent:{{ site.colors.gold }}">
       <h3>Made by someone who's done the job</h3>
-      <p>Mapped &amp; Managed is built by a 25-year educator with dual master's degrees in Educational Technology and Educational Administration. Every tool is something that had to exist for a real caseload first. <a href="/about/">Read the story →</a></p>
+      <p>ELA Class 3-8 is built by a 25-year educator with dual master's degrees in Educational Technology and Educational Administration. Every tool is something that had to exist for a real classroom or caseload first. <a href="/about/">Read the story &rarr;</a></p>
     </div>
   </div>
 </section>

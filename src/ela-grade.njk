@@ -1,0 +1,72 @@
+---
+layout: base.njk
+pagination:
+  data: ela.grades
+  size: 1
+  alias: g
+permalink: "/indiana-ela/grade-{{ g.grade }}/"
+eleventyComputed:
+  title: "Grade {{ g.grade }} Indiana ILEARN ELA"
+  description: "Grade {{ g.grade }} Indiana ILEARN ELA practice: Checkpoints 1, 2 and 3, the Summative, the Full-Year Bundle and free screeners, each with a 20-second look inside."
+---
+{%- from "partials/macros.njk" import video, cover_card -%}
+{%- set L = ela.listings -%}
+{%- set b = L[g.bundle] -%}
+<section class="section">
+  <div class="wrap">
+    <p class="crumbs"><a href="/indiana-ela/">Indiana ILEARN ELA</a> &rsaquo; Grade {{ g.grade }}</p>
+    <div class="ela-hero">
+      <div>
+        <p class="eyebrow" style="color:{{ b.color }}">Indiana ILEARN ELA &middot; Grade {{ g.grade }}</p>
+        <h1>Grade {{ g.grade }}: the whole year</h1>
+        <p class="lead">{{ b.subhead }}</p>
+        <ul class="checks" style="--accent:{{ b.color }}">
+          {%- for item in b.inside %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+        <div class="hero-cta">
+          <a class="btn" href="{{ b.tptUrl }}" target="_blank" rel="noopener">Full-Year Bundle on TPT &rarr;</a>
+          <a class="btn btn--ghost" href="/indiana-ela/{{ b.key }}/">Bundle details</a>
+        </div>
+      </div>
+      {{ video(b, b.name, "20 seconds") }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow">One set per window</p>
+    <h2>The four practice sets</h2>
+    <div class="grid grid--4 mt-2">
+      {%- for key in g.practice %}{% set r = L[key] %}
+      {{ cover_card("/indiana-ela/" + r.key + "/", r.cover, r.color, r.window + " window", r.title, r.inside | join(" · "), "See inside →") }}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Free</p>
+    <h2>Checkpoint screeners</h2>
+    <p class="lead">One question on every standard in the checkpoint, and a class tracker that turns a miss into a standard to reteach.</p>
+    <div class="grid grid--3 mt-2">
+      {%- for key in g.screeners %}{% set r = L[key] %}
+      {{ cover_card("/indiana-ela/" + r.key + "/", r.cover, r.color, r.window + " window · Free", r.title, r.inside | join(" · "), "Get it free →") }}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow">For the whole team</p>
+    <h2>{{ L[g.band_bundle].gradeLabel }}</h2>
+    <div class="grid grid--4 mt-2">
+      {%- for key in [g.band_bundle].concat(g.band_screeners) %}{% set r = L[key] %}
+      {{ cover_card("/indiana-ela/" + r.key + "/", r.cover, r.color, r.gradeLabel + (" · Free" if r.free else " · Bundle"), r.title, "", "See it →") }}
+      {%- endfor %}
+    </div>
+    <p class="fineprint-note mt-2">{{ ela.note }}</p>
+  </div>
+</section>

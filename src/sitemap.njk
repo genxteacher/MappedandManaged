@@ -4,9 +4,15 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{%- set staticPages = ["/", "/shop/", "/free-tools/", "/blog/", "/about/"] %}
+{%- set staticPages = ["/", "/indiana-ela/", "/shop/", "/free-tools/", "/blog/", "/about/"] %}
 {%- for path in staticPages %}
   <url><loc>{{ path | absoluteUrl(site.url) }}</loc></url>
+{%- endfor %}
+{%- for g in ela.grades %}
+  <url><loc>{{ ("/indiana-ela/grade-" + g.grade + "/") | absoluteUrl(site.url) }}</loc></url>
+{%- endfor %}
+{%- for key in ela.order %}
+  <url><loc>{{ ("/indiana-ela/" + key + "/") | absoluteUrl(site.url) }}</loc></url>
 {%- endfor %}
 {%- for p in products %}
   <url><loc>{{ ("/resources/" + p.slug + "/") | absoluteUrl(site.url) }}</loc></url>

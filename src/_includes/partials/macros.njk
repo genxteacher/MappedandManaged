@@ -1,0 +1,18 @@
+{# A 20-second preview video. Nothing loads until the teacher presses play. #}
+{% macro video(v, label, caption="") %}
+<figure class="vid">
+  <div class="vid-frame"><video controls playsinline preload="none" poster="{{ v.poster }}" width="1280" height="720" aria-label="{{ label }}: 20-second look inside"><source src="{{ v.video }}" type="video/mp4"></video></div>
+  {%- if caption %}<figcaption><strong>{{ label }}</strong> <span>{{ caption }}</span></figcaption>{% endif %}
+</figure>
+{% endmacro %}
+
+{# A card with the listing cover on top. #}
+{% macro cover_card(href, img, color, tag, title, text, foot) %}
+<a class="card card--lane card--cover" style="--accent:{{ color }}" href="{{ href }}">
+  <img class="card-img" src="{{ img }}" alt="" loading="lazy" width="720" height="720">
+  <span class="lane-tag">{{ tag }}</span>
+  <h3>{{ title }}</h3>
+  {%- if text %}<p>{{ text }}</p>{% endif %}
+  <span class="card-foot"><strong>{{ foot }}</strong></span>
+</a>
+{% endmacro %}

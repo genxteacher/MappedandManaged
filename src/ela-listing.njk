@@ -1,0 +1,75 @@
+---
+layout: base.njk
+pagination:
+  data: ela.order
+  size: 1
+  alias: key
+permalink: "/indiana-ela/{{ key }}/"
+eleventyComputed:
+  title: "{{ ela.listings[key].name }}"
+  description: "{{ ela.listings[key].subhead }}"
+  ogImage: "{{ ela.listings[key].poster }}"
+---
+{%- from "partials/macros.njk" import video, cover_card -%}
+{%- set L = ela.listings -%}
+{%- set r = L[key] -%}
+<section class="section">
+  <div class="wrap">
+    <p class="crumbs"><a href="/indiana-ela/">Indiana ILEARN ELA</a> &rsaquo;
+      {%- if r.band %} {{ r.gradeLabel }}{% else %} <a href="/indiana-ela/grade-{{ r.grades[0] }}/">{{ r.gradeLabel }}</a>{% endif %} &rsaquo; {{ r.title }}</p>
+    <div class="freebie-hero">
+      <div>
+        <p class="eyebrow" style="color:{{ r.color }}">{{ r.gradeLabel }} &middot; {% if r.free %}Free &middot; {% endif %}{{ r.cpName }} &middot; {{ r.window }}</p>
+        <h1>{{ r.name }}</h1>
+        <p class="lead">{{ r.subhead }}</p>
+
+        {{ video(r, r.name) }}
+
+        <h3 style="margin-top:1.6rem;">Look inside</h3>
+        <ol class="look" style="--accent:{{ r.color }}">
+          {%- for l in r.look %}
+          <li><strong>{{ l.title }}</strong> {{ l.line }}</li>
+          {%- endfor %}
+        </ol>
+
+        <h3 style="margin-top:1.6rem;">What's inside</h3>
+        <ul class="checks" style="--accent:{{ r.color }}">
+          {%- for item in r.inside %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+
+      <aside class="optin" style="--accent:{{ r.color }}">
+        <h2>{% if r.free %}Get it free{% else %}Get it on TPT{% endif %}</h2>
+        <p style="color:var(--ink-soft);font-size:0.95rem;">{% if r.free %}A free download on our Teachers Pay Teachers store.{% else %}See previews, reviews and current pricing on our Teachers Pay Teachers store.{% endif %}</p>
+        <a class="btn btn--block" href="{{ r.tptUrl }}" target="_blank" rel="noopener" style="background:{{ r.color }};border-color:{{ r.color }};color:#fff;">{% if r.free %}Get the free download{% else %}View on TPT{% endif %} &rarr;</a>
+        <p class="fineprint">{{ r.end }}</p>
+        {%- if not r.band %}
+        <hr style="border:none;border-top:1px solid var(--line);margin:1.4rem 0;">
+        <a class="btn btn--ghost btn--block" href="/indiana-ela/grade-{{ r.grades[0] }}/">Everything for grade {{ r.grades[0] }}</a>
+        {%- endif %}
+      </aside>
+    </div>
+  </div>
+</section>
+
+{%- set g = ela.grades[r.grades[0] - 3] -%}
+{%- if r.band -%}
+{%- set cands = [] -%}
+{%- for k in ela.order %}{% if L[k].band and L[k].gradeLabel == r.gradeLabel %}{% if cands.push(k) %}{% endif %}{% endif %}{% endfor -%}
+{%- else -%}
+{%- set cands = [g.bundle].concat(g.practice, g.screeners) -%}
+{%- endif -%}
+{%- set more = [] -%}
+{%- for k in cands %}{% if k != r.key and more.length < 3 %}{% if more.push(k) %}{% endif %}{% endif %}{% endfor %}
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow" style="color:{{ r.color }}">More for {{ r.gradeLabel }}</p>
+    <h2>Pairs well with</h2>
+    <div class="grid grid--3 mt-2">
+      {%- for k in more %}{% set s = L[k] %}
+      {{ cover_card("/indiana-ela/" + s.key + "/", s.cover, s.color, s.gradeLabel + " · " + (("Free · " + s.window) if s.free else s.window), s.title, "", "Take a look →") }}
+      {%- endfor %}
+    </div>
+    <p class="fineprint-note mt-2">{{ ela.note }}</p>
+  </div>
+</section>

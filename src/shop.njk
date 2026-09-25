@@ -1,16 +1,18 @@
 ---
 layout: base.njk
 permalink: /shop/
-title: Shop
-description: The Mapped & Managed catalog — word mapping, decodable reading, IEP documentation, and interventionist systems. Every resource is delivered through Teachers Pay Teachers.
+title: Mapped & Managed
+description: Mapped & Managed, from ELA Class 3-8 — word mapping, decodable reading, IEP documentation, interventionist systems and MTSS data tools. Every resource is delivered through Teachers Pay Teachers.
 ---
+{%- from "partials/macros.njk" import cover_card -%}
 <section class="section">
   <div class="wrap">
-    <p class="eyebrow">The catalog</p>
-    <h1>Shop the store</h1>
-    <p class="lead">Every resource is sold and delivered through Teachers Pay Teachers, so your purchases, downloads, and updates all live in your TPT account. Tap any tool to see what's inside, or head straight to the full store.</p>
+    <p class="eyebrow">A line from ELA Class 3-8</p>
+    <h1>Mapped &amp; Managed</h1>
+    <p class="lead">Structured-literacy, IEP and MTSS tools for the people who run intervention. <em>Mapped</em> is the literacy side: word-mapping mats, decodable passages and decoding routines. <em>Managed</em> is the documentation side: IEP goals, progress data, caseloads and tier decisions. Every resource is sold and delivered through Teachers Pay Teachers, and every one has a 20-second video on its page.</p>
     <div class="hero-cta mt-2">
       <a class="btn" href="{{ site.tptStore }}" target="_blank" rel="noopener">Visit the full TPT store</a>
+      <a class="btn btn--ghost" href="/indiana-ela/">Looking for Indiana ILEARN ELA?</a>
     </div>
   </div>
 </section>
@@ -18,7 +20,8 @@ description: The Mapped & Managed catalog — word mapping, decodable reading, I
 {%- set lanesOrder = [
   { "id": "literacy", "label": "Mapped Literacy", "color": site.colors.sage, "blurb": "Science-of-Reading word mapping and decodable reading, K–2 through grades 3–8." },
   { "id": "iep", "label": "Managed IEP", "color": site.colors.gold, "blurb": "IEP documentation and progress monitoring for SPED case managers." },
-  { "id": "systems", "label": "Teacher Systems", "color": site.colors.coral, "blurb": "Scheduling, planning, and data tracking for interventionists and RTI/MTSS teams." }
+  { "id": "systems", "label": "Teacher Systems", "color": site.colors.coral, "blurb": "Scheduling, planning, and data tracking for interventionists." },
+  { "id": "mtss", "label": "Managed MTSS", "color": site.colors.mtss, "blurb": "Screening, tiering, progress monitoring and attendance for RTI/MTSS teams." }
 ] -%}
 
 {%- for lane in lanesOrder %}
@@ -28,12 +31,7 @@ description: The Mapped & Managed catalog — word mapping, decodable reading, I
     <h2>{{ lane.blurb }}</h2>
     <div class="grid grid--3 mt-2">
       {%- for prod in products %}{% if prod.lane == lane.id %}
-      <a class="card card--lane" style="--accent:{{ prod.color }}" href="/resources/{{ prod.slug }}/">
-        <span class="lane-tag">{{ prod.laneLabel }}{% if prod.free %} · Free{% endif %}</span>
-        <h3>{{ prod.name }}</h3>
-        <p>{{ prod.subhead }}</p>
-        <span class="card-foot"><strong>{% if prod.free %}Get it free →{% else %}See what's inside →{% endif %}</strong></span>
-      </a>
+      {{ cover_card("/resources/" + prod.slug + "/", prod.cover, prod.color, prod.laneLabel + (" · Free" if prod.free else ""), prod.name, prod.subhead, "Get it free →" if prod.free else "See what's inside →") }}
       {%- endif %}{% endfor %}
     </div>
   </div>

@@ -1,22 +1,43 @@
 ---
 layout: base.njk
 permalink: /free-tools/
-title: Free tools
-description: Free structured-literacy and special-education tools — one from each lane. Enter your email and get sent straight to the free download on TPT.
+title: Free resources
+description: Free Indiana ILEARN ELA checkpoint screeners for grades 3-8, and a free tool from each Mapped & Managed lane.
 ---
+{%- from "partials/macros.njk" import cover_card -%}
+{%- set L = ela.listings -%}
 <section class="section">
   <div class="wrap">
     <p class="eyebrow">Start free</p>
-    <h1>Free tools</h1>
-    <p class="lead">One free resource from each lane. Enter your email and we'll send you straight to the free download on Teachers Pay Teachers — and drop the link in your inbox so it's always one click away.</p>
+    <h1>Free resources</h1>
+    <p class="lead">Every one is a real, complete resource, delivered through Teachers Pay Teachers so it lands in your TPT account with every future update.</p>
+  </div>
+</section>
+
+<section class="section section--paper" id="ela">
+  <div class="wrap">
+    <p class="eyebrow" style="color:{{ site.lanes.ela.color }}">Indiana ILEARN ELA &middot; Free screeners</p>
+    <h2>Find out who is ready before the window opens</h2>
+    <p class="lead">One question on every standard Indiana assesses in that checkpoint, and a class tracker that prints the standard under every question number. There is one for each grade and checkpoint, and one file for each grade band.</p>
+    {%- for cp in [1, 2, 3] %}
+    <h3 class="mt-2">Checkpoint {{ cp }} &middot; {{ ["", "fall", "winter", "spring"][cp] }} window</h3>
+    <div class="grid grid--4">
+      {%- for key in ela.order %}{% set r = L[key] %}{% if r.free and r.cp == cp %}
+      {{ cover_card("/indiana-ela/" + r.key + "/", r.cover, r.color, r.gradeLabel + " · Free", r.title, "", "See it →") }}
+      {%- endif %}{% endfor %}
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="section" id="mapped-managed">
+  <div class="wrap">
+    <p class="eyebrow">Mapped &amp; Managed &middot; Free tools</p>
+    <h2>One free tool from each lane</h2>
+    <p class="lead">Enter your email where the page asks for it and we'll send you straight to the free download.</p>
     <div class="grid grid--3 mt-2">
       {%- for f in products %}{% if f.free %}
-      <a class="card card--lane" style="--accent:{{ f.color }}" href="/resources/{{ f.slug }}/">
-        <span class="lane-tag">{{ f.laneLabel }}</span>
-        <h3>{{ f.name }}</h3>
-        <p>{{ f.subhead }}</p>
-        <span class="card-foot"><strong>Get it free →</strong></span>
-      </a>
+      {{ cover_card("/resources/" + f.slug + "/", f.cover, f.color, f.laneLabel, f.name, f.subhead, "Get it free →") }}
       {%- endif %}{% endfor %}
     </div>
   </div>

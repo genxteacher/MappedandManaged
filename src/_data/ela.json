@@ -1,0 +1,2933 @@
+{
+ "listings": {
+  "g3-cp1": {
+   "key": "g3-cp1",
+   "kind": "Practice",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Checkpoint 1 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Practice-Reading-Test-Prep-SY26-27-17721967",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Practice",
+   "subhead": "Original literary passages and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 3",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "6 original passages",
+     "line": "2,318 words of new literary text — fable, folktale and tall tale. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "24 items quote the sentence that settles them and name the paragraphs it comes from. 142 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "8 standards, three bands",
+     "line": "6 items per standard — 2 Approaching, 2 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 1 Practice",
+   "inside": [
+    "48 original items",
+    "6 original passages",
+    "8 standards",
+    "Answer key with worked reasoning",
+    "29 pages"
+   ],
+   "end": "Practice for the fall window, with every answer explained.",
+   "video": "/media/videos/ela-g3-cp1.mp4",
+   "poster": "/media/videos/ela-g3-cp1.jpg",
+   "cover": "/media/covers/ela-g3-cp1.jpg"
+  },
+  "g3-cp1-screener": {
+   "key": "g3-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 3rd Grade ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Reading-Diagnostic-17721970",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, eight questions",
+     "line": "An original literary passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: four on the passage, four that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 1 Screener",
+   "inside": [
+    "8 questions",
+    "One question on each of 8 standards",
+    "A 28-row class tracker",
+    "8 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g3-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g3-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g3-cp1-screener.jpg"
+  },
+  "g4-cp1": {
+   "key": "g4-cp1",
+   "kind": "Practice",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Checkpoint 1 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Practice-Reading-Test-Prep-SY26-27-17722014",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Practice",
+   "subhead": "Original literary passages and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 4",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "8 original passages",
+     "line": "4,022 words of new literary text — drama, fantasy, historical fiction, legend, myth and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "48 items quote the sentence that settles them and name the paragraphs it comes from. 142 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "4 standards, three bands",
+     "line": "12 items per standard — 4 Approaching, 5 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 1 Practice",
+   "inside": [
+    "48 original items",
+    "8 original passages",
+    "4 standards",
+    "Answer key with worked reasoning",
+    "31 pages"
+   ],
+   "end": "Practice for the fall window, with every answer explained.",
+   "video": "/media/videos/ela-g4-cp1.mp4",
+   "poster": "/media/videos/ela-g4-cp1.jpg",
+   "cover": "/media/covers/ela-g4-cp1.jpg"
+  },
+  "g4-cp1-screener": {
+   "key": "g4-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 4th Grade ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-4th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Reading-Diagnostic-17722017",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, four questions",
+     "line": "An original literary passage with numbered paragraphs, then one question on each standard, at or below the proficiency threshold. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 1 Screener",
+   "inside": [
+    "4 questions",
+    "One question on each of 4 standards",
+    "A 28-row class tracker",
+    "6 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g4-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g4-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g4-cp1-screener.jpg"
+  },
+  "g5-cp1": {
+   "key": "g5-cp1",
+   "kind": "Practice",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Checkpoint 1 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Practice-Reading-Test-Prep-SY26-27-17722068",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Practice",
+   "subhead": "Original literary passages and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 5",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "9 original passages",
+     "line": "4,215 words of new literary text — drama, historical fiction, humorous fiction, poem and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "50 items quote the sentence that settles them and name the paragraphs it comes from. 148 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "5 standards, three bands",
+     "line": "10 items per standard — 3 Approaching, 4 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 1 Practice",
+   "inside": [
+    "50 original items",
+    "9 original passages",
+    "5 standards",
+    "Answer key with worked reasoning",
+    "35 pages"
+   ],
+   "end": "Practice for the fall window, with every answer explained.",
+   "video": "/media/videos/ela-g5-cp1.mp4",
+   "poster": "/media/videos/ela-g5-cp1.jpg",
+   "cover": "/media/covers/ela-g5-cp1.jpg"
+  },
+  "g5-cp1-screener": {
+   "key": "g5-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 5th Grade ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-5th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Reading-Diagnostic-17722071",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, five questions",
+     "line": "An original literary passage with numbered paragraphs, then one question on each standard, at or below the proficiency threshold. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 1 Screener",
+   "inside": [
+    "5 questions",
+    "One question on each of 5 standards",
+    "A 28-row class tracker",
+    "6 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g5-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g5-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g5-cp1-screener.jpg"
+  },
+  "g6-cp1": {
+   "key": "g6-cp1",
+   "kind": "Practice",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Checkpoint 1 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Practice-Reading-Test-Prep-SY26-27-17717582",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Practice",
+   "subhead": "Original literary passages and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 6",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "9 original passages",
+     "line": "5,157 words of new literary text — drama, folktale, historical fiction, narrative poem and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "40 items quote the sentence that settles them and name the paragraphs it comes from. 118 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "5 standards, three bands",
+     "line": "10 items per standard — 3 Approaching, 4 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 1 Practice",
+   "inside": [
+    "50 original items",
+    "9 original passages",
+    "5 standards",
+    "Answer key with worked reasoning",
+    "36 pages"
+   ],
+   "end": "Practice for the fall window, with every answer explained.",
+   "video": "/media/videos/ela-g6-cp1.mp4",
+   "poster": "/media/videos/ela-g6-cp1.jpg",
+   "cover": "/media/covers/ela-g6-cp1.jpg"
+  },
+  "g6-cp1-screener": {
+   "key": "g6-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 6th Grade ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-6th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Reading-Diagnostic-17717604",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, five questions",
+     "line": "An original literary passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: four on the passage, one that needs no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 1 Screener",
+   "inside": [
+    "5 questions",
+    "One question on each of 5 standards",
+    "A 28-row class tracker",
+    "7 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g6-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g6-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g6-cp1-screener.jpg"
+  },
+  "g7-cp1": {
+   "key": "g7-cp1",
+   "kind": "Practice",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Checkpoint 1 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Practice-Reading-Test-Prep-SY26-27-17717627",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Practice",
+   "subhead": "Original literary passages and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 7",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "9 original passages",
+     "line": "5,336 words of new literary text — drama, folktale, historical fiction, narrative poem and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "40 items quote the sentence that settles them and name the paragraphs it comes from. 118 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "5 standards, three bands",
+     "line": "10 items per standard — 3 Approaching, 4 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 1 Practice",
+   "inside": [
+    "50 original items",
+    "9 original passages",
+    "5 standards",
+    "Answer key with worked reasoning",
+    "37 pages"
+   ],
+   "end": "Practice for the fall window, with every answer explained.",
+   "video": "/media/videos/ela-g7-cp1.mp4",
+   "poster": "/media/videos/ela-g7-cp1.jpg",
+   "cover": "/media/covers/ela-g7-cp1.jpg"
+  },
+  "g7-cp1-screener": {
+   "key": "g7-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 7th Grade ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-7th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Reading-Diagnostic-17717638",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, five questions",
+     "line": "An original literary passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: four on the passage, one that needs no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 1 Screener",
+   "inside": [
+    "5 questions",
+    "One question on each of 5 standards",
+    "A 28-row class tracker",
+    "7 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g7-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g7-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g7-cp1-screener.jpg"
+  },
+  "g8-cp1": {
+   "key": "g8-cp1",
+   "kind": "Practice",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Checkpoint 1 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Practice-Reading-Test-Prep-SY26-27-17717654",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Practice",
+   "subhead": "Original literary passages and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 8",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "9 original passages",
+     "line": "5,794 words of new literary text — drama, folktale, historical fiction, narrative poem and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "36 items quote the sentence that settles them and name the paragraphs it comes from. 106 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "4 standards, three bands",
+     "line": "12 items per standard — 4 Approaching, 5 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 1 Practice",
+   "inside": [
+    "48 original items",
+    "9 original passages",
+    "4 standards",
+    "Answer key with worked reasoning",
+    "38 pages"
+   ],
+   "end": "Practice for the fall window, with every answer explained.",
+   "video": "/media/videos/ela-g8-cp1.mp4",
+   "poster": "/media/videos/ela-g8-cp1.jpg",
+   "cover": "/media/covers/ela-g8-cp1.jpg"
+  },
+  "g8-cp1-screener": {
+   "key": "g8-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 8th Grade ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-8th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Reading-Diagnostic-17717666",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, four questions",
+     "line": "An original literary passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: three on the passage, one that needs no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 1 Screener",
+   "inside": [
+    "4 questions",
+    "One question on each of 4 standards",
+    "A 28-row class tracker",
+    "7 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g8-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g8-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g8-cp1-screener.jpg"
+  },
+  "g3-5-cp1-screener": {
+   "key": "g3-5-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE Grades 3-5 ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Grades-3-5-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Diagnostic-17722096",
+   "grades": [
+    3,
+    4,
+    5
+   ],
+   "band": true,
+   "gradeLabel": "Grades 3-5",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "One download for the whole building. A section for each grade, one original passage each, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "Each Grade Gets Its Own Section",
+     "title": "Print only your grade's pages",
+     "line": "Every section has its own passage and numbers them from 1, so a teacher can hand out just the pages for their class. About twenty minutes each."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A tracker for every grade",
+     "line": "Each grade's tracker is on its own page, with the standard printed under every question number, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grades 3-5 Checkpoint 1 Screener",
+   "inside": [
+    "A section for each of grades 3, 4 and 5",
+    "Grade 3: 8, Grade 4: 4, Grade 5: 5 questions",
+    "A class tracker for each grade",
+    "15 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g3-5-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g3-5-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g3-5-cp1-screener.jpg"
+  },
+  "g6-8-cp1-screener": {
+   "key": "g6-8-cp1-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE Grades 6-8 ILEARN ELA Checkpoint 1 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Grades-6-8-Indiana-ILEARN-ELA-Checkpoint-1-Screener-Diagnostic-17717684",
+   "grades": [
+    6,
+    7,
+    8
+   ],
+   "band": true,
+   "gradeLabel": "Grades 6-8",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#B85C42",
+   "title": "Checkpoint 1 Screener",
+   "subhead": "One download for the whole department. A section for each grade, one original passage each, one question on every standard Indiana assesses in the fall.",
+   "chips": [
+    "FREE",
+    "FALL WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "Each Grade Gets Its Own Section",
+     "title": "Print only your grade's pages",
+     "line": "Every section has its own passage and numbers them from 1, so a teacher can hand out just the pages for their class. About twenty minutes each."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A tracker for every grade",
+     "line": "Each grade's tracker is on its own page, with the standard printed under every question number, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grades 6-8 Checkpoint 1 Screener",
+   "inside": [
+    "A section for each of grades 6, 7 and 8",
+    "Grade 6: 5, Grade 7: 5, Grade 8: 4 questions",
+    "A class tracker for each grade",
+    "17 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g6-8-cp1-screener.mp4",
+   "poster": "/media/videos/ela-g6-8-cp1-screener.jpg",
+   "cover": "/media/covers/ela-g6-8-cp1-screener.jpg"
+  },
+  "g3-cp2": {
+   "key": "g3-cp2",
+   "kind": "Practice",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Checkpoint 2 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Practice-Reading-Test-Prep-SY26-27-17724363",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Practice",
+   "subhead": "Original informational text and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 3",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "5 original texts",
+     "line": "2,164 words of new informational text — biography, how-it-is-made article, problem-solution article and science article. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "24 items quote the sentence that settles them and name the paragraphs it comes from. 144 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "8 standards, three bands",
+     "line": "6 items per standard — 2 Approaching, 2 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 2 Practice",
+   "inside": [
+    "48 original items",
+    "5 original passages",
+    "8 standards",
+    "Answer key with worked reasoning",
+    "27 pages"
+   ],
+   "end": "Practice for the winter window, with every answer explained.",
+   "video": "/media/videos/ela-g3-cp2.mp4",
+   "poster": "/media/videos/ela-g3-cp2.jpg",
+   "cover": "/media/covers/ela-g3-cp2.jpg"
+  },
+  "g3-cp2-screener": {
+   "key": "g3-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 3rd Grade ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Reading-Diagnostic-17724372",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, eight questions",
+     "line": "An original passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: four on the passage, four that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 2 Screener",
+   "inside": [
+    "8 questions",
+    "One question on each of 8 standards",
+    "A 28-row class tracker",
+    "8 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g3-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g3-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g3-cp2-screener.jpg"
+  },
+  "g4-cp2": {
+   "key": "g4-cp2",
+   "kind": "Practice",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Checkpoint 2 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Practice-Reading-Test-Prep-SY26-27-17724388",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Practice",
+   "subhead": "Original informational text and media sources and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 4",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "9 original texts",
+     "line": "2,720 words of new informational text and media sources — Advertisement, News Brief, Poster, community article, how-to article, local history article, opinion article, opinion articles and school news article. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "48 items quote the sentence that settles them and name the paragraphs it comes from. 144 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "6 standards, three bands",
+     "line": "8 items per standard — 2 Approaching, 4 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 2 Practice",
+   "inside": [
+    "48 original items",
+    "9 original passages",
+    "6 standards",
+    "Answer key with worked reasoning",
+    "31 pages"
+   ],
+   "end": "Practice for the winter window, with every answer explained.",
+   "video": "/media/videos/ela-g4-cp2.mp4",
+   "poster": "/media/videos/ela-g4-cp2.jpg",
+   "cover": "/media/covers/ela-g4-cp2.jpg"
+  },
+  "g4-cp2-screener": {
+   "key": "g4-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 4th Grade ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-4th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Reading-Diagnostic-17724390",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "Find out who is ready before the window opens. Two original passages and a media source, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "Six questions, one a standard",
+     "line": "Two original passages and a media source with numbered paragraphs, then one question on each standard, at or below the proficiency threshold. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 2 Screener",
+   "inside": [
+    "6 questions",
+    "One question on each of 6 standards",
+    "A 28-row class tracker",
+    "9 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g4-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g4-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g4-cp2-screener.jpg"
+  },
+  "g5-cp2": {
+   "key": "g5-cp2",
+   "kind": "Practice",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Checkpoint 2 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Practice-Reading-Test-Prep-SY26-27-17724402",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Practice",
+   "subhead": "Original informational text and media sources and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 5",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "10 original texts",
+     "line": "3,416 words of new informational text and media sources — argument (debate), argument (proposal), history article, media and science article. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "48 items quote the sentence that settles them and name the paragraphs it comes from. 144 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "6 standards, three bands",
+     "line": "8 items per standard — 2 Approaching, 4 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 2 Practice",
+   "inside": [
+    "48 original items",
+    "10 original passages",
+    "6 standards",
+    "Answer key with worked reasoning",
+    "33 pages"
+   ],
+   "end": "Practice for the winter window, with every answer explained.",
+   "video": "/media/videos/ela-g5-cp2.mp4",
+   "poster": "/media/videos/ela-g5-cp2.jpg",
+   "cover": "/media/covers/ela-g5-cp2.jpg"
+  },
+  "g5-cp2-screener": {
+   "key": "g5-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 5th Grade ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-5th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Reading-Diagnostic-17724404",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "Find out who is ready before the window opens. Two original passages and a media source, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "Six questions, one a standard",
+     "line": "Two original passages and a media source with numbered paragraphs, then one question on each standard, at or below the proficiency threshold. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 2 Screener",
+   "inside": [
+    "6 questions",
+    "One question on each of 6 standards",
+    "A 28-row class tracker",
+    "10 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g5-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g5-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g5-cp2-screener.jpg"
+  },
+  "g6-cp2": {
+   "key": "g6-cp2",
+   "kind": "Practice",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Checkpoint 2 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Practice-Reading-Test-Prep-SY26-27-17735707",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Practice",
+   "subhead": "Original informational text and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 6",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "8 original texts",
+     "line": "4,308 words of new informational text — history article, news feature, opinion article, persuasive letter and proposal. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "48 items quote the sentence that settles them and name the paragraphs it comes from. 144 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "6 standards, three bands",
+     "line": "8 items per standard — 2 Approaching, 4 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 2 Practice",
+   "inside": [
+    "48 original items",
+    "8 original passages",
+    "6 standards",
+    "Answer key with worked reasoning",
+    "31 pages"
+   ],
+   "end": "Practice for the winter window, with every answer explained.",
+   "video": "/media/videos/ela-g6-cp2.mp4",
+   "poster": "/media/videos/ela-g6-cp2.jpg",
+   "cover": "/media/covers/ela-g6-cp2.jpg"
+  },
+  "g6-cp2-screener": {
+   "key": "g6-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 6th Grade ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-6th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Reading-Diagnostic-17735709",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "Find out who is ready before the window opens. Two original passages, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "Six questions, one a standard",
+     "line": "Two original passages with numbered paragraphs, then one question on each standard, at or below the proficiency threshold. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 2 Screener",
+   "inside": [
+    "6 questions",
+    "One question on each of 6 standards",
+    "A 28-row class tracker",
+    "9 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g6-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g6-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g6-cp2-screener.jpg"
+  },
+  "g7-cp2": {
+   "key": "g7-cp2",
+   "kind": "Practice",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Checkpoint 2 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Practice-Reading-Test-Prep-SY26-27-17735729",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Practice",
+   "subhead": "Original informational text and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 7",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "7 original texts",
+     "line": "3,890 words of new informational text — historical essay, history article, opinion column, opinion essay and science article. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "42 items quote the sentence that settles them and name the paragraphs it comes from. 148 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "7 standards, three bands",
+     "line": "7 items per standard — 2 Approaching, 3 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 2 Practice",
+   "inside": [
+    "49 original items",
+    "7 original passages",
+    "7 standards",
+    "Answer key with worked reasoning",
+    "30 pages"
+   ],
+   "end": "Practice for the winter window, with every answer explained.",
+   "video": "/media/videos/ela-g7-cp2.mp4",
+   "poster": "/media/videos/ela-g7-cp2.jpg",
+   "cover": "/media/covers/ela-g7-cp2.jpg"
+  },
+  "g7-cp2-screener": {
+   "key": "g7-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 7th Grade ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-7th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Reading-Diagnostic-17735732",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "Find out who is ready before the window opens. Two original passages, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "Seven questions, one a standard",
+     "line": "Two original passages with numbered paragraphs, and one question on each standard at or below the proficiency threshold: six on the texts, one that needs no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 2 Screener",
+   "inside": [
+    "7 questions",
+    "One question on each of 7 standards",
+    "A 28-row class tracker",
+    "10 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g7-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g7-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g7-cp2-screener.jpg"
+  },
+  "g8-cp2": {
+   "key": "g8-cp2",
+   "kind": "Practice",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Checkpoint 2 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Practice-Reading-Test-Prep-SY26-27-17735763",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Practice",
+   "subhead": "Original informational text and items, written to Indiana's published standards, blueprint and stimulus specifications.",
+   "chips": [
+    "GRADE 8",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "8 original texts",
+     "line": "4,268 words of new informational text — explainer, history article, letter to a city council, local history article, news feature, opinion column and opinion essay. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "48 items quote the sentence that settles them and name the paragraphs it comes from. 144 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "6 standards, three bands",
+     "line": "8 items per standard — 2 Approaching, 4 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 2 Practice",
+   "inside": [
+    "48 original items",
+    "8 original passages",
+    "6 standards",
+    "Answer key with worked reasoning",
+    "31 pages"
+   ],
+   "end": "Practice for the winter window, with every answer explained.",
+   "video": "/media/videos/ela-g8-cp2.mp4",
+   "poster": "/media/videos/ela-g8-cp2.jpg",
+   "cover": "/media/covers/ela-g8-cp2.jpg"
+  },
+  "g8-cp2-screener": {
+   "key": "g8-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 8th Grade ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-8th-Grade-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Reading-Diagnostic-17735754",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "Find out who is ready before the window opens. Two original passages, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "Six questions, one a standard",
+     "line": "Two original passages with numbered paragraphs, then one question on each standard, at or below the proficiency threshold. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 2 Screener",
+   "inside": [
+    "6 questions",
+    "One question on each of 6 standards",
+    "A 28-row class tracker",
+    "8 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g8-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g8-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g8-cp2-screener.jpg"
+  },
+  "g3-5-cp2-screener": {
+   "key": "g3-5-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE Grades 3-5 ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Grades-3-5-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Diagnostic-17724406",
+   "grades": [
+    3,
+    4,
+    5
+   ],
+   "band": true,
+   "gradeLabel": "Grades 3-5",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "One download for the whole building. A section for each grade, original passages each, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "Each Grade Gets Its Own Section",
+     "title": "Print only your grade's pages",
+     "line": "Every section has its own texts and numbers them from 1, so a teacher can hand out just the pages for their class. About twenty minutes each."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A tracker for every grade",
+     "line": "Each grade's tracker is on its own page, with the standard printed under every question number, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grades 3-5 Checkpoint 2 Screener",
+   "inside": [
+    "A section for each of grades 3, 4 and 5",
+    "Grade 3: 8, Grade 4: 6, Grade 5: 6 questions",
+    "A class tracker for each grade",
+    "22 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g3-5-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g3-5-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g3-5-cp2-screener.jpg"
+  },
+  "g6-8-cp2-screener": {
+   "key": "g6-8-cp2-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE Grades 6-8 ILEARN ELA Checkpoint 2 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Grades-6-8-Indiana-ILEARN-ELA-Checkpoint-2-Screener-Diagnostic-17735781",
+   "grades": [
+    6,
+    7,
+    8
+   ],
+   "band": true,
+   "gradeLabel": "Grades 6-8",
+   "cp": 2,
+   "cpName": "Checkpoint 2",
+   "window": "Winter",
+   "color": "#58715C",
+   "title": "Checkpoint 2 Screener",
+   "subhead": "One download for the whole department. A section for each grade, original passages each, one question on every standard Indiana assesses in the winter.",
+   "chips": [
+    "FREE",
+    "WINTER WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "Each Grade Gets Its Own Section",
+     "title": "Print only your grade's pages",
+     "line": "Every section has its own texts and numbers them from 1, so a teacher can hand out just the pages for their class. About twenty minutes each."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A tracker for every grade",
+     "line": "Each grade's tracker is on its own page, with the standard printed under every question number, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grades 6-8 Checkpoint 2 Screener",
+   "inside": [
+    "A section for each of grades 6, 7 and 8",
+    "Grade 6: 6, Grade 7: 7, Grade 8: 6 questions",
+    "A class tracker for each grade",
+    "21 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g6-8-cp2-screener.mp4",
+   "poster": "/media/videos/ela-g6-8-cp2-screener.jpg",
+   "cover": "/media/covers/ela-g6-8-cp2-screener.jpg"
+  },
+  "g3-cp3": {
+   "key": "g3-cp3",
+   "kind": "Practice",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Checkpoint 3 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Practice-Grammar-Test-Prep-SY26-27-17741359",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Practice",
+   "subhead": "Foundations, grammar and conventions: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 3",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Do",
+     "title": "Every question stands alone",
+     "line": "Each one carries its own sentence, chart or short text, so a set of them works as bell ringers or a ten-minute check on one skill."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, explained",
+     "line": "Every answer names the rule or clue that settles it. 140 wrong answers are explained too — the mistake behind each one."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "8 standards, three bands",
+     "line": "6 items per standard — 2 Approaching, 2 At, 2 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 3 Practice",
+   "inside": [
+    "48 original items",
+    "Standalone questions, no passage needed",
+    "8 standards",
+    "Answer key with worked reasoning",
+    "22 pages"
+   ],
+   "end": "Practice for the spring window, with every answer explained.",
+   "video": "/media/videos/ela-g3-cp3.mp4",
+   "poster": "/media/videos/ela-g3-cp3.jpg",
+   "cover": "/media/covers/ela-g3-cp3.jpg"
+  },
+  "g3-cp3-screener": {
+   "key": "g3-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 3rd Grade ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Grammar-Diagnostic-17742458",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "Find out who is ready before the window opens. No passage needed, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "Eight questions, one a standard",
+     "line": "Eight questions, one on each standard, each with its own sentence or short text, at or below the proficiency threshold. About fifteen minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 3 Screener",
+   "inside": [
+    "8 questions",
+    "One question on each of 8 standards",
+    "A 28-row class tracker",
+    "6 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g3-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g3-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g3-cp3-screener.jpg"
+  },
+  "g4-cp3": {
+   "key": "g4-cp3",
+   "kind": "Practice",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Checkpoint 3 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Practice-Grammar-Test-Prep-SY26-27-17741368",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Practice",
+   "subhead": "Figurative language, word study and grammar: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 4",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "4 original texts",
+     "line": "1,825 words of new literary text — poem, realistic fiction and tall tale. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "12 items quote the sentence that settles them and name the paragraphs it comes from. 140 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "4 standards, three bands",
+     "line": "12 items per standard — 4 Approaching, 5 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 3 Practice",
+   "inside": [
+    "48 original items",
+    "4 texts",
+    "4 standards",
+    "Answer key with worked reasoning",
+    "29 pages"
+   ],
+   "end": "Practice for the spring window, with every answer explained.",
+   "video": "/media/videos/ela-g4-cp3.mp4",
+   "poster": "/media/videos/ela-g4-cp3.jpg",
+   "cover": "/media/covers/ela-g4-cp3.jpg"
+  },
+  "g4-cp3-screener": {
+   "key": "g4-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 4th Grade ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-4th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Grammar-Diagnostic-17742460",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, four questions",
+     "line": "An original passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: one on the passage, three that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 3 Screener",
+   "inside": [
+    "4 questions",
+    "One question on each of 4 standards",
+    "A 28-row class tracker",
+    "7 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g4-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g4-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g4-cp3-screener.jpg"
+  },
+  "g5-cp3": {
+   "key": "g5-cp3",
+   "kind": "Practice",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Checkpoint 3 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Practice-Grammar-Test-Prep-SY26-27-17741372",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Practice",
+   "subhead": "Figurative language, word study and grammar: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 5",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "3 original texts",
+     "line": "1,440 words of new literary text — humorous fiction, poem and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "10 items quote the sentence that settles them and name the paragraphs it comes from. 147 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "5 standards, three bands",
+     "line": "10 items per standard — 3 Approaching, 4 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 3 Practice",
+   "inside": [
+    "50 original items",
+    "3 texts",
+    "5 standards",
+    "Answer key with worked reasoning",
+    "27 pages"
+   ],
+   "end": "Practice for the spring window, with every answer explained.",
+   "video": "/media/videos/ela-g5-cp3.mp4",
+   "poster": "/media/videos/ela-g5-cp3.jpg",
+   "cover": "/media/covers/ela-g5-cp3.jpg"
+  },
+  "g5-cp3-screener": {
+   "key": "g5-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 5th Grade ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-5th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Grammar-Diagnostic-17742467",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "Find out who is ready before the window opens. One original passage, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, five questions",
+     "line": "An original passage with numbered paragraphs, and one question on each standard at or below the proficiency threshold: one on the passage, four that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 3 Screener",
+   "inside": [
+    "5 questions",
+    "One question on each of 5 standards",
+    "A 28-row class tracker",
+    "8 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g5-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g5-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g5-cp3-screener.jpg"
+  },
+  "g6-cp3": {
+   "key": "g6-cp3",
+   "kind": "Practice",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Checkpoint 3 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Practice-Grammar-Test-Prep-SY26-27-17741380",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Practice",
+   "subhead": "Grammar, conventions and media literacy: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 6",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "6 original texts",
+     "line": "1,019 words of new media sources — Announcement Transcript, Infographic and media. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "24 items quote the sentence that settles them and name the paragraphs it comes from. 141 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "4 standards, three bands",
+     "line": "12 items per standard — 4 Approaching, 5 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 3 Practice",
+   "inside": [
+    "48 original items",
+    "6 texts",
+    "4 standards",
+    "Answer key with worked reasoning",
+    "29 pages"
+   ],
+   "end": "Practice for the spring window, with every answer explained.",
+   "video": "/media/videos/ela-g6-cp3.mp4",
+   "poster": "/media/videos/ela-g6-cp3.jpg",
+   "cover": "/media/covers/ela-g6-cp3.jpg"
+  },
+  "g6-cp3-screener": {
+   "key": "g6-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 6th Grade ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-6th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Grammar-Diagnostic-17742468",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "Find out who is ready before the window opens. A media source, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, four questions",
+     "line": "A media source with numbered paragraphs, and one question on each standard at or below the proficiency threshold: two on the texts, two that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 3 Screener",
+   "inside": [
+    "4 questions",
+    "One question on each of 4 standards",
+    "A 28-row class tracker",
+    "7 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g6-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g6-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g6-cp3-screener.jpg"
+  },
+  "g7-cp3": {
+   "key": "g7-cp3",
+   "kind": "Practice",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Checkpoint 3 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Practice-Grammar-Test-Prep-SY26-27-17741387",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Practice",
+   "subhead": "Grammar, conventions and media literacy: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 7",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "6 original texts",
+     "line": "882 words of new media sources — media. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "24 items quote the sentence that settles them and name the paragraphs it comes from. 141 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "4 standards, three bands",
+     "line": "12 items per standard — 4 Approaching, 5 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 3 Practice",
+   "inside": [
+    "48 original items",
+    "6 texts",
+    "4 standards",
+    "Answer key with worked reasoning",
+    "26 pages"
+   ],
+   "end": "Practice for the spring window, with every answer explained.",
+   "video": "/media/videos/ela-g7-cp3.mp4",
+   "poster": "/media/videos/ela-g7-cp3.jpg",
+   "cover": "/media/covers/ela-g7-cp3.jpg"
+  },
+  "g7-cp3-screener": {
+   "key": "g7-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 7th Grade ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-7th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Grammar-Diagnostic-17742471",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "Find out who is ready before the window opens. A media source, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, four questions",
+     "line": "A media source with numbered paragraphs, and one question on each standard at or below the proficiency threshold: two on the texts, two that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 3 Screener",
+   "inside": [
+    "4 questions",
+    "One question on each of 4 standards",
+    "A 28-row class tracker",
+    "6 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g7-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g7-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g7-cp3-screener.jpg"
+  },
+  "g8-cp3": {
+   "key": "g8-cp3",
+   "kind": "Practice",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Checkpoint 3 Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Practice-Grammar-Test-Prep-SY26-27-17741395",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Practice",
+   "subhead": "Grammar, conventions and media literacy: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 8",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "7 original texts",
+     "line": "1,044 words of new media sources — Poster, Radio Transcript, Video Script and media. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "24 items quote the sentence that settles them and name the paragraphs it comes from. 142 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "4 standards, three bands",
+     "line": "12 items per standard — 4 Approaching, 5 At, 3 Above — so one set covers the range in a real classroom."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 3 Practice",
+   "inside": [
+    "48 original items",
+    "7 texts",
+    "4 standards",
+    "Answer key with worked reasoning",
+    "30 pages"
+   ],
+   "end": "Practice for the spring window, with every answer explained.",
+   "video": "/media/videos/ela-g8-cp3.mp4",
+   "poster": "/media/videos/ela-g8-cp3.jpg",
+   "cover": "/media/covers/ela-g8-cp3.jpg"
+  },
+  "g8-cp3-screener": {
+   "key": "g8-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE 8th Grade ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-8th-Grade-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Grammar-Diagnostic-17742473",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "Find out who is ready before the window opens. A media source, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Class Does",
+     "title": "One passage, four questions",
+     "line": "A media source with numbered paragraphs, and one question on each standard at or below the proficiency threshold: two on the texts, two that need no passage. About twenty minutes."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A plan, not a score",
+     "line": "The standard is printed under every question number on the 28-row class tracker, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 3 Screener",
+   "inside": [
+    "4 questions",
+    "One question on each of 4 standards",
+    "A 28-row class tracker",
+    "6 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g8-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g8-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g8-cp3-screener.jpg"
+  },
+  "g3-5-cp3-screener": {
+   "key": "g3-5-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE Grades 3-5 ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Grades-3-5-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Diagnostic-17742475",
+   "grades": [
+    3,
+    4,
+    5
+   ],
+   "band": true,
+   "gradeLabel": "Grades 3-5",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "One download for the whole building. A section for each grade, its own questions each, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "Each Grade Gets Its Own Section",
+     "title": "Print only your grade's pages",
+     "line": "Every section has its own questions and numbers them from 1, so a teacher can hand out just the pages for their class. About twenty minutes each."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A tracker for every grade",
+     "line": "Each grade's tracker is on its own page, with the standard printed under every question number, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grades 3-5 Checkpoint 3 Screener",
+   "inside": [
+    "A section for each of grades 3, 4 and 5",
+    "Grade 3: 8, Grade 4: 4, Grade 5: 5 questions",
+    "A class tracker for each grade",
+    "17 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g3-5-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g3-5-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g3-5-cp3-screener.jpg"
+  },
+  "g6-8-cp3-screener": {
+   "key": "g6-8-cp3-screener",
+   "kind": "Free screener",
+   "free": true,
+   "name": "FREE Grades 6-8 ILEARN ELA Checkpoint 3 Screener",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/FREE-Grades-6-8-Indiana-ILEARN-ELA-Checkpoint-3-Screener-Diagnostic-17742476",
+   "grades": [
+    6,
+    7,
+    8
+   ],
+   "band": true,
+   "gradeLabel": "Grades 6-8",
+   "cp": 3,
+   "cpName": "Checkpoint 3",
+   "window": "Spring",
+   "color": "#B8852E",
+   "title": "Checkpoint 3 Screener",
+   "subhead": "One download for the whole department. A section for each grade, its own questions each, one question on every standard Indiana assesses in the spring.",
+   "chips": [
+    "FREE",
+    "SPRING WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "Each Grade Gets Its Own Section",
+     "title": "Print only your grade's pages",
+     "line": "Every section has its own questions and numbers them from 1, so a teacher can hand out just the pages for their class. About twenty minutes each."
+    },
+    {
+     "kicker": "What You Get Back",
+     "title": "A tracker for every grade",
+     "line": "Each grade's tracker is on its own page, with the standard printed under every question number, so a miss tells you what to reteach and to whom."
+    }
+   ],
+   "heading": "Grades 6-8 Checkpoint 3 Screener",
+   "inside": [
+    "A section for each of grades 6, 7 and 8",
+    "Grade 6: 4, Grade 7: 4, Grade 8: 4 questions",
+    "A class tracker for each grade",
+    "14 pages"
+   ],
+   "end": "Free. Find out who is ready before the window opens.",
+   "video": "/media/videos/ela-g6-8-cp3-screener.mp4",
+   "poster": "/media/videos/ela-g6-8-cp3-screener.jpg",
+   "cover": "/media/covers/ela-g6-8-cp3-screener.jpg"
+  },
+  "g3-cp4": {
+   "key": "g3-cp4",
+   "kind": "Summative",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Summative Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Summative-Practice-Test-Test-Prep-SY26-27-17741623",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 4,
+   "cpName": "Summative",
+   "window": "April-May",
+   "color": "#7A5C8F",
+   "title": "Summative Practice",
+   "subhead": "The whole year, and the Performance Task: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 3",
+    "APRIL-MAY WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "5 original texts",
+     "line": "2,789 words of new literary and informational text, media and Performance Task sources — fable, paired articles, performance task source set and tall tale. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "35 items quote the sentence that settles them and name the paragraphs it comes from. 163 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "21 standards, three bands",
+     "line": "Four items on every Essential standard and two on the rest, the way Indiana's blueprint weights them."
+    }
+   ],
+   "heading": "Grade 3 Summative Practice",
+   "inside": [
+    "58 original items",
+    "5 texts",
+    "21 standards",
+    "A Performance Task",
+    "Answer key with worked reasoning",
+    "35 pages"
+   ],
+   "end": "Practice for the April-May window, with every answer explained.",
+   "video": "/media/videos/ela-g3-cp4.mp4",
+   "poster": "/media/videos/ela-g3-cp4.jpg",
+   "cover": "/media/covers/ela-g3-cp4.jpg"
+  },
+  "g4-cp4": {
+   "key": "g4-cp4",
+   "kind": "Summative",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Summative Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Summative-Practice-Test-Test-Prep-SY26-27-17741629",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 4,
+   "cpName": "Summative",
+   "window": "April-May",
+   "color": "#7A5C8F",
+   "title": "Summative Practice",
+   "subhead": "The whole year, and the Performance Task: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 4",
+    "APRIL-MAY WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "9 original texts",
+     "line": "3,710 words of new literary and informational text, media and Performance Task sources — Advertisement, Library Report, Speech Transcript, Talk Transcript, article and opinion letter, class report and article, performance task source set and realistic fiction. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "48 items quote the sentence that settles them and name the paragraphs it comes from. 163 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "20 standards, three bands",
+     "line": "Four items on every Essential standard and two on the rest, the way Indiana's blueprint weights them."
+    }
+   ],
+   "heading": "Grade 4 Summative Practice",
+   "inside": [
+    "58 original items",
+    "9 texts",
+    "20 standards",
+    "A Performance Task",
+    "Answer key with worked reasoning",
+    "42 pages"
+   ],
+   "end": "Practice for the April-May window, with every answer explained.",
+   "video": "/media/videos/ela-g4-cp4.mp4",
+   "poster": "/media/videos/ela-g4-cp4.jpg",
+   "cover": "/media/covers/ela-g4-cp4.jpg"
+  },
+  "g5-cp4": {
+   "key": "g5-cp4",
+   "kind": "Summative",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Summative Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Summative-Practice-Test-Test-Prep-SY26-27-17741626",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 4,
+   "cpName": "Summative",
+   "window": "April-May",
+   "color": "#7A5C8F",
+   "title": "Summative Practice",
+   "subhead": "The whole year, and the Performance Task: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 5",
+    "APRIL-MAY WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "10 original texts",
+     "line": "5,286 words of new literary and informational text, media and Performance Task sources — history and science articles, media, opinion pieces, performance task source set, play, realistic fiction and science article. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "44 items quote the sentence that settles them and name the paragraphs it comes from. 161 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "20 standards, three bands",
+     "line": "Four items on every Essential standard and two on the rest, the way Indiana's blueprint weights them."
+    }
+   ],
+   "heading": "Grade 5 Summative Practice",
+   "inside": [
+    "56 original items",
+    "10 texts",
+    "20 standards",
+    "A Performance Task",
+    "Answer key with worked reasoning",
+    "49 pages"
+   ],
+   "end": "Practice for the April-May window, with every answer explained.",
+   "video": "/media/videos/ela-g5-cp4.mp4",
+   "poster": "/media/videos/ela-g5-cp4.jpg",
+   "cover": "/media/covers/ela-g5-cp4.jpg"
+  },
+  "g6-cp4": {
+   "key": "g6-cp4",
+   "kind": "Summative",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Summative Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Summative-Practice-Test-Test-Prep-SY26-27-17741628",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 4,
+   "cpName": "Summative",
+   "window": "April-May",
+   "color": "#7A5C8F",
+   "title": "Summative Practice",
+   "subhead": "The whole year, and the Performance Task: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 6",
+    "APRIL-MAY WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "7 original texts",
+     "line": "4,568 words of new literary and informational text, media and Performance Task sources — media, newspaper column, opinion article, paired: historical fiction and fantasy, paired: story and poem and performance task source set. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "40 items quote the sentence that settles them and name the paragraphs it comes from. 143 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "20 standards, three bands",
+     "line": "Four items on every Essential standard and two on the rest, the way Indiana's blueprint weights them."
+    }
+   ],
+   "heading": "Grade 6 Summative Practice",
+   "inside": [
+    "54 original items",
+    "7 texts",
+    "20 standards",
+    "A Performance Task",
+    "Answer key with worked reasoning",
+    "40 pages"
+   ],
+   "end": "Practice for the April-May window, with every answer explained.",
+   "video": "/media/videos/ela-g6-cp4.mp4",
+   "poster": "/media/videos/ela-g6-cp4.jpg",
+   "cover": "/media/covers/ela-g6-cp4.jpg"
+  },
+  "g7-cp4": {
+   "key": "g7-cp4",
+   "kind": "Summative",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Summative Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Summative-Practice-Test-Test-Prep-SY26-27-17741658",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 4,
+   "cpName": "Summative",
+   "window": "April-May",
+   "color": "#7A5C8F",
+   "title": "Summative Practice",
+   "subhead": "The whole year, and the Performance Task: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 7",
+    "APRIL-MAY WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "11 original texts",
+     "line": "6,535 words of new literary and informational text, media and Performance Task sources — historical fiction and history, media, opinion column, paired articles, paired history accounts, performance task source set, realistic fiction and realistic fiction and history. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "42 items quote the sentence that settles them and name the paragraphs it comes from. 150 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "20 standards, three bands",
+     "line": "Four items on every Essential standard and two on the rest, the way Indiana's blueprint weights them."
+    }
+   ],
+   "heading": "Grade 7 Summative Practice",
+   "inside": [
+    "56 original items",
+    "11 texts",
+    "20 standards",
+    "A Performance Task",
+    "Answer key with worked reasoning",
+    "45 pages"
+   ],
+   "end": "Practice for the April-May window, with every answer explained.",
+   "video": "/media/videos/ela-g7-cp4.mp4",
+   "poster": "/media/videos/ela-g7-cp4.jpg",
+   "cover": "/media/covers/ela-g7-cp4.jpg"
+  },
+  "g8-cp4": {
+   "key": "g8-cp4",
+   "kind": "Summative",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Summative Practice",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Summative-Practice-Test-Test-Prep-SY26-27-17741627",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 4,
+   "cpName": "Summative",
+   "window": "April-May",
+   "color": "#7A5C8F",
+   "title": "Summative Practice",
+   "subhead": "The whole year, and the Performance Task: original items written to Indiana's published standards and blueprint.",
+   "chips": [
+    "GRADE 8",
+    "APRIL-MAY WINDOW",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "What Your Students Read",
+     "title": "7 original texts",
+     "line": "5,008 words of new literary and informational text, media and Performance Task sources — media, paired: museum article and essay, paired: news article and letter, paired: story and epistolary story, paired: story and frame story and performance task source set. Numbered paragraphs, so every question can name where the answer lives."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "Every answer, evidenced",
+     "line": "38 items quote the sentence that settles them and name the paragraphs it comes from. 136 wrong answers are explained too — what a student probably misread, and where."
+    },
+    {
+     "kicker": "What It Measures",
+     "title": "18 standards, three bands",
+     "line": "Four items on every Essential standard and two on the rest, the way Indiana's blueprint weights them."
+    }
+   ],
+   "heading": "Grade 8 Summative Practice",
+   "inside": [
+    "48 original items",
+    "7 texts",
+    "18 standards",
+    "A Performance Task",
+    "Answer key with worked reasoning",
+    "39 pages"
+   ],
+   "end": "Practice for the April-May window, with every answer explained.",
+   "video": "/media/videos/ela-g8-cp4.mp4",
+   "poster": "/media/videos/ela-g8-cp4.jpg",
+   "cover": "/media/covers/ela-g8-cp4.jpg"
+  },
+  "g3-bundle": {
+   "key": "g3-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Full-Year Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Full-Year-Bundle-Checkpoints-Summative-26-27-17742158",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Full-Year Bundle",
+   "subhead": "Checkpoints 1, 2 and 3 and the Summative: one practice set for every testing window, September to May.",
+   "chips": [
+    "GRADE 3",
+    "4 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "One Set For Every Window",
+     "title": "Open the right set each season",
+     "line": "Checkpoints 1, 2 and 3 for fall, winter and spring, then the Summative for April-May."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "589 wrong answers, explained",
+     "line": "All four sets in this bundle carry the worked key. 83 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "202 items, 113 pages",
+   "inside": [
+    "Checkpoint 1 Practice: 48 items, 29 pages",
+    "Checkpoint 2 Practice: 48 items, 27 pages",
+    "Checkpoint 3 Practice: 48 items, 22 pages",
+    "Summative Practice: 58 items, 35 pages"
+   ],
+   "end": "One set for every testing window, September to May.",
+   "video": "/media/videos/ela-g3-bundle.mp4",
+   "poster": "/media/videos/ela-g3-bundle.jpg",
+   "cover": "/media/covers/ela-g3-bundle.jpg"
+  },
+  "g4-bundle": {
+   "key": "g4-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Full-Year Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Full-Year-Bundle-Checkpoints-Summative-26-27-17742161",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Full-Year Bundle",
+   "subhead": "Checkpoints 1, 2 and 3 and the Summative: one practice set for every testing window, September to May.",
+   "chips": [
+    "GRADE 4",
+    "4 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "One Set For Every Window",
+     "title": "Open the right set each season",
+     "line": "Checkpoints 1, 2 and 3 for fall, winter and spring, then the Summative for April-May."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "589 wrong answers, explained",
+     "line": "All four sets in this bundle carry the worked key. 156 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "202 items, 133 pages",
+   "inside": [
+    "Checkpoint 1 Practice: 48 items, 31 pages",
+    "Checkpoint 2 Practice: 48 items, 31 pages",
+    "Checkpoint 3 Practice: 48 items, 29 pages",
+    "Summative Practice: 58 items, 42 pages"
+   ],
+   "end": "One set for every testing window, September to May.",
+   "video": "/media/videos/ela-g4-bundle.mp4",
+   "poster": "/media/videos/ela-g4-bundle.jpg",
+   "cover": "/media/covers/ela-g4-bundle.jpg"
+  },
+  "g5-bundle": {
+   "key": "g5-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Full-Year Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Full-Year-Bundle-Checkpoints-Summative-26-27-17742186",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Full-Year Bundle",
+   "subhead": "Checkpoints 1, 2 and 3 and the Summative: one practice set for every testing window, September to May.",
+   "chips": [
+    "GRADE 5",
+    "4 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "One Set For Every Window",
+     "title": "Open the right set each season",
+     "line": "Checkpoints 1, 2 and 3 for fall, winter and spring, then the Summative for April-May."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "600 wrong answers, explained",
+     "line": "All four sets in this bundle carry the worked key. 152 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "204 items, 144 pages",
+   "inside": [
+    "Checkpoint 1 Practice: 50 items, 35 pages",
+    "Checkpoint 2 Practice: 48 items, 33 pages",
+    "Checkpoint 3 Practice: 50 items, 27 pages",
+    "Summative Practice: 56 items, 49 pages"
+   ],
+   "end": "One set for every testing window, September to May.",
+   "video": "/media/videos/ela-g5-bundle.mp4",
+   "poster": "/media/videos/ela-g5-bundle.jpg",
+   "cover": "/media/covers/ela-g5-bundle.jpg"
+  },
+  "g6-bundle": {
+   "key": "g6-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Full-Year Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Full-Year-Bundle-Checkpoints-Summative-26-27-17742189",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Full-Year Bundle",
+   "subhead": "Checkpoints 1, 2 and 3 and the Summative: one practice set for every testing window, September to May.",
+   "chips": [
+    "GRADE 6",
+    "4 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "One Set For Every Window",
+     "title": "Open the right set each season",
+     "line": "Checkpoints 1, 2 and 3 for fall, winter and spring, then the Summative for April-May."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "546 wrong answers, explained",
+     "line": "All four sets in this bundle carry the worked key. 152 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "200 items, 136 pages",
+   "inside": [
+    "Checkpoint 1 Practice: 50 items, 36 pages",
+    "Checkpoint 2 Practice: 48 items, 31 pages",
+    "Checkpoint 3 Practice: 48 items, 29 pages",
+    "Summative Practice: 54 items, 40 pages"
+   ],
+   "end": "One set for every testing window, September to May.",
+   "video": "/media/videos/ela-g6-bundle.mp4",
+   "poster": "/media/videos/ela-g6-bundle.jpg",
+   "cover": "/media/covers/ela-g6-bundle.jpg"
+  },
+  "g7-bundle": {
+   "key": "g7-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Full-Year Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Full-Year-Bundle-Checkpoints-Summative-26-27-17742197",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Full-Year Bundle",
+   "subhead": "Checkpoints 1, 2 and 3 and the Summative: one practice set for every testing window, September to May.",
+   "chips": [
+    "GRADE 7",
+    "4 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "One Set For Every Window",
+     "title": "Open the right set each season",
+     "line": "Checkpoints 1, 2 and 3 for fall, winter and spring, then the Summative for April-May."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "557 wrong answers, explained",
+     "line": "All four sets in this bundle carry the worked key. 148 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "203 items, 138 pages",
+   "inside": [
+    "Checkpoint 1 Practice: 50 items, 37 pages",
+    "Checkpoint 2 Practice: 49 items, 30 pages",
+    "Checkpoint 3 Practice: 48 items, 26 pages",
+    "Summative Practice: 56 items, 45 pages"
+   ],
+   "end": "One set for every testing window, September to May.",
+   "video": "/media/videos/ela-g7-bundle.mp4",
+   "poster": "/media/videos/ela-g7-bundle.jpg",
+   "cover": "/media/covers/ela-g7-bundle.jpg"
+  },
+  "g8-bundle": {
+   "key": "g8-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Full-Year Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Full-Year-Bundle-Checkpoints-Summative-26-27-17742198",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Full-Year Bundle",
+   "subhead": "Checkpoints 1, 2 and 3 and the Summative: one practice set for every testing window, September to May.",
+   "chips": [
+    "GRADE 8",
+    "4 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "One Set For Every Window",
+     "title": "Open the right set each season",
+     "line": "Checkpoints 1, 2 and 3 for fall, winter and spring, then the Summative for April-May."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "528 wrong answers, explained",
+     "line": "All four sets in this bundle carry the worked key. 146 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "192 items, 138 pages",
+   "inside": [
+    "Checkpoint 1 Practice: 48 items, 38 pages",
+    "Checkpoint 2 Practice: 48 items, 31 pages",
+    "Checkpoint 3 Practice: 48 items, 30 pages",
+    "Summative Practice: 48 items, 39 pages"
+   ],
+   "end": "One set for every testing window, September to May.",
+   "video": "/media/videos/ela-g8-bundle.mp4",
+   "poster": "/media/videos/ela-g8-bundle.jpg",
+   "cover": "/media/covers/ela-g8-bundle.jpg"
+  },
+  "g3-5-bundle": {
+   "key": "g3-5-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "Grades 3-5 ILEARN ELA Band Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/Grades-3-5-Indiana-ILEARN-ELA-Bundle-Checkpoints-Summatives-26-27-17742204",
+   "grades": [
+    3,
+    4,
+    5
+   ],
+   "band": true,
+   "gradeLabel": "Grades 3-5",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Band Bundle",
+   "subhead": "Every grade's full year, for the whole building: Checkpoints 1, 2 and 3 and the Summative in grades 3, 4 and 5.",
+   "chips": [
+    "GRADES 3-5",
+    "12 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Every Grade, Every Window",
+     "title": "12 practice sets on one shelf",
+     "line": "Grades 3, 4 and 5, each with Checkpoints 1, 2 and 3 and the Summative."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "1,778 wrong answers, explained",
+     "line": "All 12 sets in this bundle carry the worked key. 391 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "3 grades, 608 items",
+   "inside": [
+    "Grade 3 Full-Year Bundle: 4 sets, 202 items",
+    "Grade 4 Full-Year Bundle: 4 sets, 202 items",
+    "Grade 5 Full-Year Bundle: 4 sets, 204 items",
+    "12 practice sets, 390 pages in all"
+   ],
+   "end": "Every grade's full year, for the whole team.",
+   "video": "/media/videos/ela-g3-5-bundle.mp4",
+   "poster": "/media/videos/ela-g3-5-bundle.jpg",
+   "cover": "/media/covers/ela-g3-5-bundle.jpg"
+  },
+  "g6-8-bundle": {
+   "key": "g6-8-bundle",
+   "kind": "Bundle",
+   "free": false,
+   "name": "Grades 6-8 ILEARN ELA Band Bundle",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/Grades-6-8-Indiana-ILEARN-ELA-Bundle-Checkpoints-Summatives-26-27-17742223",
+   "grades": [
+    6,
+    7,
+    8
+   ],
+   "band": true,
+   "gradeLabel": "Grades 6-8",
+   "cp": null,
+   "cpName": "Full year",
+   "window": "September to May",
+   "color": "#2F7A78",
+   "title": "Band Bundle",
+   "subhead": "Every grade's full year, for the whole department: Checkpoints 1, 2 and 3 and the Summative in grades 6, 7 and 8.",
+   "chips": [
+    "GRADES 6-8",
+    "12 PRACTICE SETS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Every Grade, Every Window",
+     "title": "12 practice sets on one shelf",
+     "line": "Grades 6, 7 and 8, each with Checkpoints 1, 2 and 3 and the Summative."
+    },
+    {
+     "kicker": "The Page Nobody Else Ships",
+     "title": "1,631 wrong answers, explained",
+     "line": "All 12 sets in this bundle carry the worked key. 446 answers quote the sentence that settles them and name its paragraph, and every wrong choice is explained, so a miss points to what to reteach."
+    }
+   ],
+   "heading": "3 grades, 595 items",
+   "inside": [
+    "Grade 6 Full-Year Bundle: 4 sets, 200 items",
+    "Grade 7 Full-Year Bundle: 4 sets, 203 items",
+    "Grade 8 Full-Year Bundle: 4 sets, 192 items",
+    "12 practice sets, 412 pages in all"
+   ],
+   "end": "Every grade's full year, for the whole team.",
+   "video": "/media/videos/ela-g6-8-bundle.mp4",
+   "poster": "/media/videos/ela-g6-8-bundle.jpg",
+   "cover": "/media/covers/ela-g6-8-bundle.jpg"
+  }
+ },
+ "order": [
+  "g3-cp1",
+  "g3-cp1-screener",
+  "g4-cp1",
+  "g4-cp1-screener",
+  "g5-cp1",
+  "g5-cp1-screener",
+  "g6-cp1",
+  "g6-cp1-screener",
+  "g7-cp1",
+  "g7-cp1-screener",
+  "g8-cp1",
+  "g8-cp1-screener",
+  "g3-5-cp1-screener",
+  "g6-8-cp1-screener",
+  "g3-cp2",
+  "g3-cp2-screener",
+  "g4-cp2",
+  "g4-cp2-screener",
+  "g5-cp2",
+  "g5-cp2-screener",
+  "g6-cp2",
+  "g6-cp2-screener",
+  "g7-cp2",
+  "g7-cp2-screener",
+  "g8-cp2",
+  "g8-cp2-screener",
+  "g3-5-cp2-screener",
+  "g6-8-cp2-screener",
+  "g3-cp3",
+  "g3-cp3-screener",
+  "g4-cp3",
+  "g4-cp3-screener",
+  "g5-cp3",
+  "g5-cp3-screener",
+  "g6-cp3",
+  "g6-cp3-screener",
+  "g7-cp3",
+  "g7-cp3-screener",
+  "g8-cp3",
+  "g8-cp3-screener",
+  "g3-5-cp3-screener",
+  "g6-8-cp3-screener",
+  "g3-cp4",
+  "g4-cp4",
+  "g5-cp4",
+  "g6-cp4",
+  "g7-cp4",
+  "g8-cp4",
+  "g3-bundle",
+  "g4-bundle",
+  "g5-bundle",
+  "g6-bundle",
+  "g7-bundle",
+  "g8-bundle",
+  "g3-5-bundle",
+  "g6-8-bundle"
+ ],
+ "grades": [
+  {
+   "grade": 3,
+   "bundle": "g3-bundle",
+   "band_bundle": "g3-5-bundle",
+   "practice": [
+    "g3-cp1",
+    "g3-cp2",
+    "g3-cp3",
+    "g3-cp4"
+   ],
+   "screeners": [
+    "g3-cp1-screener",
+    "g3-cp2-screener",
+    "g3-cp3-screener"
+   ],
+   "band_screeners": [
+    "g3-5-cp1-screener",
+    "g3-5-cp2-screener",
+    "g3-5-cp3-screener"
+   ]
+  },
+  {
+   "grade": 4,
+   "bundle": "g4-bundle",
+   "band_bundle": "g3-5-bundle",
+   "practice": [
+    "g4-cp1",
+    "g4-cp2",
+    "g4-cp3",
+    "g4-cp4"
+   ],
+   "screeners": [
+    "g4-cp1-screener",
+    "g4-cp2-screener",
+    "g4-cp3-screener"
+   ],
+   "band_screeners": [
+    "g3-5-cp1-screener",
+    "g3-5-cp2-screener",
+    "g3-5-cp3-screener"
+   ]
+  },
+  {
+   "grade": 5,
+   "bundle": "g5-bundle",
+   "band_bundle": "g3-5-bundle",
+   "practice": [
+    "g5-cp1",
+    "g5-cp2",
+    "g5-cp3",
+    "g5-cp4"
+   ],
+   "screeners": [
+    "g5-cp1-screener",
+    "g5-cp2-screener",
+    "g5-cp3-screener"
+   ],
+   "band_screeners": [
+    "g3-5-cp1-screener",
+    "g3-5-cp2-screener",
+    "g3-5-cp3-screener"
+   ]
+  },
+  {
+   "grade": 6,
+   "bundle": "g6-bundle",
+   "band_bundle": "g6-8-bundle",
+   "practice": [
+    "g6-cp1",
+    "g6-cp2",
+    "g6-cp3",
+    "g6-cp4"
+   ],
+   "screeners": [
+    "g6-cp1-screener",
+    "g6-cp2-screener",
+    "g6-cp3-screener"
+   ],
+   "band_screeners": [
+    "g6-8-cp1-screener",
+    "g6-8-cp2-screener",
+    "g6-8-cp3-screener"
+   ]
+  },
+  {
+   "grade": 7,
+   "bundle": "g7-bundle",
+   "band_bundle": "g6-8-bundle",
+   "practice": [
+    "g7-cp1",
+    "g7-cp2",
+    "g7-cp3",
+    "g7-cp4"
+   ],
+   "screeners": [
+    "g7-cp1-screener",
+    "g7-cp2-screener",
+    "g7-cp3-screener"
+   ],
+   "band_screeners": [
+    "g6-8-cp1-screener",
+    "g6-8-cp2-screener",
+    "g6-8-cp3-screener"
+   ]
+  },
+  {
+   "grade": 8,
+   "bundle": "g8-bundle",
+   "band_bundle": "g6-8-bundle",
+   "practice": [
+    "g8-cp1",
+    "g8-cp2",
+    "g8-cp3",
+    "g8-cp4"
+   ],
+   "screeners": [
+    "g8-cp1-screener",
+    "g8-cp2-screener",
+    "g8-cp3-screener"
+   ],
+   "band_screeners": [
+    "g6-8-cp1-screener",
+    "g6-8-cp2-screener",
+    "g6-8-cp3-screener"
+   ]
+  }
+ ],
+ "note": "Not affiliated with, sponsored by, or endorsed by the Indiana Department of Education."
+}
