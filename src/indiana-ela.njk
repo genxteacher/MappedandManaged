@@ -2,7 +2,7 @@
 layout: base.njk
 permalink: /indiana-ela/
 title: Indiana ILEARN ELA, grades 3-8
-description: Indiana ILEARN ELA Checkpoint 1, 2 and 3 and Summative practice for grades 3-8, with original passages and an answer key that explains every wrong answer. Free screeners for every checkpoint.
+description: Indiana ILEARN ELA Checkpoint 1, 2 and 3 and Summative practice for grades 3-8, with original passages and an answer key that explains every wrong answer. A Checkpoint 1 Reteach for every grade, and free screeners for every checkpoint.
 ---
 {%- from "partials/macros.njk" import video, cover_card -%}
 {%- set L = ela.listings -%}
@@ -37,7 +37,7 @@ description: Indiana ILEARN ELA Checkpoint 1, 2 and 3 and Summative practice for
       <div class="card" style="--accent:{{ L["g5-cp" + p[0]].color }}">
         <span class="lane-tag">{{ p[2] }}</span>
         <h3>{{ p[1] }}</h3>
-        <p>{{ p[3] }}{% if p[0] < 4 %} Each checkpoint has a free screener too.{% endif %}</p>
+        <p>{{ p[3] }}{% if p[0] < 4 %} Each checkpoint has a free screener too.{% endif %}{% if p[0] == 1 %} A Reteach covers every standard afterward.{% endif %}</p>
       </div>
       {%- endfor %}
     </div>
@@ -50,7 +50,7 @@ description: Indiana ILEARN ELA Checkpoint 1, 2 and 3 and Summative practice for
     <h2>Every set for one grade, on one page</h2>
     <div class="grid grid--3 mt-2">
       {%- for g in ela.grades %}{% set b = L[g.bundle] %}
-      {{ cover_card("/indiana-ela/grade-" + g.grade + "/", b.cover, b.color, "Grade " + g.grade, "Grade " + g.grade + " Indiana ILEARN ELA", "The Full-Year Bundle, the four practice sets and three free screeners.", "Open grade " + g.grade + " →") }}
+      {{ cover_card("/indiana-ela/grade-" + g.grade + "/", b.cover, b.color, "Grade " + g.grade, "Grade " + g.grade + " Indiana ILEARN ELA", "The Full-Year Bundle, the four practice sets, the Checkpoint 1 Reteach and three free screeners.", "Open grade " + g.grade + " →") }}
       {%- endfor %}
     </div>
   </div>

@@ -7,7 +7,7 @@ pagination:
 permalink: "/indiana-ela/grade-{{ g.grade }}/"
 eleventyComputed:
   title: "Grade {{ g.grade }} Indiana ILEARN ELA"
-  description: "Grade {{ g.grade }} Indiana ILEARN ELA practice: Checkpoints 1, 2 and 3, the Summative, the Full-Year Bundle and free screeners, each with a 20-second look inside."
+  description: "Grade {{ g.grade }} Indiana ILEARN ELA practice: Checkpoints 1, 2 and 3, the Summative, the Full-Year Bundle, the Checkpoint 1 Reteach and free screeners, each with a 20-second look inside."
 ---
 {%- from "partials/macros.njk" import video, cover_card -%}
 {%- set L = ela.listings -%}
@@ -47,6 +47,19 @@ eleventyComputed:
 
 <section class="section">
   <div class="wrap">
+    <p class="eyebrow">After Checkpoint 1</p>
+    <h2>Reteach what they missed</h2>
+    <p class="lead">A reteach unit for every Checkpoint 1 standard: the strategy worked aloud, practice on a short new text, and a cold exit ticket to show it took. Or get it with the Checkpoint 1 Practice in one bundle.</p>
+    <div class="grid grid--3 mt-2">
+      {%- for key in [g.reteach, g.complete] %}{% set r = L[key] %}
+      {{ cover_card("/indiana-ela/" + r.key + "/", r.cover, r.color, ("Reteach" if r.kind == "Reteach" else "Practice + Reteach"), r.title, r.inside | join(" · "), "See inside →") }}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
     <p class="eyebrow">Free</p>
     <h2>Checkpoint screeners</h2>
     <p class="lead">One question on every standard in the checkpoint, and a class tracker that turns a miss into a standard to reteach.</p>
@@ -58,7 +71,7 @@ eleventyComputed:
   </div>
 </section>
 
-<section class="section section--paper">
+<section class="section">
   <div class="wrap">
     <p class="eyebrow">For the whole team</p>
     <h2>{{ L[g.band_bundle].gradeLabel }}</h2>

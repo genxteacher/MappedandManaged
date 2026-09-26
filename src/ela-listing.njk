@@ -57,7 +57,11 @@ eleventyComputed:
 {%- set cands = [] -%}
 {%- for k in ela.order %}{% if L[k].band and L[k].gradeLabel == r.gradeLabel %}{% if cands.push(k) %}{% endif %}{% endif %}{% endfor -%}
 {%- else -%}
+{%- if r.cp == 1 -%}
+{%- set cands = [g.reteach, g.complete, g.practice[0], g.bundle].concat(g.screeners) -%}
+{%- else -%}
 {%- set cands = [g.bundle].concat(g.practice, g.screeners) -%}
+{%- endif -%}
 {%- endif -%}
 {%- set more = [] -%}
 {%- for k in cands %}{% if k != r.key and more.length < 3 %}{% if more.push(k) %}{% endif %}{% endif %}{% endfor %}

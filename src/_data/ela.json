@@ -2741,6 +2741,594 @@
    "video": "/media/videos/ela-g6-8-bundle.mp4",
    "poster": "/media/videos/ela-g6-8-bundle.jpg",
    "cover": "/media/covers/ela-g6-8-bundle.jpg"
+  },
+  "g3-rt1": {
+   "key": "g3-rt1",
+   "kind": "Reteach",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Checkpoint 1 Reteach",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Reteach-Reading-Intervention-17755366",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#8A4F7D",
+   "title": "Checkpoint 1 Reteach",
+   "subhead": "For the students who missed a standard.",
+   "chips": [
+    "GRADE 3",
+    "8 UNITS",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "The student's page",
+     "title": "The strategy, worked aloud",
+     "line": "Steps for any passage, modeled on the practice text, with the common trap beside its fix."
+    },
+    {
+     "kicker": "Practice",
+     "title": "A short text, five questions",
+     "line": "Weighted toward the on-ramp, so a struggling reader gets traction."
+    },
+    {
+     "kicker": "Proof it took",
+     "title": "A cold exit ticket",
+     "line": "A full-length passage they have never seen, 307-351 words, to show whether the standard transferred."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 1 Reteach",
+   "inside": [
+    "8 units, one per Checkpoint 1 standard",
+    "4 short practice texts, 4 exit passages",
+    "80 original questions",
+    "Teacher page, reteach page, error analysis, data sheet",
+    "72 pages"
+   ],
+   "end": "Reteach it, practice it on a short text, prove it on a new one.",
+   "video": "/media/videos/ela-g3-rt1.mp4",
+   "poster": "/media/videos/ela-g3-rt1.jpg",
+   "cover": "/media/covers/ela-g3-rt1.jpg"
+  },
+  "g3-cp1c": {
+   "key": "g3-cp1c",
+   "kind": "COMPLETE",
+   "free": false,
+   "name": "3rd Grade ILEARN ELA Checkpoint 1 COMPLETE",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/3rd-Grade-Indiana-ILEARN-ELA-Checkpoint-1-COMPLETE-Practice-Reteach-17755464",
+   "grades": [
+    3
+   ],
+   "band": false,
+   "gradeLabel": "Grade 3",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#2F7A78",
+   "title": "Checkpoint 1 COMPLETE",
+   "subhead": "The practice set and the reteach, together.",
+   "chips": [
+    "GRADE 3",
+    "2 PRODUCTS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Before the window",
+     "title": "The Checkpoint 1 Practice",
+     "line": "Original passages and items on every Checkpoint 1 standard, with a key that quotes its evidence."
+    },
+    {
+     "kicker": "After the results",
+     "title": "A reteach unit for every standard",
+     "line": "The strategy, practice on a short text, and a cold exit ticket."
+    }
+   ],
+   "heading": "Grade 3 Checkpoint 1 COMPLETE",
+   "inside": [
+    "Checkpoint 1 Practice: 48 items, 29 pages",
+    "Checkpoint 1 Reteach: 8 units, 80 questions, 72 pages",
+    "No passage or question appears in both",
+    "Both together, for less than buying each"
+   ],
+   "end": "Practice before the window, reteach every standard after it.",
+   "video": "/media/videos/ela-g3-cp1c.mp4",
+   "poster": "/media/videos/ela-g3-cp1c.jpg",
+   "cover": "/media/covers/ela-g3-cp1c.jpg"
+  },
+  "g4-rt1": {
+   "key": "g4-rt1",
+   "kind": "Reteach",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Checkpoint 1 Reteach",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Reteach-Reading-Intervention-17755368",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#8A4F7D",
+   "title": "Checkpoint 1 Reteach",
+   "subhead": "For the students who missed a standard.",
+   "chips": [
+    "GRADE 4",
+    "4 UNITS",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "The student's page",
+     "title": "The strategy, worked aloud",
+     "line": "Steps for any passage, modeled on the practice text, with the common trap beside its fix."
+    },
+    {
+     "kicker": "Practice",
+     "title": "A short text, five questions",
+     "line": "Weighted toward the on-ramp, so a struggling reader gets traction."
+    },
+    {
+     "kicker": "Proof it took",
+     "title": "A cold exit ticket",
+     "line": "A full-length passage they have never seen, 400-442 words, to show whether the standard transferred."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 1 Reteach",
+   "inside": [
+    "4 units, one per Checkpoint 1 standard",
+    "4 short practice texts, 4 exit passages",
+    "40 original questions",
+    "Teacher page, reteach page, error analysis, data sheet",
+    "44 pages"
+   ],
+   "end": "Reteach it, practice it on a short text, prove it on a new one.",
+   "video": "/media/videos/ela-g4-rt1.mp4",
+   "poster": "/media/videos/ela-g4-rt1.jpg",
+   "cover": "/media/covers/ela-g4-rt1.jpg"
+  },
+  "g4-cp1c": {
+   "key": "g4-cp1c",
+   "kind": "COMPLETE",
+   "free": false,
+   "name": "4th Grade ILEARN ELA Checkpoint 1 COMPLETE",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/4th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-COMPLETE-Practice-Reteach-17755465",
+   "grades": [
+    4
+   ],
+   "band": false,
+   "gradeLabel": "Grade 4",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#2F7A78",
+   "title": "Checkpoint 1 COMPLETE",
+   "subhead": "The practice set and the reteach, together.",
+   "chips": [
+    "GRADE 4",
+    "2 PRODUCTS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Before the window",
+     "title": "The Checkpoint 1 Practice",
+     "line": "Original passages and items on every Checkpoint 1 standard, with a key that quotes its evidence."
+    },
+    {
+     "kicker": "After the results",
+     "title": "A reteach unit for every standard",
+     "line": "The strategy, practice on a short text, and a cold exit ticket."
+    }
+   ],
+   "heading": "Grade 4 Checkpoint 1 COMPLETE",
+   "inside": [
+    "Checkpoint 1 Practice: 48 items, 31 pages",
+    "Checkpoint 1 Reteach: 4 units, 40 questions, 44 pages",
+    "No passage or question appears in both",
+    "Both together, for less than buying each"
+   ],
+   "end": "Practice before the window, reteach every standard after it.",
+   "video": "/media/videos/ela-g4-cp1c.mp4",
+   "poster": "/media/videos/ela-g4-cp1c.jpg",
+   "cover": "/media/covers/ela-g4-cp1c.jpg"
+  },
+  "g5-rt1": {
+   "key": "g5-rt1",
+   "kind": "Reteach",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Checkpoint 1 Reteach",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Reteach-Reading-Intervention-17755372",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#8A4F7D",
+   "title": "Checkpoint 1 Reteach",
+   "subhead": "For the students who missed a standard.",
+   "chips": [
+    "GRADE 5",
+    "5 UNITS",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "The student's page",
+     "title": "The strategy, worked aloud",
+     "line": "Steps for any passage, modeled on the practice text, with the common trap beside its fix."
+    },
+    {
+     "kicker": "Practice",
+     "title": "A short text, five questions",
+     "line": "Weighted toward the on-ramp, so a struggling reader gets traction."
+    },
+    {
+     "kicker": "Proof it took",
+     "title": "A cold exit ticket",
+     "line": "A full-length passage they have never seen, 305-411 words, to show whether the standard transferred."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 1 Reteach",
+   "inside": [
+    "5 units, one per Checkpoint 1 standard",
+    "5 short practice texts, 5 exit passages",
+    "50 original questions",
+    "Teacher page, reteach page, error analysis, data sheet",
+    "54 pages"
+   ],
+   "end": "Reteach it, practice it on a short text, prove it on a new one.",
+   "video": "/media/videos/ela-g5-rt1.mp4",
+   "poster": "/media/videos/ela-g5-rt1.jpg",
+   "cover": "/media/covers/ela-g5-rt1.jpg"
+  },
+  "g5-cp1c": {
+   "key": "g5-cp1c",
+   "kind": "COMPLETE",
+   "free": false,
+   "name": "5th Grade ILEARN ELA Checkpoint 1 COMPLETE",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/5th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-COMPLETE-Practice-Reteach-17755467",
+   "grades": [
+    5
+   ],
+   "band": false,
+   "gradeLabel": "Grade 5",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#2F7A78",
+   "title": "Checkpoint 1 COMPLETE",
+   "subhead": "The practice set and the reteach, together.",
+   "chips": [
+    "GRADE 5",
+    "2 PRODUCTS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Before the window",
+     "title": "The Checkpoint 1 Practice",
+     "line": "Original passages and items on every Checkpoint 1 standard, with a key that quotes its evidence."
+    },
+    {
+     "kicker": "After the results",
+     "title": "A reteach unit for every standard",
+     "line": "The strategy, practice on a short text, and a cold exit ticket."
+    }
+   ],
+   "heading": "Grade 5 Checkpoint 1 COMPLETE",
+   "inside": [
+    "Checkpoint 1 Practice: 50 items, 35 pages",
+    "Checkpoint 1 Reteach: 5 units, 50 questions, 54 pages",
+    "No passage or question appears in both",
+    "Both together, for less than buying each"
+   ],
+   "end": "Practice before the window, reteach every standard after it.",
+   "video": "/media/videos/ela-g5-cp1c.mp4",
+   "poster": "/media/videos/ela-g5-cp1c.jpg",
+   "cover": "/media/covers/ela-g5-cp1c.jpg"
+  },
+  "g6-rt1": {
+   "key": "g6-rt1",
+   "kind": "Reteach",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Checkpoint 1 Reteach",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Reteach-Reading-Intervention-17755374",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#8A4F7D",
+   "title": "Checkpoint 1 Reteach",
+   "subhead": "For the students who missed a standard.",
+   "chips": [
+    "GRADE 6",
+    "5 UNITS",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "The student's page",
+     "title": "The strategy, worked aloud",
+     "line": "Steps for any passage, modeled on the practice text, with the common trap beside its fix."
+    },
+    {
+     "kicker": "Practice",
+     "title": "A short text, five questions",
+     "line": "Weighted toward the on-ramp, so a struggling reader gets traction."
+    },
+    {
+     "kicker": "Proof it took",
+     "title": "A cold exit ticket",
+     "line": "A full-length passage they have never seen, 509-626 words, to show whether the standard transferred."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 1 Reteach",
+   "inside": [
+    "5 units, one per Checkpoint 1 standard",
+    "4 short practice texts, 4 exit passages",
+    "50 original questions",
+    "Teacher page, reteach page, error analysis, data sheet",
+    "51 pages"
+   ],
+   "end": "Reteach it, practice it on a short text, prove it on a new one.",
+   "video": "/media/videos/ela-g6-rt1.mp4",
+   "poster": "/media/videos/ela-g6-rt1.jpg",
+   "cover": "/media/covers/ela-g6-rt1.jpg"
+  },
+  "g6-cp1c": {
+   "key": "g6-cp1c",
+   "kind": "COMPLETE",
+   "free": false,
+   "name": "6th Grade ILEARN ELA Checkpoint 1 COMPLETE",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/6th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-COMPLETE-Practice-Reteach-17755469",
+   "grades": [
+    6
+   ],
+   "band": false,
+   "gradeLabel": "Grade 6",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#2F7A78",
+   "title": "Checkpoint 1 COMPLETE",
+   "subhead": "The practice set and the reteach, together.",
+   "chips": [
+    "GRADE 6",
+    "2 PRODUCTS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Before the window",
+     "title": "The Checkpoint 1 Practice",
+     "line": "Original passages and items on every Checkpoint 1 standard, with a key that quotes its evidence."
+    },
+    {
+     "kicker": "After the results",
+     "title": "A reteach unit for every standard",
+     "line": "The strategy, practice on a short text, and a cold exit ticket."
+    }
+   ],
+   "heading": "Grade 6 Checkpoint 1 COMPLETE",
+   "inside": [
+    "Checkpoint 1 Practice: 50 items, 36 pages",
+    "Checkpoint 1 Reteach: 5 units, 50 questions, 51 pages",
+    "No passage or question appears in both",
+    "Both together, for less than buying each"
+   ],
+   "end": "Practice before the window, reteach every standard after it.",
+   "video": "/media/videos/ela-g6-cp1c.mp4",
+   "poster": "/media/videos/ela-g6-cp1c.jpg",
+   "cover": "/media/covers/ela-g6-cp1c.jpg"
+  },
+  "g7-rt1": {
+   "key": "g7-rt1",
+   "kind": "Reteach",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Checkpoint 1 Reteach",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Reteach-Reading-Intervention-17755380",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#8A4F7D",
+   "title": "Checkpoint 1 Reteach",
+   "subhead": "For the students who missed a standard.",
+   "chips": [
+    "GRADE 7",
+    "5 UNITS",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "The student's page",
+     "title": "The strategy, worked aloud",
+     "line": "Steps for any passage, modeled on the practice text, with the common trap beside its fix."
+    },
+    {
+     "kicker": "Practice",
+     "title": "A short text, five questions",
+     "line": "Weighted toward the on-ramp, so a struggling reader gets traction."
+    },
+    {
+     "kicker": "Proof it took",
+     "title": "A cold exit ticket",
+     "line": "A full-length passage they have never seen, 508-581 words, to show whether the standard transferred."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 1 Reteach",
+   "inside": [
+    "5 units, one per Checkpoint 1 standard",
+    "4 short practice texts, 4 exit passages",
+    "50 original questions",
+    "Teacher page, reteach page, error analysis, data sheet",
+    "51 pages"
+   ],
+   "end": "Reteach it, practice it on a short text, prove it on a new one.",
+   "video": "/media/videos/ela-g7-rt1.mp4",
+   "poster": "/media/videos/ela-g7-rt1.jpg",
+   "cover": "/media/covers/ela-g7-rt1.jpg"
+  },
+  "g7-cp1c": {
+   "key": "g7-cp1c",
+   "kind": "COMPLETE",
+   "free": false,
+   "name": "7th Grade ILEARN ELA Checkpoint 1 COMPLETE",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/7th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-COMPLETE-Practice-Reteach-17755471",
+   "grades": [
+    7
+   ],
+   "band": false,
+   "gradeLabel": "Grade 7",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#2F7A78",
+   "title": "Checkpoint 1 COMPLETE",
+   "subhead": "The practice set and the reteach, together.",
+   "chips": [
+    "GRADE 7",
+    "2 PRODUCTS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Before the window",
+     "title": "The Checkpoint 1 Practice",
+     "line": "Original passages and items on every Checkpoint 1 standard, with a key that quotes its evidence."
+    },
+    {
+     "kicker": "After the results",
+     "title": "A reteach unit for every standard",
+     "line": "The strategy, practice on a short text, and a cold exit ticket."
+    }
+   ],
+   "heading": "Grade 7 Checkpoint 1 COMPLETE",
+   "inside": [
+    "Checkpoint 1 Practice: 50 items, 37 pages",
+    "Checkpoint 1 Reteach: 5 units, 50 questions, 51 pages",
+    "No passage or question appears in both",
+    "Both together, for less than buying each"
+   ],
+   "end": "Practice before the window, reteach every standard after it.",
+   "video": "/media/videos/ela-g7-cp1c.mp4",
+   "poster": "/media/videos/ela-g7-cp1c.jpg",
+   "cover": "/media/covers/ela-g7-cp1c.jpg"
+  },
+  "g8-rt1": {
+   "key": "g8-rt1",
+   "kind": "Reteach",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Checkpoint 1 Reteach",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-Reteach-Reading-Intervention-17755378",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#8A4F7D",
+   "title": "Checkpoint 1 Reteach",
+   "subhead": "For the students who missed a standard.",
+   "chips": [
+    "GRADE 8",
+    "4 UNITS",
+    "PRINTABLE PDF"
+   ],
+   "look": [
+    {
+     "kicker": "The student's page",
+     "title": "The strategy, worked aloud",
+     "line": "Steps for any passage, modeled on the practice text, with the common trap beside its fix."
+    },
+    {
+     "kicker": "Practice",
+     "title": "A short text, five questions",
+     "line": "Weighted toward the on-ramp, so a struggling reader gets traction."
+    },
+    {
+     "kicker": "Proof it took",
+     "title": "A cold exit ticket",
+     "line": "A full-length passage they have never seen, 561-597 words, to show whether the standard transferred."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 1 Reteach",
+   "inside": [
+    "4 units, one per Checkpoint 1 standard",
+    "3 short practice texts, 3 exit passages",
+    "40 original questions",
+    "Teacher page, reteach page, error analysis, data sheet",
+    "41 pages"
+   ],
+   "end": "Reteach it, practice it on a short text, prove it on a new one.",
+   "video": "/media/videos/ela-g8-rt1.mp4",
+   "poster": "/media/videos/ela-g8-rt1.jpg",
+   "cover": "/media/covers/ela-g8-rt1.jpg"
+  },
+  "g8-cp1c": {
+   "key": "g8-cp1c",
+   "kind": "COMPLETE",
+   "free": false,
+   "name": "8th Grade ILEARN ELA Checkpoint 1 COMPLETE",
+   "tptUrl": "https://www.teacherspayteachers.com/Product/8th-Grade-Indiana-ILEARN-ELA-Checkpoint-1-COMPLETE-Practice-Reteach-17755473",
+   "grades": [
+    8
+   ],
+   "band": false,
+   "gradeLabel": "Grade 8",
+   "cp": 1,
+   "cpName": "Checkpoint 1",
+   "window": "Fall",
+   "color": "#2F7A78",
+   "title": "Checkpoint 1 COMPLETE",
+   "subhead": "The practice set and the reteach, together.",
+   "chips": [
+    "GRADE 8",
+    "2 PRODUCTS",
+    "BUNDLE"
+   ],
+   "look": [
+    {
+     "kicker": "Before the window",
+     "title": "The Checkpoint 1 Practice",
+     "line": "Original passages and items on every Checkpoint 1 standard, with a key that quotes its evidence."
+    },
+    {
+     "kicker": "After the results",
+     "title": "A reteach unit for every standard",
+     "line": "The strategy, practice on a short text, and a cold exit ticket."
+    }
+   ],
+   "heading": "Grade 8 Checkpoint 1 COMPLETE",
+   "inside": [
+    "Checkpoint 1 Practice: 48 items, 38 pages",
+    "Checkpoint 1 Reteach: 4 units, 40 questions, 41 pages",
+    "No passage or question appears in both",
+    "Both together, for less than buying each"
+   ],
+   "end": "Practice before the window, reteach every standard after it.",
+   "video": "/media/videos/ela-g8-cp1c.mp4",
+   "poster": "/media/videos/ela-g8-cp1c.jpg",
+   "cover": "/media/covers/ela-g8-cp1c.jpg"
   }
  },
  "order": [
@@ -2799,7 +3387,19 @@
   "g7-bundle",
   "g8-bundle",
   "g3-5-bundle",
-  "g6-8-bundle"
+  "g6-8-bundle",
+  "g3-rt1",
+  "g3-cp1c",
+  "g4-rt1",
+  "g4-cp1c",
+  "g5-rt1",
+  "g5-cp1c",
+  "g6-rt1",
+  "g6-cp1c",
+  "g7-rt1",
+  "g7-cp1c",
+  "g8-rt1",
+  "g8-cp1c"
  ],
  "grades": [
   {
@@ -2812,6 +3412,8 @@
     "g3-cp3",
     "g3-cp4"
    ],
+   "reteach": "g3-rt1",
+   "complete": "g3-cp1c",
    "screeners": [
     "g3-cp1-screener",
     "g3-cp2-screener",
@@ -2833,6 +3435,8 @@
     "g4-cp3",
     "g4-cp4"
    ],
+   "reteach": "g4-rt1",
+   "complete": "g4-cp1c",
    "screeners": [
     "g4-cp1-screener",
     "g4-cp2-screener",
@@ -2854,6 +3458,8 @@
     "g5-cp3",
     "g5-cp4"
    ],
+   "reteach": "g5-rt1",
+   "complete": "g5-cp1c",
    "screeners": [
     "g5-cp1-screener",
     "g5-cp2-screener",
@@ -2875,6 +3481,8 @@
     "g6-cp3",
     "g6-cp4"
    ],
+   "reteach": "g6-rt1",
+   "complete": "g6-cp1c",
    "screeners": [
     "g6-cp1-screener",
     "g6-cp2-screener",
@@ -2896,6 +3504,8 @@
     "g7-cp3",
     "g7-cp4"
    ],
+   "reteach": "g7-rt1",
+   "complete": "g7-cp1c",
    "screeners": [
     "g7-cp1-screener",
     "g7-cp2-screener",
@@ -2917,6 +3527,8 @@
     "g8-cp3",
     "g8-cp4"
    ],
+   "reteach": "g8-rt1",
+   "complete": "g8-cp1c",
    "screeners": [
     "g8-cp1-screener",
     "g8-cp2-screener",
