@@ -1,5 +1,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js");</script>
 
   {%- set pageTitle = title or site.name -%}
   {%- set fullTitle = pageTitle + " · " + site.name if title else site.name + " — " + site.tagline -%}
@@ -22,13 +23,22 @@
   <meta property="og:description" content="{{ pageDesc }}">
   <meta property="og:url" content="{{ canonical }}">
   <meta property="og:locale" content="{{ site.locale }}">
-  {%- if ogImage %}
-  <meta property="og:image" content="{{ ogImage | absoluteUrl(site.url) }}">
+  {#- Share image: the page's own (a product cover, a listing poster) or the site default. -#}
+  {%- set shareImage = (ogImage or site.ogImage.src) | absoluteUrl(site.url) -%}
+  {%- set shareW = ogImageWidth if ogImage else site.ogImage.width -%}
+  {%- set shareH = ogImageHeight if ogImage else site.ogImage.height %}
+  <meta property="og:image" content="{{ shareImage }}">
+  {%- if shareW and shareH %}
+  <meta property="og:image:width" content="{{ shareW }}">
+  <meta property="og:image:height" content="{{ shareH }}">
   {%- endif %}
+  <meta property="og:image:alt" content="{{ pageTitle }}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ fullTitle }}">
   <meta name="twitter:description" content="{{ pageDesc }}">
+  <meta name="twitter:image" content="{{ shareImage }}">
+  <meta name="twitter:image:alt" content="{{ pageTitle }}">
 
   {# --- Fonts: Poppins (display) + Lato (body). Web CDN is correct here; ttf embedding is a PDF-only rule. --- #}
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -2,14 +2,29 @@
 layout: base.njk
 permalink: /shop/
 title: Mapped & Managed
-description: Mapped & Managed, from ELA Class 3-8 — word mapping, decodable reading, IEP documentation, interventionist systems and MTSS data tools. Every resource is delivered through Teachers Pay Teachers.
+description: Mapped & Managed, from ELA Class 3-8 — IEP documentation, interventionist systems, MTSS data tools and multisyllabic decoding for older readers. Every resource is delivered through Teachers Pay Teachers.
+ogImage: /media/videos/mm13-group-data-tracker.jpg
+ogImageWidth: 1280
+ogImageHeight: 720
 ---
-{%- from "partials/macros.njk" import cover_card -%}
-<section class="section">
+{%- from "partials/macros.njk" import product_card -%}
+{%- set lanesOrder = [
+  { "id": "iep", "label": "Managed IEP", "color": site.colors.gold, "blurb": "IEP documentation and progress monitoring for SPED case managers." },
+  { "id": "systems", "label": "Teacher Systems", "color": site.colors.coral, "blurb": "Scheduling, planning and data tracking for interventionists." },
+  { "id": "mtss", "label": "Managed MTSS", "color": site.colors.mtss, "blurb": "Screening, tiering, progress monitoring and attendance for RTI/MTSS teams." },
+  { "id": "literacy", "label": "Mapped Literacy", "color": site.colors.sage, "blurb": "Decoding intervention for older readers, grades 3–8." }
+] -%}
+<section class="section section--shop-hero">
   <div class="wrap">
     <p class="eyebrow">A line from ELA Class 3-8</p>
     <h1>Mapped &amp; Managed</h1>
-    <p class="lead">Structured-literacy, IEP and MTSS tools for the people who run intervention. <em>Mapped</em> is the literacy side: word-mapping mats, decodable passages and decoding routines. <em>Managed</em> is the documentation side: IEP goals, progress data, caseloads and tier decisions. Every resource is sold and delivered through Teachers Pay Teachers, and every one has a 20-second video on its page.</p>
+    <p class="lead">IEP, MTSS and small-group tools for the people who run intervention. <em>Managed</em> is the documentation side: IEP goals, progress data, caseloads and tier decisions. <em>Mapped</em> is the literacy side: syllable division and multisyllabic decoding for older readers. Every resource is sold and delivered through Teachers Pay Teachers, and every one has a 20-second video on its page.</p>
+    <nav class="lane-chips mt-2" aria-label="Jump to a lane">
+      {%- for lane in lanesOrder %}
+      <a class="chip" href="#{{ lane.id }}" style="--accent:{{ lane.color }}"><span class="chip-dot" aria-hidden="true"></span>{{ lane.label }}</a>
+      {%- endfor %}
+      <a class="chip chip--plain" href="/free-tools/#mapped-managed">Free tools</a>
+    </nav>
     <div class="hero-cta mt-2">
       <a class="btn" href="{{ site.tptStore }}" target="_blank" rel="noopener">Visit the full TPT store</a>
       <a class="btn btn--ghost" href="/indiana-ela/">Looking for Indiana ILEARN ELA?</a>
@@ -17,23 +32,49 @@ description: Mapped & Managed, from ELA Class 3-8 — word mapping, decodable re
   </div>
 </section>
 
-{%- set lanesOrder = [
-  { "id": "literacy", "label": "Mapped Literacy", "color": site.colors.sage, "blurb": "Science-of-Reading word mapping and decodable reading, K–2 through grades 3–8." },
-  { "id": "iep", "label": "Managed IEP", "color": site.colors.gold, "blurb": "IEP documentation and progress monitoring for SPED case managers." },
-  { "id": "systems", "label": "Teacher Systems", "color": site.colors.coral, "blurb": "Scheduling, planning, and data tracking for interventionists." },
-  { "id": "mtss", "label": "Managed MTSS", "color": site.colors.mtss, "blurb": "Screening, tiering, progress monitoring and attendance for RTI/MTSS teams." }
-] -%}
-
 {%- for lane in lanesOrder %}
-<section class="section {% if loop.index is odd %}section--paper{% endif %}" id="{{ lane.id }}">
+{%- set laneProducts = [] -%}
+{%- set bundles = [] -%}
+{%- for prod in products %}{% if prod.lane == lane.id %}{% if prod | isBundle %}{% set bundles = (bundles.push(prod), bundles) %}{% else %}{% set laneProducts = (laneProducts.push(prod), laneProducts) %}{% endif %}{% endif %}{% endfor %}
+{#- A lane with a single product shows it as the feature card. -#}
+{%- set feature = bundles[0] if bundles.length else (laneProducts[0] if laneProducts.length == 1 else false) -%}
+{%- set gridItems = laneProducts if bundles.length or laneProducts.length != 1 else [] -%}
+{%- set cols = 4 if gridItems.length % 4 == 0 and gridItems.length % 3 != 0 else 3 -%}
+<section class="section {% if loop.index is odd %}section--paper{% endif %} lane-section" id="{{ lane.id }}">
   <div class="wrap">
-    <p class="eyebrow" style="color:{{ lane.color }}">{{ lane.label }}</p>
+    <p class="eyebrow" style="color:{{ lane.color | ink }}">{{ lane.label }}</p>
     <h2>{{ lane.blurb }}</h2>
-    <div class="grid grid--3 mt-2">
-      {%- for prod in products %}{% if prod.lane == lane.id %}
-      {{ cover_card("/resources/" + prod.slug + "/", prod.cover, prod.color, prod.laneLabel + (" · Free" if prod.free else ""), prod.name, prod.subhead, "Get it free →" if prod.free else "See what's inside →") }}
-      {%- endif %}{% endfor %}
+
+    {%- if feature %}
+    {%- set fb = feature | isBundle %}
+    <a class="feature-card card--lane" href="/resources/{{ feature.slug }}/" style="--accent:{{ feature.color }};--accent-ink:{{ feature.color | ink }}">
+      <span class="feature-media">
+        <img src="{{ feature.cover }}" alt="" width="720" height="540" loading="lazy">
+        {%- if fb %}<span class="img-badge">Best value</span>{% endif %}
+      </span>
+      <span class="feature-body">
+        <span class="lane-tag">{{ feature.laneLabel }} &middot; {% if fb %}The whole lane in one bundle{% else %}{{ feature.eyebrow }}{% endif %}</span>
+        <h3 class="feature-title">{{ feature.name }}</h3>
+        <span class="feature-text">{{ feature.subhead }}</span>
+        <span class="feature-list">
+          {%- for item in feature.inside %}<span>{{ item }}</span>{% endfor %}
+        </span>
+        <span class="card-foot"><strong>See what's inside &rarr;</strong></span>
+      </span>
+    </a>
+    {%- endif %}
+
+    {%- if gridItems.length %}
+    <div class="grid grid--{{ cols }} grid--shop mt-2">
+      {%- for prod in gridItems %}
+      {{ product_card(prod) }}
+      {%- endfor %}
     </div>
+    {%- endif %}
+
+    {%- if lane.id == "literacy" %}
+    <p class="lane-note">Planning structured-literacy small groups? See the <a href="/resources/structured-literacy-small-group-planner/">Structured-Literacy Small-Group Planner</a> in Teacher Systems, and the <a href="/resources/iep-reading-goal-bank/">IEP Reading Goal Bank</a> in Managed IEP.</p>
+    {%- endif %}
   </div>
 </section>
 {%- endfor %}

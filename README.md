@@ -53,13 +53,12 @@ Claiming is what makes Pinterest attribute and favor pins that link to your doma
 
 ## 4. Set up Kit (kit.com) — one dedicated form per free product, plus one optional general form
 
-Each **free** product gets its own Kit form — its own redirect and its own incentive email, both set inside Kit itself. There are three: Word Mapping Mats, IEP Goal Data Sheet, Intervention Group Snapshot.
+Each **free** product gets its own Kit form — its own redirect and its own incentive email, both set inside Kit itself. There are two: IEP Goal Data Sheet and Intervention Group Snapshot. (The Word Mapping Mats form, uid `6a6c23134e`, was retired with the Mapped Literacy K–2 products on 2026-09-27; see `src/_redirects`.)
 
 **For each free product:**
 
-1. In Kit, **Grow → Landing Pages & Forms → Create New → Form → Inline**. Name it for the product (e.g. "Word Mapping Mats — Free").
+1. In Kit, **Grow → Landing Pages & Forms → Create New → Form → Inline**. Name it for the product (e.g. "IEP Goal Data Sheet — Free").
 2. **Settings → General →** change the after-subscribe action to **Redirect to an external page**, and paste that product's exact TPT URL:
-   - Word Mapping Mats → `https://www.teacherspayteachers.com/Product/FREE-CVC-Word-Mapping-Mats-Science-of-Reading-Sound-Boxes-16860165`
    - IEP Goal Data Sheet → `https://www.teacherspayteachers.com/Product/FREE-IEP-Goal-Data-Sheet-Progress-Monitoring-SPED-Case-Managers-All-Grades-16868890`
    - Intervention Group Snapshot → `https://www.teacherspayteachers.com/Product/FREE-Small-Group-Intervention-Data-Tracker-RTI-Progress-Monitoring-16878440`
 3. **Settings → Incentive →** keep **Send incentive email** on (this is the confirmation + welcome email). Write it to reinforce the same TPT link, so it's always in their inbox even if the instant redirect gets missed or blocked.
@@ -73,7 +72,7 @@ Each **free** product gets its own Kit form — its own redirect and its own inc
    ```
 7. Rebuild. That product's page now shows the real Kit form in place of the placeholder.
 
-Repeat for the other two free products.
+Repeat for the other free product.
 
 **Optional — one general newsletter form** for the "New here? Grab a free tool" nudge that shows on every *paid* product page. Build it the same way (inline form; no special redirect needed — a simple success message or your own thank-you page is fine), then paste its `uid`/`src` into `src/_data/site.json` → `kitGeneral`. If you skip this, paid pages just show a plain link to `/free-tools/` instead — nothing breaks either way.
 
@@ -107,7 +106,7 @@ Edit `src/_data/products.json`. Each entry generates its own fully-developed lan
 
 ## Who does what
 
-- **You (dashboards):** GitHub repo, Netlify site + domain, Pinterest Business + claim, Kit account + the three per-product forms (+ optional general form).
+- **You (dashboards):** GitHub repo, Netlify site + domain, Pinterest Business + claim, Kit account + the two per-product forms (+ optional general form).
 - **Me (files):** the site itself, new pages, blog posts, product landing pages, design — plus dropping in the Pinterest code and each form's `uid`/`src` once you've generated them.
 
 ---

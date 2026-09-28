@@ -4,9 +4,13 @@
       <span class="brand-boxes" aria-hidden="true">
         <span class="b1"></span><span class="b2"></span><span class="b3"></span>
       </span>
-      ELA Class 3-8
+      <span class="brand-name">ELA Class 3-8</span>
     </a>
-    <nav class="nav" aria-label="Primary">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      Menu
+    </button>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
       {%- for item in nav %}
       <a href="{{ item.url }}"{% if page.url == item.url or (item.url != "/" and page.url.startsWith(item.url)) %} aria-current="page"{% endif %}>{{ item.text }}</a>
       {%- endfor %}

@@ -2,7 +2,7 @@
 layout: base.njk
 permalink: /
 ---
-{%- from "partials/macros.njk" import video, cover_card -%}
+{%- from "partials/macros.njk" import video, cover_card, product_card -%}
 {%- set L = ela.listings -%}
 <section class="hero">
   <div class="wrap">
@@ -22,16 +22,16 @@ permalink: /
     <p class="eyebrow">Two lines, one store</p>
     <h2>What ELA Class 3-8 makes</h2>
     <div class="grid grid--2 mt-2">
-      <a class="card card--lane" style="--accent:{{ site.lanes.ela.color }}" href="/indiana-ela/">
+      <a class="card card--lane" style="--accent:{{ site.lanes.ela.color }};--accent-ink:{{ site.lanes.ela.color | ink }}" href="/indiana-ela/">
         <span class="lane-tag">Indiana ILEARN ELA &middot; Grades 3&ndash;8</span>
         <h3>A practice set for every testing window</h3>
         <p>Checkpoints 1, 2 and 3 and the Summative, for every grade from 3 to 8. Every passage and item is original, and the answer key explains every wrong answer. A free screener comes with each checkpoint.</p>
         <span class="card-foot"><strong>Pick your grade &rarr;</strong></span>
       </a>
-      <a class="card card--lane" style="--accent:{{ site.colors.sage }}" href="/shop/">
+      <a class="card card--lane" style="--accent:{{ site.colors.sage }};--accent-ink:{{ site.colors.sage | ink }}" href="/shop/">
         <span class="lane-tag">Mapped &amp; Managed</span>
         <h3>Intervention, IEP and MTSS tools</h3>
-        <p>Word-mapping mats and decodable passages, IEP goal banks and caseload trackers, small-group planners, and MTSS data systems in Excel and Google Sheets.</p>
+        <p>IEP goal banks and caseload trackers, small-group planners and data trackers, MTSS data systems in Excel and Google Sheets, and multisyllabic decoding for older readers.</p>
         <span class="card-foot"><strong>Browse the four lanes &rarr;</strong></span>
       </a>
     </div>
@@ -70,11 +70,11 @@ permalink: /
     <p class="eyebrow">Start free</p>
     <h2>Try something before you buy anything</h2>
     <p class="lead">A free tool from each Mapped &amp; Managed lane, and a free screener for every Indiana ILEARN ELA checkpoint.</p>
-    <div class="grid grid--3 mt-2">
+    <div class="grid grid--4 grid--shop mt-2">
       {%- for f in products %}{% if f.free %}
-      {{ cover_card("/resources/" + f.slug + "/", f.cover, f.color, f.laneLabel + " · Free", f.name, f.subhead, "Get it free →") }}
+      {{ product_card(f) }}
       {%- endif %}{% endfor %}
-      {{ cover_card("/free-tools/#ela", L["g5-cp1-screener"].cover, site.lanes.ela.color, "Indiana ILEARN ELA · Free", "Free checkpoint screeners", "One for every grade and checkpoint, plus a file for each grade band.", "See all the screeners →") }}
+      {{ cover_card("/free-tools/#ela", L["g5-cp1-screener"].cover, site.lanes.ela.color, "Indiana ILEARN ELA · Free", "Free checkpoint screeners", "One for every grade and checkpoint, plus a file for each grade band.", "See all the screeners →", "4 / 3", "Free") }}
     </div>
   </div>
 </section>

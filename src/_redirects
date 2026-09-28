@@ -5,3 +5,13 @@
 /ela        /indiana-ela/  301
 /ilearn     /indiana-ela/  301
 /mapped-and-managed /shop/ 301
+
+# Retired Mapped Literacy products (2026-09-27): #1-#6 and #17 are no longer sold.
+# Netlify matches these with or without the trailing slash.
+/resources/cvc-word-mapping-mats                /free-tools/                           301
+/resources/digraph-blend-silent-e-mapping-mats  /shop/                                 301
+/resources/heart-word-mapping-routine           /shop/                                 301
+/resources/long-vowel-teams-mapping-mats        /shop/                                 301
+/resources/decodable-passages-complete-set      /shop/                                 301
+/resources/mapped-literacy-system-bundle        /shop/                                 301
+/resources/phonics-reading-placement-screener   /shop/                                 301

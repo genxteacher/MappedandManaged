@@ -6,9 +6,11 @@ pagination:
   alias: key
 permalink: "/indiana-ela/{{ key }}/"
 eleventyComputed:
-  title: "{{ ela.listings[key].name }}"
-  description: "{{ ela.listings[key].subhead }}"
+  title: "{{ ela.listings[key].name | safe }}"
+  description: "{{ ela.listings[key].subhead | safe }}"
   ogImage: "{{ ela.listings[key].poster }}"
+  ogImageWidth: 1280
+  ogImageHeight: 720
 ---
 {%- from "partials/macros.njk" import video, cover_card -%}
 {%- set L = ela.listings -%}

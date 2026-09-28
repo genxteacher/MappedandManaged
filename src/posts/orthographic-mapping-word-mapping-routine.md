@@ -2,7 +2,6 @@
 title: "Orthographic mapping, explained simply — and the word-mapping routine that builds it"
 date: 2026-07-02
 lane: literacy
-freebieSlug: cvc-word-mapping-mats
 description: What orthographic mapping actually is, why sound boxes work, and a five-minute small-group routine you can run tomorrow.
 ---
 
@@ -47,8 +46,8 @@ Here's the loop, start to finish:
 
 Run it with five to eight words a session. The routine is short on purpose — the repetition across days is what does the work, not marathon single sessions.
 
-## Try it with a free set of mats
+## Run it tomorrow
 
-If you want to run this tomorrow without building anything, grab the [free CVC word mapping mats](/resources/cvc-word-mapping-mats/) — print-and-go sound-box mats plus the routine above, ready for a small group.
+You don't need anything special to start. Draw a row of boxes on a whiteboard or a sheet protector, one per sound, hand out a few chips, and pick five to eight words that use the patterns your group is working on. If you plan several small groups a week, the [Structured-Literacy Small-Group Planner](/resources/structured-literacy-small-group-planner/) gives the routine a place in each lesson.
 
-When your students are ready to move past single-syllable words, the same mapping logic scales up: the [Mapped Literacy System Bundle](https://www.teacherspayteachers.com/Product/Mapped-Literacy-System-Bundle-Word-Mapping-Mats-Decodable-Passages-K-2-Reading-16868426) covers the full K–2 sequence, and [Multisyllabic Word Decoding &amp; Syllable Division](https://www.teacherspayteachers.com/Product/Multisyllabic-Word-Decoding-Syllable-Division-6-Syllable-Types-Grades-3-8-16891103) takes the routine into grades 3–8.
+When your students are ready to move past single-syllable words, the same mapping logic scales up. [Multisyllabic Word Decoding &amp; Syllable Division](/resources/multisyllabic-word-decoding/) takes the routine into grades 3–8, with the six syllable types and a division routine for longer words.

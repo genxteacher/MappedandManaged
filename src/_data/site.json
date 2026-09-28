@@ -9,6 +9,12 @@
   "_comment_pinterest": "After you create the Pinterest Business account and start the domain claim, Pinterest gives you a verification code. Paste ONLY the code value here (the part inside content=\"...\"). Leave empty until then.",
   "pinterestVerify": "",
   "_comment_kit": "Each FREE product has its own dedicated Kit form (see the 'kit' field on each free entry in products.json) — its own redirect-to-that-product's-TPT-URL setting and its own incentive/welcome email, both configured directly in Kit. This 'kitGeneral' form is optional and separate: a plain newsletter opt-in used only for the 'join the list' nudge on paid product pages. If left blank, paid pages just show a link to /free-tools/ instead.",
+  "_comment_ogImage": "Default share image (og:image / twitter:image) for pages that don't set their own. Product pages use their cover; ILEARN listing pages use their video poster.",
+  "ogImage": {
+    "src": "/media/videos/ela-g6-bundle.jpg",
+    "width": 1280,
+    "height": 720
+  },
   "kitGeneral": {
     "uid": "",
     "src": ""

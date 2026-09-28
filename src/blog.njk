@@ -15,7 +15,7 @@ description: Practical notes on structured literacy, word mapping, IEP documenta
       {%- for post in collections.posts %}
       <li>
         <a class="card card--lane" style="--accent:{{ site.lanes[post.data.lane].color if post.data.lane else site.colors.navy }}" href="{{ post.url }}">
-          {%- if post.data.lane %}<span class="lane-tag" style="color:{{ site.lanes[post.data.lane].color }}">{{ site.lanes[post.data.lane].label }}</span>{%- endif %}
+          {%- if post.data.lane %}<span class="lane-tag" style="color:{{ site.lanes[post.data.lane].color | ink }}">{{ site.lanes[post.data.lane].label }}</span>{%- endif %}
           <h3>{{ post.data.title }}</h3>
           <p class="post-meta"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></p>
           {%- if post.data.description %}<p>{{ post.data.description }}</p>{%- endif %}

@@ -6,27 +6,79 @@ pagination:
   alias: p
 permalink: "/resources/{{ p.slug }}/"
 eleventyComputed:
-  title: "{{ p.name }}"
-  description: "{{ p.subhead }}"
+  title: "{{ p.name | safe }}"
+  description: "{{ p.subhead | safe }}"
+  ogImage: "{{ p.cover }}"
+  ogImageWidth: 720
+  ogImageHeight: 540
 ---
-{%- from "partials/macros.njk" import video -%}
+{%- from "partials/macros.njk" import video, product_card -%}
 {%- set freeKitReady = p.free and p.kit and p.kit.uid and p.kit.src -%}
 {%- set generalKitReady = site.kitGeneral and site.kitGeneral.uid and site.kitGeneral.src -%}
+{%- set ink = p.color | ink -%}
+{%- set btnStyle = "background:" + p.color + ";border-color:" + p.color + ";color:" + (p.color | onColor) + ";" -%}
 
-<section class="section">
+<section class="section section--product">
+  <div class="wrap">
+    <p class="crumbs"><a href="/shop/">Mapped &amp; Managed</a> &rsaquo; <a href="/shop/#{{ p.lane }}">{{ p.laneLabel }}</a></p>
+    <div class="product-hero">
+      <div class="gallery" data-gallery>
+        <div class="gallery-stage" style="--accent:{{ p.color }}">
+          <div class="gallery-slide" data-slide="cover">
+            <img src="{{ p.cover }}" alt="{{ p.name }}: cover" width="720" height="540">
+          </div>
+          {%- if p.video %}
+          <div class="gallery-slide" data-slide="video">
+            {{ video(p, p.name) }}
+          </div>
+          {%- endif %}
+        </div>
+        {%- if p.video %}
+        <div class="gallery-thumbs" role="group" aria-label="Product images">
+          <button type="button" class="thumb" data-show="cover" aria-pressed="true">
+            <img src="{{ p.cover }}" alt="" width="720" height="540" loading="lazy">
+            <span>Cover</span>
+          </button>
+          <button type="button" class="thumb thumb--video" data-show="video" aria-pressed="false">
+            <img src="{{ p.poster }}" alt="" width="1280" height="720" loading="lazy">
+            <span>20-second look inside</span>
+          </button>
+        </div>
+        {%- endif %}
+      </div>
+
+      <div class="product-info">
+        <p class="eyebrow" style="color:{{ ink }}">{{ p.laneLabel }}{% if p.free %} &middot; Free{% endif %}</p>
+        <h1>{{ p.name }}</h1>
+        <p class="lead">{{ p.subhead }}</p>
+        <ul class="facts" style="--accent:{{ p.color }}">
+          {%- for f in p.eyebrow.split(" · ") %}
+          <li>{{ f }}</li>
+          {%- endfor %}
+        </ul>
+        <div class="product-cta">
+          {%- if p.free and freeKitReady %}
+          <a class="btn" style="{{ btnStyle }}" href="#get">Get it free &darr;</a>
+          <p class="cta-note">Enter your email below and we'll take you straight to the free download.</p>
+          {%- elif p.free %}
+          <a class="btn" style="{{ btnStyle }}" href="{{ p.tptUrl }}" target="_blank" rel="noopener">Get the free download on TPT &rarr;</a>
+          <p class="cta-note">A free download on our Teachers Pay Teachers store.</p>
+          {%- else %}
+          <a class="btn" style="{{ btnStyle }}" href="{{ p.tptUrl }}" target="_blank" rel="noopener">View on TPT &rarr;</a>
+          <p class="cta-note">Previews, reviews and current pricing are on our Teachers Pay Teachers store.</p>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper section--tight-top">
   <div class="wrap">
     <div class="freebie-hero">
       <div>
-        <p class="eyebrow" style="color:{{ p.color }}">{{ p.laneLabel }} · {% if p.free %}Free · {% endif %}{{ p.eyebrow }}</p>
-        <h1>{{ p.name }}</h1>
-        <p class="lead">{{ p.subhead }}</p>
-
-        {%- if p.video %}
-        {{ video(p, p.name) }}
-        {%- endif %}
-
         {%- if p.look %}
-        <h3 style="margin-top:1.6rem;">Look inside</h3>
+        <h2 class="h3">Look inside</h2>
         <ol class="look" style="--accent:{{ p.color }}">
           {%- for l in p.look %}
           <li><strong>{{ l.title }}</strong> {{ l.line }}</li>
@@ -34,7 +86,7 @@ eleventyComputed:
         </ol>
         {%- endif %}
 
-        <h3 style="margin-top:1.6rem;">What's inside</h3>
+        <h2 class="h3" style="margin-top:1.6rem;">What's inside</h2>
         <ul class="checks" style="--accent:{{ p.color }}">
           {%- for item in p.inside %}
           <li>{{ item }}</li>
@@ -48,7 +100,7 @@ eleventyComputed:
         </div>
       </div>
 
-      <aside class="optin" style="--accent:{{ p.color }}">
+      <aside class="optin" id="get" style="--accent:{{ p.color }}">
         {%- if p.free %}
         {# ---------- FREE: this product's own dedicated Kit form. Redirect-to-TPT-URL and the incentive/welcome email are configured directly in Kit, per form. ---------- #}
         <h2>{% if freeKitReady %}Send it to me{% else %}Get it free{% endif %}</h2>
@@ -56,17 +108,14 @@ eleventyComputed:
         {%- if freeKitReady %}
         <script async data-uid="{{ p.kit.uid }}" src="{{ p.kit.src }}"></script>
         {%- else %}
-        <a class="btn btn--block" style="background:{{ p.color }};border-color:{{ p.color }};color:{{ '#fff' if p.lane == 'mtss' else '#2a1a10' }};" href="{{ p.tptUrl }}" target="_blank" rel="noopener">Get the free download on TPT &rarr;</a>
-        {%- endif %}
-        {%- if freeKitReady %}
-        <p class="fineprint">No spam. Unsubscribe anytime. We'll send occasional new-resource notes and teaching tips.</p>
+        <a class="btn btn--block" style="{{ btnStyle }}" href="{{ p.tptUrl }}" target="_blank" rel="noopener">Get the free download on TPT &rarr;</a>
         {%- endif %}
 
         {%- else %}
         {# ---------- PAID: direct TPT click, no gate. Secondary opt-in uses the optional general newsletter form. ---------- #}
         <h2>Get it on TPT</h2>
         <p style="color:var(--ink-soft);font-size:0.95rem;">See previews, reviews, and current pricing on our Teachers Pay Teachers store.</p>
-        <a class="btn btn--block" href="{{ p.tptUrl }}" target="_blank" rel="noopener" style="background:{{ p.color }};border-color:{{ p.color }};color:{{ '#fff' if p.lane == 'mtss' else '#2a1a10' }};">View on TPT →</a>
+        <a class="btn btn--block" href="{{ p.tptUrl }}" target="_blank" rel="noopener" style="{{ btnStyle }}">View on TPT &rarr;</a>
 
         <hr style="border:none;border-top:1px solid var(--line);margin:1.4rem 0;">
         <p style="font-family:var(--font-display);font-weight:600;margin-bottom:0.4rem;">New here?</p>
@@ -74,7 +123,7 @@ eleventyComputed:
         {%- if generalKitReady %}
         <script async data-uid="{{ site.kitGeneral.uid }}" src="{{ site.kitGeneral.src }}"></script>
         {%- else %}
-        <a class="btn btn--ghost btn--block" href="/free-tools/">See the free tools →</a>
+        <a class="btn btn--ghost btn--block" href="/free-tools/">See the free tools &rarr;</a>
         {%- endif %}
         {%- endif %}
       </aside>
@@ -82,21 +131,16 @@ eleventyComputed:
   </div>
 </section>
 
-{# ---------- More in this lane ---------- #}
-{%- set siblings = products | related(p.lane, p.slug, 3) -%}
+{# ---------- Pairs well with: curated `pairs`, else the lane bundle first ---------- #}
+{%- set siblings = products | pairsFor(p, 3) -%}
 {%- if siblings.length %}
-<section class="section section--paper">
+<section class="section">
   <div class="wrap">
-    <p class="eyebrow" style="color:{{ p.color }}">More {{ p.laneLabel }}</p>
+    <p class="eyebrow" style="color:{{ ink }}">More from Mapped &amp; Managed</p>
     <h2>Pairs well with</h2>
     <div class="grid grid--3 mt-2">
       {%- for s in siblings %}
-      <a class="card card--lane" style="--accent:{{ s.color }}" href="/resources/{{ s.slug }}/">
-        <span class="lane-tag">{{ s.laneLabel }}{% if s.free %} · Free{% endif %}</span>
-        <h3>{{ s.name }}</h3>
-        <p>{{ s.subhead }}</p>
-        <span class="card-foot"><strong>{% if s.free %}Get it free →{% else %}Take a look →{% endif %}</strong></span>
-      </a>
+      {{ product_card(s) }}
       {%- endfor %}
     </div>
   </div>

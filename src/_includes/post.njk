@@ -5,7 +5,7 @@ layout: base.njk
   <div class="wrap">
     <div class="post-body">
       <div class="post-header">
-        {%- if lane %}<p class="eyebrow" style="color:{{ site.lanes[lane].color }}">{{ site.lanes[lane].label }}</p>{%- endif %}
+        {%- if lane %}<p class="eyebrow" style="color:{{ site.lanes[lane].color | ink }}">{{ site.lanes[lane].label }}</p>{%- endif %}
         <h1>{{ title }}</h1>
         <p class="post-meta"><time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></p>
       </div>

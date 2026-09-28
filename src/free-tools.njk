@@ -2,21 +2,41 @@
 layout: base.njk
 permalink: /free-tools/
 title: Free resources
-description: Free Indiana ILEARN ELA checkpoint screeners for grades 3-8, and a free tool from each Mapped & Managed lane.
+description: Free Mapped & Managed tools for IEP data, small-group tracking and MTSS progress monitoring, and free Indiana ILEARN ELA checkpoint screeners for grades 3-8.
+ogImage: /media/videos/mm12-group-snapshot.jpg
+ogImageWidth: 1280
+ogImageHeight: 720
 ---
-{%- from "partials/macros.njk" import cover_card -%}
+{%- from "partials/macros.njk" import cover_card, product_card -%}
 {%- set L = ela.listings -%}
 <section class="section">
   <div class="wrap">
     <p class="eyebrow">Start free</p>
     <h1>Free resources</h1>
     <p class="lead">Every one is a real, complete resource, delivered through Teachers Pay Teachers so it lands in your TPT account with every future update.</p>
+    <nav class="lane-chips mt-2" aria-label="Jump to a section">
+      <a class="chip" href="#mapped-managed" style="--accent:{{ site.colors.sage }}"><span class="chip-dot" aria-hidden="true"></span>Mapped &amp; Managed tools</a>
+      <a class="chip" href="#ela" style="--accent:{{ site.lanes.ela.color }}"><span class="chip-dot" aria-hidden="true"></span>Indiana ILEARN ELA screeners</a>
+    </nav>
   </div>
 </section>
 
-<section class="section section--paper" id="ela">
+<section class="section section--paper" id="mapped-managed">
   <div class="wrap">
-    <p class="eyebrow" style="color:{{ site.lanes.ela.color }}">Indiana ILEARN ELA &middot; Free screeners</p>
+    <p class="eyebrow">Mapped &amp; Managed &middot; Free tools</p>
+    <h2>A free tool for IEP, small-group and MTSS data</h2>
+    <p class="lead">Open any one to see inside. Some send the download to your inbox; the rest go straight to the free listing on TPT.</p>
+    <div class="grid grid--3 mt-2">
+      {%- for f in products %}{% if f.free %}
+      {{ product_card(f, f.laneLabel) }}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="ela">
+  <div class="wrap">
+    <p class="eyebrow" style="color:{{ site.lanes.ela.color | ink }}">Indiana ILEARN ELA &middot; Free screeners</p>
     <h2>Find out who is ready before the window opens</h2>
     <p class="lead">One question on every standard Indiana assesses in that checkpoint, and a class tracker that prints the standard under every question number. There is one for each grade and checkpoint, and one file for each grade band.</p>
     {%- for cp in [1, 2, 3] %}
@@ -27,18 +47,5 @@ description: Free Indiana ILEARN ELA checkpoint screeners for grades 3-8, and a 
       {%- endif %}{% endfor %}
     </div>
     {%- endfor %}
-  </div>
-</section>
-
-<section class="section" id="mapped-managed">
-  <div class="wrap">
-    <p class="eyebrow">Mapped &amp; Managed &middot; Free tools</p>
-    <h2>One free tool from each lane</h2>
-    <p class="lead">Enter your email where the page asks for it and we'll send you straight to the free download.</p>
-    <div class="grid grid--3 mt-2">
-      {%- for f in products %}{% if f.free %}
-      {{ cover_card("/resources/" + f.slug + "/", f.cover, f.color, f.laneLabel, f.name, f.subhead, "Get it free →") }}
-      {%- endif %}{% endfor %}
-    </div>
   </div>
 </section>

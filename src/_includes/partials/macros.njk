@@ -6,13 +6,21 @@
 </figure>
 {% endmacro %}
 
-{# A card with the listing cover on top. #}
-{% macro cover_card(href, img, color, tag, title, text, foot) %}
-<a class="card card--lane card--cover" style="--accent:{{ color }}" href="{{ href }}">
-  <img class="card-img" src="{{ img }}" alt="" loading="lazy" width="720" height="720">
+{# A card with the listing cover on top. `ratio` matches the cover's shape (ELA covers are square, M&M covers 4:3); `badge` pins a label on the image. #}
+{% macro cover_card(href, img, color, tag, title, text, foot, ratio="1 / 1", badge="") %}
+<a class="card card--lane card--cover" style="--accent:{{ color }};--accent-ink:{{ color | ink }};--ratio:{{ ratio }}" href="{{ href }}">
+  <span class="card-media">
+    <img class="card-img" src="{{ img }}" alt="" loading="lazy" width="720" height="{{ 540 if ratio == '4 / 3' else 720 }}">
+    {%- if badge %}<span class="img-badge">{{ badge }}</span>{% endif %}
+  </span>
   <span class="lane-tag">{{ tag }}</span>
   <h3>{{ title }}</h3>
   {%- if text %}<p>{{ text }}</p>{% endif %}
   <span class="card-foot"><strong>{{ foot }}</strong></span>
 </a>
+{% endmacro %}
+
+{# A Mapped & Managed product as a cover card. #}
+{% macro product_card(prod, tag="") %}
+{{ cover_card("/resources/" + prod.slug + "/", prod.cover, prod.color, tag or (prod.laneLabel + (" · Free" if prod.free else "")), prod.name, prod.subhead, "Get it free →" if prod.free else "See what's inside →", "4 / 3", ("Free" if prod.free else ("Best value" if prod | isBundle else ""))) }}
 {% endmacro %}

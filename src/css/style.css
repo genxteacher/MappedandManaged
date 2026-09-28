@@ -12,6 +12,13 @@
   --gold: #D8A24A;
   --coral: #DD8569;
 
+  /* Text-safe lane inks (WCAG AA, 5.5:1+ on cream and white). The light
+     lane colours above are for fills, borders and large shapes only. */
+  --sage-ink: #4F6B51;
+  --gold-ink: #8A5A12;
+  --coral-ink: #A4472C;
+  --mtss: #46537A;
+
   --ink: #1E2A45;
   --ink-soft: #47506a;
   --line: #e4ddcb;
@@ -159,6 +166,37 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
 .nav a:hover { background: rgba(30, 42, 69, 0.06); }
 .nav .nav-cta { background: var(--navy); color: #fff; }
 .nav .nav-cta:hover { background: #16203a; }
+.brand-name { white-space: nowrap; }
+
+/* Menu button: only shown on narrow screens, and only when JS is running. */
+.menu-btn { display: none; }
+@media (max-width: 760px) {
+  .site-header .wrap { flex-wrap: wrap; padding-block: 0.45rem; gap: 0.5rem; }
+  .brand { font-size: 1.05rem; }
+  .brand .brand-boxes span { width: 13px; height: 13px; }
+  /* Without JS: one compact row that scrolls sideways instead of wrapping. */
+  .nav { flex-wrap: nowrap; overflow-x: auto; width: 100%; gap: 0.2rem; scrollbar-width: none; margin-inline: -0.3rem; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { white-space: nowrap; padding: 0.35rem 0.6rem; font-size: 0.9rem; }
+
+  .js .menu-btn {
+    display: inline-flex; align-items: center; gap: 0.45rem; margin-left: auto;
+    font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--navy);
+    background: transparent; border: 1.5px solid var(--line); border-radius: 999px;
+    padding: 0.4rem 0.85rem; cursor: pointer; min-height: 40px;
+  }
+  .js .menu-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .menu-icon { display: inline-grid; gap: 3px; }
+  .menu-icon span { display: block; width: 15px; height: 2px; background: currentColor; border-radius: 2px; }
+  .js .nav { display: none; }
+  .js .site-header.nav-open .nav {
+    display: flex; flex-direction: column; align-items: stretch; overflow: visible;
+    margin: 0; padding: 0.3rem 0 0.6rem; border-top: 1px solid var(--line);
+  }
+  .js .site-header.nav-open .nav a { padding: 0.7rem 0.4rem; font-size: 1rem; }
+  .js .site-header.nav-open .nav .nav-cta { margin-top: 0.4rem; text-align: center; border-radius: 999px; }
+  .optin { top: 4.2rem; }
+}
 
 /* ============================================================
    Buttons
@@ -183,8 +221,8 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
 .hero { padding-block: clamp(3rem, 8vw, 6rem); }
 .hero .eyebrow { color: var(--ink-soft); }
 .hero h1 { max-width: 15ch; }
-.hero h1 .teach { color: var(--sage); }
-.hero h1 .track { color: var(--coral); }
+.hero h1 .teach { color: var(--sage-ink); }
+.hero h1 .track { color: var(--coral-ink); }
 .hero .lead { margin-block: 1.2rem 1.8rem; }
 .hero-cta { display: flex; gap: 0.8rem; flex-wrap: wrap; }
 .hero-boxes { margin-top: 2.6rem; }
@@ -207,7 +245,7 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
 .card h3 { margin-top: 0.2rem; }
 .card .lane-tag {
   font-family: var(--font-display); font-weight: 600; font-size: 0.72rem;
-  letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent, var(--navy));
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-ink, var(--accent, var(--navy)));
   margin-bottom: 0.5rem;
 }
 .card p { color: var(--ink-soft); }
@@ -241,6 +279,7 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
 /* ============================================================
    Freebie landing page
    ============================================================ */
+.h3 { font-size: 1.25rem; }
 .freebie-hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: start; }
 @media (max-width: 860px) { .freebie-hero { grid-template-columns: 1fr; } }
 .optin {
@@ -283,8 +322,9 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
   padding-block: clamp(2.5rem, 6vw, 3.5rem);
 }
 .site-footer a { color: #fff; text-decoration-color: var(--gold); }
-.site-footer .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; }
-@media (max-width: 720px) { .site-footer .foot-grid { grid-template-columns: 1fr; } }
+.site-footer .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 2rem; }
+@media (max-width: 900px) { .site-footer .foot-grid { grid-template-columns: 1fr 1fr; } .site-footer .foot-grid > :first-child { grid-column: 1 / -1; } }
+@media (max-width: 420px) { .site-footer .foot-grid { gap: 1.4rem 1rem; } }
 .site-footer h4 { color: #fff; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 0.4rem; }
@@ -310,8 +350,9 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible {
 
 /* cards that open on the listing cover */
 .card--cover { padding-top: 1rem; }
-.card--cover .card-img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain;
-  border-radius: var(--radius-sm); border: 1px solid var(--line); margin-bottom: 1rem; background: var(--cream); }
+.card--cover .card-media { position: relative; display: block; margin-bottom: 1rem; }
+.card--cover .card-img { width: 100%; height: auto; aspect-ratio: var(--ratio, 1 / 1); object-fit: contain;
+  border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--cream); }
 .card--cover p { font-size: 0.93rem; }
 
 /* numbered look-inside list, matching the video's step badges */
@@ -351,3 +392,109 @@ h3.mt-2 { margin-bottom: 1rem; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ============================================================
+   Mapped & Managed storefront: badges, lane chips, feature cards
+   ============================================================ */
+.img-badge {
+  position: absolute; top: -0.6rem; left: 0.7rem; /* straddles the frame edge so it never covers the cover's title */
+  font-family: var(--font-display); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
+  background: var(--navy); color: #fff; padding: 0.28rem 0.65rem; border-radius: 999px; box-shadow: var(--shadow-sm);
+}
+
+.lane-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip {
+  display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none;
+  font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--navy);
+  background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem;
+  box-shadow: var(--shadow-sm); transition: transform 0.12s ease;
+}
+.chip:hover { transform: translateY(-2px); }
+.chip-dot { width: 0.7rem; height: 0.7rem; border-radius: 3px; background: var(--accent, var(--navy)); }
+.chip--plain { background: transparent; box-shadow: none; }
+
+.lane-section { scroll-margin-top: 4.5rem; }
+.lane-note { margin: 1.4rem 0 0; color: var(--ink-soft); max-width: 70ch; }
+
+/* The lane's bundle (or a lane's only product) as a wide card */
+.feature-card {
+  display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(1rem, 3vw, 2rem); align-items: center;
+  margin-top: 2rem; padding: clamp(1rem, 2.5vw, 1.5rem);
+  background: var(--paper); border: 1px solid var(--line); border-top: 5px solid var(--accent); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); text-decoration: none; color: inherit;
+}
+.section--paper .feature-card { background: var(--cream); }
+.feature-media { position: relative; display: block; }
+.feature-media img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--cream); }
+.feature-body { display: flex; flex-direction: column; }
+.feature-body .lane-tag { font-family: var(--font-display); font-weight: 600; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-ink, var(--navy)); margin-bottom: 0.5rem; }
+.feature-title { font-size: clamp(1.35rem, 2.6vw, 1.75rem); margin: 0 0 0.5rem; }
+.feature-text { color: var(--ink-soft); margin-bottom: 0.9rem; }
+.feature-list { display: grid; gap: 0.35rem; margin-bottom: 0.4rem; }
+.feature-list span { position: relative; padding-left: 1.3rem; color: var(--ink-soft); font-size: 0.95rem; }
+.feature-list span::before { content: ""; position: absolute; left: 0; top: 0.5em; width: 0.6rem; height: 0.6rem; border-radius: 2px; background: var(--accent); }
+.feature-body .card-foot { margin-top: 0.8rem; }
+@media (max-width: 760px) { .feature-card { grid-template-columns: 1fr; } }
+
+/* Shop grids: 4 or 3 across on desktop, 2 across on tablets and phones */
+@media (max-width: 1000px) { .grid--shop.grid--4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 860px) { .grid--shop.grid--3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) {
+  .grid--shop { gap: 0.75rem; }
+  .grid--shop.grid--4, .grid--shop.grid--3 { grid-template-columns: repeat(2, 1fr); }
+  .grid--shop .card { padding: 0.6rem 0.7rem 0.9rem; }
+  .grid--shop .card--cover .card-media { margin-bottom: 0.6rem; }
+  .grid--shop .card h3 { font-size: 0.98rem; }
+  .grid--shop .card p { display: none; }
+  .grid--shop .card .lane-tag { font-size: 0.62rem; }
+  .grid--shop .card .card-foot { font-size: 0.85rem; padding-top: 0.5rem; }
+  .grid--shop .img-badge { font-size: 0.6rem; top: -0.5rem; left: 0.4rem; padding: 0.2rem 0.5rem; }
+}
+
+/* ============================================================
+   Product page: gallery + facts + CTA at the top
+   ============================================================ */
+.section--product { padding-block: clamp(1.6rem, 4vw, 3rem) clamp(2rem, 5vw, 3.5rem); }
+.product-hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: start; }
+@media (max-width: 860px) {
+  .product-hero { grid-template-columns: 1fr; gap: 1.4rem; }
+  /* On phones the title and the TPT button come first, then the pictures. */
+  .product-info { order: -1; }
+  .product-info .lead { font-size: 1.05rem; }
+}
+.product-hero h1 { font-size: clamp(1.9rem, 4.2vw, 2.8rem); }
+.product-info .lead { margin-bottom: 1.1rem; }
+
+.gallery-stage { border-radius: var(--radius); }
+.gallery-slide img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--paper); box-shadow: var(--shadow); }
+.gallery-slide .vid { margin: 0; }
+html:not(.js) .gallery-slide + .gallery-slide { margin-top: 1rem; }
+.gallery-slide[hidden] { display: none; }
+.gallery-thumbs { display: flex; gap: 0.7rem; margin-top: 0.8rem; }
+html:not(.js) .gallery-thumbs { display: none; }
+.thumb {
+  display: flex; align-items: center; gap: 0.6rem; padding: 0.35rem 0.8rem 0.35rem 0.35rem;
+  background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius-sm); cursor: pointer;
+  font-family: var(--font-display); font-weight: 600; font-size: 0.85rem; color: var(--navy); text-align: left;
+}
+.thumb img { width: 64px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
+.thumb--video img { object-position: 75% 50%; }
+@media (max-width: 560px) {
+  .gallery-thumbs { gap: 0.5rem; }
+  .thumb { flex: 1 1 0; min-width: 0; font-size: 0.78rem; gap: 0.45rem; padding-right: 0.5rem; }
+  .thumb img { width: 52px; height: 39px; flex: none; }
+}
+.thumb[aria-pressed="true"] { border-color: var(--navy); box-shadow: var(--shadow-sm); }
+.thumb--video span::before { content: "\25B6"; font-size: 0.7em; margin-right: 0.35rem; }
+.thumb:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+.facts { list-style: none; padding: 0; margin: 0 0 1.3rem; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.facts li {
+  font-family: var(--font-display); font-weight: 600; font-size: 0.82rem; color: var(--navy);
+  background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--accent, var(--navy));
+  border-radius: 8px; padding: 0.3rem 0.7rem;
+}
+.product-cta .btn { font-size: 1.05rem; padding: 0.9rem 1.6rem; }
+.cta-note { font-size: 0.88rem; color: var(--ink-soft); margin: 0.6rem 0 0; }
+.section--tight-top { padding-top: clamp(2rem, 5vw, 3.5rem); }
