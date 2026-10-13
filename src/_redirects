@@ -2,8 +2,12 @@
 /free       /free-tools/   301
 /freebies   /free-tools/   301
 /store      /shop/         301
-/ela        /indiana-ela/  301
-/ilearn     /indiana-ela/  301
+# The Indiana ELA pages moved to their own site, elaclass38.com (Oct 12 2026).
+/indiana-ela      https://elaclass38.com/indiana-ela/          301!
+/indiana-ela/*    https://elaclass38.com/indiana-ela/:splat    301!
+/ela              https://elaclass38.com/indiana-ela/          301
+/ilearn           https://elaclass38.com/indiana-ela/          301
+/iread            https://elaclass38.com/iread-3/              301
 /mapped-and-managed /shop/ 301
 
 # Retired Mapped Literacy products (2026-09-27): #1-#6 and #17 are no longer sold.

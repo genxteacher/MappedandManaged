@@ -1,17 +1,16 @@
 {
-  "name": "ELA Class 3-8",
+  "name": "Mapped & Managed",
   "tagline": "Read it closely. Track it simply.",
-  "description": "ELA Class 3-8 makes Indiana ILEARN ELA practice for grades 3-8, with original passages and every answer explained, and Mapped & Managed: structured-literacy, IEP and MTSS tools for interventionists and case managers.",
+  "description": "Mapped & Managed makes IEP, MTSS and small-group intervention tools for interventionists and SPED case managers, and multisyllabic decoding for older readers. Every resource is delivered through Teachers Pay Teachers.",
   "url": "https://mappedandmanaged.com",
   "author": "Greg",
   "locale": "en_US",
   "tptStore": "https://www.teacherspayteachers.com/store/ela-class-3-8",
   "_comment_pinterest": "After you create the Pinterest Business account and start the domain claim, Pinterest gives you a verification code. Paste ONLY the code value here (the part inside content=\"...\"). Leave empty until then.",
   "pinterestVerify": "",
-  "_comment_kit": "Each FREE product has its own dedicated Kit form (see the 'kit' field on each free entry in products.json) — its own redirect-to-that-product's-TPT-URL setting and its own incentive/welcome email, both configured directly in Kit. This 'kitGeneral' form is optional and separate: a plain newsletter opt-in used only for the 'join the list' nudge on paid product pages. If left blank, paid pages just show a link to /free-tools/ instead.",
   "_comment_ogImage": "Default share image (og:image / twitter:image) for pages that don't set their own. Product pages use their cover; ILEARN listing pages use their video poster.",
   "ogImage": {
-    "src": "/media/videos/ela-g6-bundle.jpg",
+    "src": "/media/videos/mm13-group-data-tracker.jpg",
     "width": 1280,
     "height": 720
   },
@@ -43,10 +42,6 @@
     "mtss": {
       "label": "Managed MTSS",
       "color": "#46537A"
-    },
-    "ela": {
-      "label": "Indiana ILEARN ELA",
-      "color": "#B85C42"
     }
   }
 }

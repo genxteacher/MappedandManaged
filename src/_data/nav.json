@@ -1,14 +1,10 @@
 [
   {
-    "text": "Indiana ELA",
-    "url": "/indiana-ela/"
-  },
-  {
-    "text": "Mapped & Managed",
+    "text": "Tools",
     "url": "/shop/"
   },
   {
-    "text": "Free",
+    "text": "Free tools",
     "url": "/free-tools/"
   },
   {
@@ -18,5 +14,9 @@
   {
     "text": "About",
     "url": "/about/"
+  },
+  {
+    "text": "Indiana ELA \u2197",
+    "url": "https://elaclass38.com/"
   }
 ]

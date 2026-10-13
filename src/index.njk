@@ -2,38 +2,37 @@
 layout: base.njk
 permalink: /
 ---
-{%- from "partials/macros.njk" import video, cover_card, product_card -%}
-{%- set L = ela.listings -%}
+{%- from "partials/macros.njk" import video, product_card -%}
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">For grades 3&ndash;8 ELA teachers, interventionists &amp; SPED case managers</p>
+    <p class="eyebrow">For interventionists, SPED case managers &amp; MTSS teams</p>
     <h1><span class="teach">Read it closely.</span><br><span class="track">Track it simply.</span></h1>
-    <p class="lead">Indiana ILEARN ELA practice for grades 3&ndash;8, with original passages and every answer explained. Alongside it, Mapped &amp; Managed: structured-literacy, IEP and MTSS tools that do the busywork for you.</p>
+    <p class="lead">IEP goal banks and caseload trackers, small-group planners and data trackers, MTSS data systems in Excel and Google Sheets, and multisyllabic decoding for older readers. Tools that do the busywork for you.</p>
     <div class="hero-cta">
-      <a class="btn btn--coral" href="/indiana-ela/">Indiana ILEARN ELA</a>
-      <a class="btn btn--ghost" href="/shop/">Mapped &amp; Managed tools</a>
-      <a class="btn btn--ghost" href="/free-tools/">Free resources</a>
+      <a class="btn btn--coral" href="/shop/">Browse the tools</a>
+      <a class="btn btn--ghost" href="/free-tools/">Free tools</a>
     </div>
   </div>
 </section>
 
 <section class="section section--paper">
   <div class="wrap">
-    <p class="eyebrow">Two lines, one store</p>
-    <h2>What ELA Class 3-8 makes</h2>
-    <div class="grid grid--2 mt-2">
-      <a class="card card--lane" style="--accent:{{ site.lanes.ela.color }};--accent-ink:{{ site.lanes.ela.color | ink }}" href="/indiana-ela/">
-        <span class="lane-tag">Indiana ILEARN ELA &middot; Grades 3&ndash;8</span>
-        <h3>A practice set for every testing window</h3>
-        <p>Checkpoints 1, 2 and 3 and the Summative, for every grade from 3 to 8. Every passage and item is original, and the answer key explains every wrong answer. A free screener comes with each checkpoint.</p>
-        <span class="card-foot"><strong>Pick your grade &rarr;</strong></span>
+    <p class="eyebrow">Four lanes</p>
+    <h2>Pick what you need</h2>
+    <div class="grid grid--4 mt-2">
+      {%- set lanes = [
+        ["iep", "Managed IEP", site.colors.gold, "IEP documentation and progress monitoring for SPED case managers."],
+        ["systems", "Teacher Systems", site.colors.coral, "Scheduling, planning and data tracking for interventionists."],
+        ["mtss", "Managed MTSS", site.colors.mtss, "Screening, tiering, progress monitoring and attendance for RTI/MTSS teams."],
+        ["literacy", "Mapped Literacy", site.colors.sage, "Syllable division and multisyllabic decoding for grades 3–8."]
+      ] %}
+      {%- for l in lanes %}
+      <a class="card card--lane" style="--accent:{{ l[2] }};--accent-ink:{{ l[2] | ink }}" href="/shop/#{{ l[0] }}">
+        <span class="lane-tag">{{ l[1] }}</span>
+        <p>{{ l[3] }}</p>
+        <span class="card-foot"><strong>See the {{ l[1] }} tools &rarr;</strong></span>
       </a>
-      <a class="card card--lane" style="--accent:{{ site.colors.sage }};--accent-ink:{{ site.colors.sage | ink }}" href="/shop/">
-        <span class="lane-tag">Mapped &amp; Managed</span>
-        <h3>Intervention, IEP and MTSS tools</h3>
-        <p>IEP goal banks and caseload trackers, small-group planners and data trackers, MTSS data systems in Excel and Google Sheets, and multisyllabic decoding for older readers.</p>
-        <span class="card-foot"><strong>Browse the four lanes &rarr;</strong></span>
-      </a>
+      {%- endfor %}
     </div>
   </div>
 </section>
@@ -42,12 +41,9 @@ permalink: /
   <div class="wrap">
     <p class="eyebrow">See inside</p>
     <h2>Twenty seconds each, pages and all</h2>
-    <p class="lead">Every listing has a short video showing the actual pages. Press play on any of these to see what the files look like.</p>
     <div class="vids mt-2">
-      {{ video(L["g6-bundle"], "Grade 6 Full-Year Bundle", "Indiana ILEARN ELA") }}
-      {{ video(L["g4-cp1-screener"], "Grade 4 Checkpoint 1 Screener", "Free") }}
-      {%- for p in products %}{% if p.number == 25 %}
-      {{ video(p, p.name, "Mapped & Managed") }}
+      {%- for p in products %}{% if p.number == 25 or p.number == 21 %}
+      {{ video(p, p.name, p.laneLabel) }}
       {%- endif %}{% endfor %}
     </div>
   </div>
@@ -55,35 +51,21 @@ permalink: /
 
 <section class="section section--paper">
   <div class="wrap">
-    <p class="eyebrow">Indiana ILEARN ELA</p>
-    <h2>Pick your grade</h2>
-    <div class="grade-grid mt-2">
-      {%- for g in ela.grades %}
-      <a class="grade-tile" href="/indiana-ela/grade-{{ g.grade }}/"><span class="n">{{ g.grade }}</span><span class="l">Grade {{ g.grade }}</span></a>
-      {%- endfor %}
+    <p class="eyebrow">Start free</p>
+    <h2>Try something before you buy anything</h2>
+    <div class="grid grid--3 grid--shop mt-2">
+      {%- for f in products %}{% if f.free %}
+      {{ product_card(f) }}
+      {%- endif %}{% endfor %}
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <p class="eyebrow">Start free</p>
-    <h2>Try something before you buy anything</h2>
-    <p class="lead">A free tool from each Mapped &amp; Managed lane, and a free screener for every Indiana ILEARN ELA checkpoint.</p>
-    <div class="grid grid--4 grid--shop mt-2">
-      {%- for f in products %}{% if f.free %}
-      {{ product_card(f) }}
-      {%- endif %}{% endfor %}
-      {{ cover_card("/free-tools/#ela", L["g5-cp1-screener"].cover, site.lanes.ela.color, "Indiana ILEARN ELA · Free", "Free checkpoint screeners", "One for every grade and checkpoint, plus a file for each grade band.", "See all the screeners →", "4 / 3", "Free") }}
-    </div>
-  </div>
-</section>
-
-<section class="section section--paper">
-  <div class="wrap">
     <div class="callout" style="--accent:{{ site.colors.gold }}">
-      <h3>Made by someone who's done the job</h3>
-      <p>ELA Class 3-8 is built by a 25-year educator with dual master's degrees in Educational Technology and Educational Administration. Every tool is something that had to exist for a real classroom or caseload first. <a href="/about/">Read the story &rarr;</a></p>
+      <h3>Teaching Indiana ELA?</h3>
+      <p>Indiana ILEARN ELA practice for grades 3&ndash;8, IREAD-3 practice and free checkpoint screeners now have their own site. <a href="https://elaclass38.com/">Go to elaclass38.com &rarr;</a></p>
     </div>
   </div>
 </section>

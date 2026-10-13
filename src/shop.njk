@@ -2,7 +2,7 @@
 layout: base.njk
 permalink: /shop/
 title: Mapped & Managed
-description: Mapped & Managed, from ELA Class 3-8 — IEP documentation, interventionist systems, MTSS data tools and multisyllabic decoding for older readers. Every resource is delivered through Teachers Pay Teachers.
+description: Mapped & Managed — IEP documentation, interventionist systems, MTSS data tools and multisyllabic decoding for older readers. Every resource is delivered through Teachers Pay Teachers.
 ogImage: /media/videos/mm13-group-data-tracker.jpg
 ogImageWidth: 1280
 ogImageHeight: 720
@@ -16,18 +16,18 @@ ogImageHeight: 720
 ] -%}
 <section class="section section--shop-hero">
   <div class="wrap">
-    <p class="eyebrow">A line from ELA Class 3-8</p>
+    <p class="eyebrow">From the ELA Class 3-8 store</p>
     <h1>Mapped &amp; Managed</h1>
     <p class="lead">IEP, MTSS and small-group tools for the people who run intervention. <em>Managed</em> is the documentation side: IEP goals, progress data, caseloads and tier decisions. <em>Mapped</em> is the literacy side: syllable division and multisyllabic decoding for older readers. Every resource is sold and delivered through Teachers Pay Teachers, and every one has a 20-second video on its page.</p>
     <nav class="lane-chips mt-2" aria-label="Jump to a lane">
       {%- for lane in lanesOrder %}
       <a class="chip" href="#{{ lane.id }}" style="--accent:{{ lane.color }}"><span class="chip-dot" aria-hidden="true"></span>{{ lane.label }}</a>
       {%- endfor %}
-      <a class="chip chip--plain" href="/free-tools/#mapped-managed">Free tools</a>
+      <a class="chip chip--plain" href="/free-tools/">Free tools</a>
     </nav>
     <div class="hero-cta mt-2">
       <a class="btn" href="{{ site.tptStore }}" target="_blank" rel="noopener">Visit the full TPT store</a>
-      <a class="btn btn--ghost" href="/indiana-ela/">Looking for Indiana ILEARN ELA?</a>
+      <a class="btn btn--ghost" href="https://elaclass38.com/">Looking for Indiana ILEARN ELA? It's at elaclass38.com</a>
     </div>
   </div>
 </section>
